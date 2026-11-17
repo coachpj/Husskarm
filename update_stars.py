@@ -222,7 +222,9 @@ def table_rows(soup):
     for tr in soup.find_all("tr"):
         if tr.find("table"):
             continue  # yttre layoutrad med en nästlad tabell
-        cells = [c.get_text(" ", strip=True).replace("‑", "-").replace("−", "-") for c in tr.find_all(["td", "th"])]
+        cells = [re.sub(r"\s+", " ", c.get_text(" ", strip=True).replace("\xa0", " ")
+                        .replace("‑", "-").replace("−", "-").replace("–", "-")).strip()
+                 for c in tr.find_all(["td", "th"])]
         yield tr, cells
 
 def ncaa_player(chi_id):
