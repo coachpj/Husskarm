@@ -56,6 +56,28 @@ def i(x, default=0):
 def signed(n):
     return f"+{n}" if n > 0 else ("−" + str(-n) if n < 0 else "0")
 
+AUTO = []          # automatiska matchrader (news) från den här körningen
+NEWS_DAYS = 3      # hur långt bakåt matchrader skapas
+
+def recent(datestr):
+    return datestr >= (NOW - timedelta(days=NEWS_DAYS)).date().isoformat()
+
+def add_news(nid, d, who, kind, title, game, summ):
+    AUTO.append({"id": nid, "d": d, "who": who, "kind": kind, "title": title, "game": game,
+                 "sum": summ, "auto": True})
+
+def outcome(ms, os_, extra=""):
+    v = "vann" if ms > os_ else "föll"
+    return f"{v} {ms}–{os_}" + (f" {extra}" if extra else "")
+
+def line_title(who, g, a, gwg=False):
+    if g + a == 0:
+        return f"{who} poänglös"
+    t = f"{who} {g}+{a}"
+    if gwg:
+        t += ", matchvinnare"
+    return t
+
 # ---------------------------------------------------------------- KONFIG
 HT = {  # HockeyTech (chl.ca, theahl.com)
     "whl": "41b145a848f4bd67",
@@ -103,9 +125,25 @@ def ht_season(lg):
         _ht_season[lg] = int(cand[0]["season_id"])
     return _ht_season[lg]
 
+_ht_sched = {}
+
 def ht_schedule(lg, team_id):
-    sid = ht_season(lg)
-    return ht(lg, feed="modulekit", view="schedule", team_id=team_id, season_id=sid)["SiteKit"]["Schedule"]
+    k = (lg, str(team_id))
+    if k not in _ht_sched:
+        sid = ht_season(lg)
+        _ht_sched[k] = ht(lg, feed="modulekit", view="schedule", team_id=team_id, season_id=sid)["SiteKit"]["Schedule"]
+    return _ht_sched[k]
+
+def ht_side(g, team_id):
+    home = str(g["home_team"]) == str(team_id)
+    hg, vg = i(g.get("home_goal_count")), i(g.get("visiting_goal_count"))
+    me = "home" if home else "visiting"
+    op = "visiting" if home else "home"
+    st = str(g.get("game_status", ""))
+    extra = "efter straffar" if "SO" in st else ("efter förlängning" if "OT" in st else "")
+    return {"ms": hg if home else vg, "os": vg if home else hg, "mycity": g.get(f"{me}_team_city") or g.get(f"{me}_team_name"),
+            "oppcity": g.get(f"{op}_team_city") or g.get(f"{op}_team_name"),
+            "game": f"{g.get('home_team_name')} {hg}–{vg} {g.get('visiting_team_name')}", "extra": extra}
 
 _TZ_ABBR = {"P": "America/Los_Angeles", "M": "America/Denver", "C": "America/Chicago", "E": "America/New_York",
             "A": "America/Halifax"}
@@ -163,6 +201,10 @@ def ht_player(p):
         s["gp"] += i(r.get("games_played")); s["g"] += i(r.get("goals")); s["a"] += i(r.get("assists"))
         s["p"] += i(r.get("points")); s["pm"] += i(r.get("plus_minus")); s["pim"] += i(r.get("penalty_minutes"))
     gl = ht(lg, feed="modulekit", view="player", category="gamebygame", player_id=pid, season_id=sid)["SiteKit"]["Player"].get("games", [])
+    try:
+        ht_news(p, gl)
+    except Exception as e:
+        log(f"matchrader {p['n']}: {e}")
     today = NOW.astimezone(ZoneInfo("America/Los_Angeles")).date().isoformat()
     gl = [g for g in gl if g.get("date_played", "9") <= today]
     gl.sort(key=lambda g: (g.get("date_played", ""), str(g.get("id"))))
@@ -170,6 +212,32 @@ def ht_player(p):
     l5 = {"gp": len(last), "g": sum(i(g.get("goals")) for g in last), "a": sum(i(g.get("assists")) for g in last)}
     l5["p"] = l5["g"] + l5["a"]
     return s, l5
+
+def ht_news(p, gl):
+    sched = {str(g.get("id")): g for g in ht_schedule(p["lg"], p["team_id"])}
+    logged = {str(g.get("id")) for g in gl}
+    for x in gl:
+        g = sched.get(str(x.get("id")))
+        if not g or str(g.get("final")) != "1" or not recent(g["date_played"]):
+            continue
+        sd = ht_side(g, p["team_id"])
+        ga, aa = i(x.get("goals")), i(x.get("assists"))
+        gwg = i(x.get("game_winning_goals")) > 0
+        pm = i(x.get("plus_minus", x.get("plusminus")))
+        title = f"{line_title(p['who'], ga, aa, gwg)} när {sd['mycity']} {outcome(sd['ms'], sd['os'], sd['extra'])} mot {sd['oppcity']}"
+        pim = i(x.get("penalty_minutes"))
+        summ = f"{signed(pm)} i plus/minus, {i(x.get('shots'))} skott" + (f", {pim} utvisningsminuter" if pim else "") + "."
+        add_news(f"{g['date_played']}-{p['who']}-{g['id']}", g["date_played"], p["n"], "hl" if ga + aa else "news", title, sd["game"], summ)
+    # lagets färdiga matcher där spelaren saknas i matchloggen (minst 10 h efter start)
+    for gid, g in sched.items():
+        if str(g.get("final")) != "1" or gid in logged or not recent(g["date_played"]):
+            continue
+        if ht_game_time(g) > NOW - timedelta(hours=10):
+            continue
+        sd = ht_side(g, p["team_id"])
+        add_news(f"{g['date_played']}-{p['who']}-{gid}", g["date_played"], p["n"], "out",
+                 f"{p['who']} inte med när {sd['mycity']} {outcome(sd['ms'], sd['os'], sd['extra'])} mot {sd['oppcity']}",
+                 sd["game"], "Fanns inte i matchprotokollet. Orsaken framgår inte av ligans data – se Prospekt-radarn.")
 
 # ---------------------------------------------------------------- NCAA
 def ics_events(url):
@@ -227,6 +295,31 @@ def table_rows(soup):
                  for c in tr.find_all(["td", "th"])]
         yield tr, cells
 
+NCAA_LOG = {}
+
+def ncaa_news(p):
+    for ymd, ga, aa, cells in NCAA_LOG.get(p["chi"], []):
+        d = f"{ymd[:4]}-{ymd[4:6]}-{ymd[6:]}"
+        if not recent(d):
+            continue
+        opp_raw = cells[1] if len(cells) > 1 else ""
+        away = opp_raw.lower().startswith("at ")
+        opp = re.sub(r"^(at|vs\.?)\s+", "", opp_raw, flags=re.I).strip()
+        res = next((c for c in cells if re.match(r"^[WLT]\s*\d+-\d+", c)), "")
+        m = re.match(r"^([WLT])\s*(\d+)-(\d+)\s*(.*)$", res)
+        pm = cells[-1] if re.match(r"^-?\d+$", cells[-1]) else "0"
+        shots = cells[-2] if re.match(r"^\d+$", cells[-2]) else "0"
+        if m:
+            ms, os_ = int(m.group(2)), int(m.group(3))
+            extra = "efter förlängning" if "OT" in m.group(4).upper() else ""
+            res_txt = f"spelade {ms}–{os_}" if m.group(1) == "T" else outcome(ms, os_, extra)
+            game = f"{opp} {os_}–{ms} {p['club']}" if away else f"{p['club']} {ms}–{os_} {opp}"
+        else:
+            res_txt, game = "spelade", f"{p['club']} – {opp}"
+        title = f"{line_title(p['who'], ga, aa)} när {p['club']} {res_txt} mot {opp}"
+        add_news(f"{d}-{p['who']}-{re.sub(r'[^A-Za-z]', '', opp)[:12]}", d, p["n"], "hl" if ga + aa else "news", title, game,
+                 f"{signed(i(pm))} i plus/minus, {i(shots)} skott.")
+
 def ncaa_player(chi_id):
     html = get(f"https://collegehockeyinc.com/players/career/{chi_id}").text
     soup = BeautifulSoup(html, "html.parser")
@@ -245,11 +338,13 @@ def ncaa_player(chi_id):
             m = re.search(r"/box/final/(\d{8})/([^/]+)/([^/]+)", a["href"])
             g, as_, pts = cells[-6], cells[-5], cells[-4]
             if re.match(r"^\d+$", g) and re.match(r"^\d+$", as_):
-                games[m.group(0)] = (m.group(1), i(g), i(as_))
+                games[m.group(0)] = (m.group(1), i(g), i(as_), cells)
     if season is None:
         raise ValueError("hittade ingen 2026-27-rad")
-    gl = sorted(games.values())[-5:]
+    allg = sorted(games.values(), key=lambda x: x[0])
+    gl = allg[-5:]
     l5 = {"gp": len(gl), "g": sum(x[1] for x in gl), "a": sum(x[2] for x in gl)}
+    NCAA_LOG[chi_id] = allg
     l5["p"] = l5["g"] + l5["a"]
     return season, l5
 
@@ -294,29 +389,87 @@ def liiga_player(p):
         for g in ended:
             st = get_json(f"https://liiga.fi/api/v2/games/stats/{LIIGA_SEASON}/{g['id']}")
             found = False
+            gg = aa = pm = toi = 0
             for side in ("homeTeam", "awayTeam"):
                 for per in st.get(side, []) or []:
                     for ps in per.get("periodPlayerStats", []) or []:
                         if ps.get("playerId") == p["lpid"]:
                             found = True
-                            l5["g"] += i(ps.get("period", {}).get("goals"))
-                            l5["a"] += i(ps.get("period", {}).get("assists"))
+                            q = ps.get("period", {})
+                            gg += i(q.get("goals")); aa += i(q.get("assists"))
+                            pm += i(q.get("plusminus")); toi += i(q.get("timeofice"))
             if found:
-                l5["gp"] += 1
+                l5["gp"] += 1; l5["g"] += gg; l5["a"] += aa
+            try:
+                liiga_news(p, g, found, gg, aa, pm, toi)
+            except Exception as e:
+                log(f"Liiga matchrad: {e}")
         l5["p"] = l5["g"] + l5["a"]
     except Exception as e:
         log(f"Liiga l5: {e}")
     return s, l5
+
+def liiga_news(p, g, found, ga, aa, pm, toi):
+    t = datetime.fromisoformat(g["start"].replace("Z", "+00:00")).astimezone(ZoneInfo("Europe/Helsinki"))
+    d = t.date().isoformat()
+    if not recent(d):
+        return
+    home = g["homeTeam"]["teamName"] == p["team"]
+    me, op = (g["homeTeam"], g["awayTeam"]) if home else (g["awayTeam"], g["homeTeam"])
+    ft = str(g.get("finishedType", "")).upper()
+    extra = "efter straffar" if ("SHOT" in ft or "PENALTY" in ft) else ("efter förlängning" if "OVERTIME" in ft else "")
+    res = outcome(i(me.get("goals")), i(op.get("goals")), extra)
+    game = f"{g['homeTeam']['teamName']} {i(g['homeTeam'].get('goals'))}–{i(g['awayTeam'].get('goals'))} {g['awayTeam']['teamName']}"
+    nid = f"{d}-{p['who']}-{g['id']}"
+    if not found:
+        add_news(nid, d, p["n"], "out", f"{p['who']} inte med när {p['team']} {res} mot {op['teamName']}", game,
+                 "Fanns inte i matchens spelarstatistik. Orsaken framgår inte – se Prospekt-radarn.")
+        return
+    mm, ss = divmod(toi, 60)
+    add_news(nid, d, p["n"], "hl" if ga + aa else "news",
+             f"{line_title(p['who'], ga, aa)} när {p['team']} {res} mot {op['teamName']}", game,
+             f"{mm}:{ss:02d} istid, {signed(pm)} i plus/minus.")
 
 # ---------------------------------------------------------------- SWEHOCKEY
 def swe_short(x):
     x = re.sub(r"\b(IK|IF|HC|HK|BK|AIF|IS|HF|SK|HC|BIK|Hockey|Lakers|IBK)\b", "", x)
     return re.sub(r"\s+", " ", x).strip() or x
 
+SWE_PLAYED = {}
+
+def swe_news(p, entry, s):
+    raw = {"gpi": s["gp"], "svs": s.get("svs", 0), "ga": s.get("ga", 0), "w": s["w"], "l": s["l"]}
+    prev = (entry or {}).get("raw")
+    if entry is not None:
+        entry["raw"] = raw
+    if not prev or raw["gpi"] <= prev.get("gpi", raw["gpi"]):
+        return
+    played = [g for g in SWE_PLAYED.get((p["series"], p["team"]), []) if g["t"] < NOW]
+    if not played:
+        return
+    g = max(played, key=lambda g: g["t"])
+    d = g["t"].date().isoformat()
+    if not recent(d):
+        return
+    home = p["team"] in g["h"]
+    ms, os_ = (g["hs"], g["as"]) if home else (g["as"], g["hs"])
+    opp = g["a"] if home else g["h"]
+    dsv, dga = raw["svs"] - prev.get("svs", 0), raw["ga"] - prev.get("ga", 0)
+    one = raw["gpi"] - prev["gpi"] == 1
+    won = raw["w"] > prev.get("w", 0)
+    summ = (f"{dsv} räddningar, {dga} insläppta mål." if one and dsv >= 0 and dga >= 0 else
+            f"Har stått {raw['gpi'] - prev['gpi']} matcher sedan förra uppdateringen.")
+    clubshort = swe_short(p["club"].replace(" J20", "")) or p["club"]
+    title = f"{p['who']} stod när {clubshort} {outcome(ms, os_, 'efter förlängning' if g['ot'] else '')} mot {swe_short(opp)}"
+    good = one and dsv + dga > 0 and dsv / (dsv + dga) >= 0.92
+    add_news(f"{d}-{p['who']}-{re.sub(r'[^A-Za-z]', '', opp)[:10]}", d, p["n"], "hl" if (won or good) else "news", title,
+             f"{g['h']} {g['hs']}–{g['as']} {g['a']}", summ)
+
 def swe_upcoming(series, team, days, suffix=""):
     html = get(f"https://stats.swehockey.se/ScheduleAndResults/Schedule/{series}").text
     soup = BeautifulSoup(html, "html.parser")
     out, cur_date = [], None
+    SWE_PLAYED[(series, team)] = played = []
     for tr, cells in table_rows(soup):
         joined = " | ".join(cells)
         m = re.search(r"(\d{4}-\d{2}-\d{2})", joined)
@@ -328,10 +481,14 @@ def swe_upcoming(series, team, days, suffix=""):
         tm = re.search(r"\b(\d{1,2}:\d{2})\b", joined)
         if not game or not tm:
             continue
-        if any(re.match(r"^\d+ - \d+$", c) for c in cells):
-            continue  # redan spelad
         h, a = [x.strip() for x in game.split(" - ", 1)]
         t = datetime.fromisoformat(f"{cur_date}T{tm.group(1).zfill(5)}").replace(tzinfo=STHLM)
+        res = next((c for c in cells if re.match(r"^\d+ - \d+$", c)), None)
+        if res:
+            hs, as_ = [int(x) for x in res.split(" - ")]
+            per = next((c for c in cells if c.startswith("(")), "")
+            played.append({"t": t, "h": h, "a": a, "hs": hs, "as": as_, "ot": per.count(",") >= 3})
+            continue  # redan spelad
         if NOW - timedelta(hours=3) < t <= NOW + timedelta(days=days):
             home = team in h
             opp = a if home else h
@@ -351,7 +508,8 @@ def swe_goalie(series, name):
             col = lambda k: cells[header.index(k) + off]
             svp = float(col("SVS%").replace(",", ".")) / 100
             return {"gp": i(col("GPI")), "w": i(col("W")), "l": i(col("L")),
-                    "gaa": round(float(col("GAA").replace(",", ".")), 2), "sv": round(svp, 3), "so": i(col("SO"))}
+                    "gaa": round(float(col("GAA").replace(",", ".")), 2), "sv": round(svp, 3), "so": i(col("SO")),
+                    "svs": i(col("SVS")) if "SVS" in header else 0, "ga": i(col("GA")) if "GA" in header else 0}
     raise ValueError(f"{name} saknas i målvaktsstatistiken")
 
 # ---------------------------------------------------------------- NHL / DALLAS
@@ -450,6 +608,38 @@ def ahl_result_doc(g, team_id):
     return {"team": "texas", "d": g["date_played"], "title": f"Texas Stars {ms}–{os_} {oppname}", "res": res,
             "sc": fmt_scorers(sc), "note": ""}
 
+# ---------------------------------------------------------------- DAGENS STÖRSTA NYHETER (SVT)
+def svt_top(n=5):
+    html = get("https://www.svt.se/").text
+    soup = BeautifulSoup(html, "html.parser")
+    seen, links = set(), []
+    for a in soup.find_all("a", href=True):
+        h = a["href"].split("?")[0].split("#")[0]
+        if h.startswith("https://www.svt.se"):
+            h = h[len("https://www.svt.se"):]
+        if not re.match(r"^/nyheter/[a-z-]+/[a-z0-9-]{8,}$", h) or "/lokalt/" in h:
+            continue
+        if h in seen:
+            continue
+        seen.add(h)
+        links.append(h)
+        if len(links) >= n:
+            break
+    out = []
+    for h in links:
+        try:
+            art = BeautifulSoup(get("https://www.svt.se" + h).text, "html.parser")
+            def meta(prop):
+                m = art.find("meta", attrs={"property": prop}) or art.find("meta", attrs={"name": prop})
+                return (m.get("content") or "").strip() if m else ""
+            title = re.sub(r"\s*\|\s*SVT Nyheter\s*$", "", meta("og:title"))
+            if not title:
+                continue
+            out.append({"t": title, "sum": meta("og:description"), "url": "https://www.svt.se" + h, "src": "SVT Nyheter"})
+        except Exception as e:
+            log(f"SVT-artikel {h}: {e}")
+    return out
+
 # ---------------------------------------------------------------- TEXTRADER
 def stats_line_skater(s):
     return f"{s['gp']} GP · {s['g']} M · {s['a']} A · {s['p']} P · {signed(s['pm'])}"
@@ -476,12 +666,20 @@ def main():
             elif p["src"] == "ncaa":
                 s, l5 = ncaa_player(p["chi"])
                 up = ncaa_upcoming(p["ics"], PROSPECT_DAYS)
+                try:
+                    ncaa_news(p)
+                except Exception as e:
+                    log(f"matchrader {p['n']}: {e}")
             elif p["src"] == "liiga":
                 s, l5 = liiga_player(p)
                 up = liiga_upcoming(p["team"], PROSPECT_DAYS)
             elif p["src"] == "swe":
                 s, l5 = swe_goalie(p["series"], p["goalie"]), None
                 up = swe_upcoming(p["series"], p["team"], PROSPECT_DAYS, p.get("oppsuffix", ""))
+                try:
+                    swe_news(p, entry, s)
+                except Exception as e:
+                    log(f"matchrader {p['n']}: {e}")
             if entry is not None:
                 if "w" in s:
                     entry["s"] = stats_line_goalie(s)
@@ -538,6 +736,26 @@ def main():
         log(f"OK Texas: {len(done)} färdiga")
     except Exception as e:
         log(f"FEL Texas: {e}")
+
+    # matchrader: nya automatiska ersätter samma id, radarns och äldre automatiska behålls 4 dygn
+    cutoff = (NOW - timedelta(days=4)).date().isoformat()
+    new_ids = {n["id"] for n in AUTO}
+    news = [n for n in data.get("news", []) if n.get("d", "") >= cutoff and n.get("id") not in new_ids]
+    news += AUTO
+    korder = {"out": 0, "hl": 1, "stat": 2, "news": 3}
+    news.sort(key=lambda n: (n.get("d", ""), -korder.get(n.get("kind"), 3)), reverse=True)
+    data["news"] = news[:40]
+    log(f"Matchrader: {len(AUTO)} nya/uppdaterade, {len(data['news'])} totalt")
+
+    # dagens största nyheter
+    try:
+        top = svt_top()
+        if len(top) >= 3:
+            data["top"] = top
+            data["topUpdated"] = NOW.astimezone(STHLM).isoformat(timespec="minutes")
+        log(f"Nyheter: {len(top)} från SVT")
+    except Exception as e:
+        log(f"FEL nyheter: {e}")
 
     # behåll tidigare poster för källor som inte svarade
     for x in old_next:
