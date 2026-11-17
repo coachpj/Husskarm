@@ -851,8 +851,8 @@
     loadLeaflet(function () {
       try {
         radarMap = L.map("radar", { zoomControl: true, attributionControl: true, maxZoom: 9, minZoom: 4 }).setView([LAT, LON], 7);
-        L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png", {
-          subdomains: "abcd", maxZoom: 9, attribution: "© OpenStreetMap © CARTO"
+        L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+          maxZoom: 9, attribution: "Karta © Esri"
         }).addTo(radarMap);
         L.circleMarker([LAT, LON], { radius: 6, color: "#fff", weight: 2, fillColor: "#d39a5c", fillOpacity: 1 }).addTo(radarMap);
       } catch (e) { radarMsg("Kartan kunde inte visas."); return; }
@@ -1290,7 +1290,7 @@
   };
 
   // ---------- Start ----------
-  function refreshAll() { loadWeather(); loadPrices(); renderCal(); renderTrips(); renderGames(); loadStars(); renderIt(); renderStoic(); renderNews(); renderToday(); el("foot").innerHTML = "Uppdaterad " + hm(SE()) + " · v19"; }
+  function refreshAll() { loadWeather(); loadPrices(); renderCal(); renderTrips(); renderGames(); loadStars(); renderIt(); renderStoic(); renderNews(); renderToday(); el("foot").innerHTML = "Uppdaterad " + hm(SE()) + " · v20"; }
   renderRecipes(); renderTimers(); renderToday(); route();
   refreshAll();
   setInterval(refreshAll, 15 * 60 * 1000);
