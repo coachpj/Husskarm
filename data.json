@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:12:51+01:00",
+ "updated": "2026-11-17T22:18:08+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -196,46 +196,6 @@
  ],
  "news": [
   {
-   "d": "2026-11-14",
-   "who": "Cameron Schmidt",
-   "kind": "hl",
-   "title": "Schmidt två assist när Victoria krossade Kelowna",
-   "game": "Kelowna 1–7 Victoria",
-   "sum": "Schmidt spelade fram till Savin Virks powerplaymål till 1–0 och Miles Coopers powerplaymål till 5–1 när Victoria vann 7–1 i Kelowna. 0+2, fyra skott, ±0 och 12 utvisningsminuter; nu 26 poäng på 16 matcher."
-  },
-  {
-   "d": "2026-11-14",
-   "who": "Jakub Vaněček",
-   "kind": "hl",
-   "title": "Vaněček assist när Tri-City föll i förlängning mot Everett",
-   "game": "Tri-City 3–4 Everett (förl.)",
-   "sum": "Vaněček hade förstaassisten på Caden Campions 1–1 i första perioden, men Everett vann 4–3 efter Caine Wilkes mål i förlängningen. 0+1, ett skott och +1."
-  },
-  {
-   "d": "2026-11-14",
-   "who": "Jasper Kuhta",
-   "kind": "hl",
-   "title": "Kuhta assist när UMass föll mot Boston College",
-   "game": "UMass 2–4 Boston College",
-   "sum": "Kuhta spelade fram till Melvin Novotnys 2–4 i tredje perioden när UMass förlorade borta mot Boston College. 0+1, tre skott, ±0 och 11–7 i tekningar."
-  },
-  {
-   "d": "2026-11-14",
-   "who": "Ryan Brown",
-   "kind": "hl",
-   "title": "Brown assist när London föll i målrik match i Saginaw",
-   "game": "Saginaw 6–5 London",
-   "sum": "Lagkaptenen spelade fram till Jonathan Kapageridis 1–0-mål i första perioden, men Saginaw vann 6–5. 0+1, två skott, −1 och 4 utvisningsminuter; nu 25 poäng på 16 matcher."
-  },
-  {
-   "d": "2026-11-14",
-   "who": "Dawson Sharkey",
-   "kind": "hl",
-   "title": "Sharkey mål igen när Northeastern vann i förlängning",
-   "game": "Northeastern 4–3 UConn (förl.)",
-   "sum": "Sharkey gjorde 1–0 efter 3:36 när Northeastern slog UConn 4–3 efter Joe Connors mål i förlängningen. Tre skott och ±0; fem mål på åtta matcher."
-  },
-  {
    "id": "2026-11-14-Schmidt-1023294",
    "d": "2026-11-14",
    "who": "Cameron Schmidt",
@@ -300,30 +260,6 @@
    "title": "Wilde Larsen stod när Linköping J20 föll i Växjö",
    "game": "Växjö 3–2 Linköping J20",
    "sum": "Wilde Larsen startade när Linköping J20 förlorade 2–3 borta mot Växjö efter att ha legat under 0–3. Enligt förbundets statistik släppte han in tre mål på cirka 35 skott."
-  },
-  {
-   "d": "2026-11-14",
-   "who": "George Fegaras",
-   "kind": "news",
-   "title": "Fegaras poänglös när Cornell föll mot Yale",
-   "game": "Cornell 1–3 Yale",
-   "sum": "Cornell ledde 1–0 men förlorade 1–3 borta mot Yale i ECAC. Fegaras hade tre skott och ±0."
-  },
-  {
-   "d": "2026-11-14",
-   "who": "Mikhail Cherepanov",
-   "kind": "news",
-   "title": "Cherepanov poänglös när Kamloops föll på straffar",
-   "game": "Prince George 2–1 Kamloops (straffar)",
-   "sum": "Kamloops förlorade 1–2 efter straffläggning borta mot Prince George. Cherepanov startade, hade ett skott och +1."
-  },
-  {
-   "d": "2026-11-14",
-   "who": "William Samuelsson",
-   "kind": "news",
-   "title": "Samuelsson poänglös när LSSU föll i Houghton",
-   "game": "Lake Superior State 2–5 Michigan Tech",
-   "sum": "Lake Superior State förlorade 2–5 mot Michigan Tech i andra matchen av helgserien. Samuelsson hade två skott och −1."
   },
   {
    "id": "2026-11-14-Gorzynski-1023297",
@@ -724,27 +660,9 @@
  ],
  "top": [
   {
-   "t": "Val 2026",
-   "sum": "Söndagen den 13 september 2026 var det val i Sverige för mandatperioden 2026-2030. Det är riksdagsval i Sverige vart fjärde år. Samma dag kan man rösta i regionval och kommunalval.",
-   "url": "https://www.svt.se/nyheter/om/val-2026",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "SVT Verifierar",
-   "sum": "SVT Verifierar kombinerar traditionell journalistik med analys av bilder, digitala fotspår och öppna källor för att verifiera uppgifter som sprids och skildra viktiga nyhetshändelser på djupet.",
-   "url": "https://www.svt.se/nyheter/om/svt-nyheter-verifierar",
-   "src": "SVT Nyheter"
-  },
-  {
    "t": "Senaste nytt om kriget mellan Iran, USA och Israel",
    "sum": "SVT liverapporterar om konfliktens utveckling",
    "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-iran-och-konflikten-med-usa-och-israel",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Regeringsbildning",
-   "sum": "Följ de ämnen och händelser som SVT Nyheter bevakar just nu.",
-   "url": "https://www.svt.se/nyheter/om/regeringsbildning",
    "src": "SVT Nyheter"
   },
   {
@@ -752,7 +670,25 @@
    "sum": "Inget tyder på att Vänsterpartiet kommer att släppa sitt krav på ministerposter. Och om de mot förmodan ändå skulle göra det så kommer det med en sakpolitisk nota som kan bli för hög för Centerpartiet. I det läget har Elisabeth Thand Ringqvist (C) skaffat sig en nödutgång i att välja Ulf Kristersson. Men det kräver att hon lyckas övertyga sitt parti om att en borgerlig minoritetsregering som kan behöva aktivt stöd av SD är bättre för C än ett extraval.",
    "url": "https://www.svt.se/nyheter/inrikes/tydligt-att-ulf-kristersson-inte-gett-upp-hoppet-om-centerpartiet",
    "src": "SVT Nyheter"
+  },
+  {
+   "t": "Efter M-ledarens förslag – en veckas paus i sonderingen",
+   "sum": "Talmannen ger Ulf Kristersson (M) och övriga partier en veckas paus i sonderingsprocessen för att lämna utrymme för ytterligare förhandlingar. Alla partier kallas till en ny talmansrunda i nästa vecka.",
+   "url": "https://www.svt.se/nyheter/inrikes/efter-m-ledarens-forslag-en-veckas-paus-i-sonderingen",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Senaste nytt om valet 2026",
+   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Krimbron delvis kollapsad efter ukrainsk attack",
+   "sum": "En del av den viktiga Kertjbron har kollapsat efter ukrainska angrepp – ett allvarligt slag mot Rysslands ockupation av Krim, enligt Johan Huovinen, lärare på Försvarshögskolan. – Det här är ett sätt att öka pressen på Moskva inför de kommande förhandlingarna, säger han.",
+   "url": "https://www.svt.se/nyheter/utrikes/krimbron-delvis-kollapsad-efter-ukrainsk-attack",
+   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-17T22:12+01:00"
+ "topUpdated": "2026-11-17T22:18+01:00"
 }
