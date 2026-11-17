@@ -236,7 +236,7 @@
     </div>
 
     <div class="tile wide" data-open="games">
-      <div class="label">Prospects · matcher <span class="demo">exempel</span></div><div class="more">›</div>
+      <div class="label">Prospects · poäng senaste 5 matcherna <span class="pill" id="prosDate">17 nov</span></div><div class="more">›</div>
       <div id="gamesShort"></div>
     </div>
 
@@ -343,13 +343,9 @@
     { from: d(21), to: d(26), place: "Zürich, Schweiz",   flag: "🇨🇭", note: "Scouting" }
   ];
   // Exempel: prospects. Tider i svensk tid. done = matchen klar.
-  var GAMES = [
-    { name: "Oskar Holm",   pos: "F", team: "HV71 J20",      opp: "Frölunda J20",  league: "J20 Nationell", t: d(0, 15, 0),  done: true, line: "1+1, 4 skott" , last5: [1,0,2,0,1] },
-    { name: "Jan Novák",    pos: "G", team: "Pardubice",     opp: "Sparta Praha",  league: "Extraliga",     t: d(0, 17, 0),  done: true, line: "28 räddningar, 93,3 %", last5: ["92%","90%","95%","88%","93%"] },
-    { name: "Mikko Laine",  pos: "F", team: "TPS",           opp: "Ilves",         league: "Liiga",         t: d(0, 17, 30), done: false, last5: [0,1,1,0,2] },
-    { name: "Elias Berg",   pos: "C", team: "Frölunda",      opp: "Skellefteå",    league: "SHL",           t: d(0, 18, 0),  done: false, last5: [1,1,0,0,1] },
-    { name: "Viktor Nyman", pos: "D", team: "Texas Stars",   opp: "Iowa Wild",     league: "AHL",           t: d(1, 2, 0),   done: false, last5: [0,0,1,0,0] }
-  ];
+  // Från Stars Prospekt-radar, ögonblicksbild 17 nov 2026
+  var PROS_DATE = "17 nov";
+  var PROS = [{"n": "Cameron Schmidt", "pos": "RW", "team": "Victoria Royals", "lg": "WHL", "dr": "2025 R3", "s": "16 GP · 13 M · 13 A · 26 P · −4", "l5": "6+3=9", "l5p": 9, "note": "Ledde WHL med 51 mål förra säsongen. Assisterande lagkapten i Victoria."}, {"n": "Jakub Vaněček", "pos": "D", "team": "Tri-City Americans", "lg": "WHL", "dr": "2026 R2 #59", "s": "19 GP · 3 M · 8 A · 11 P · −2", "l5": "1+3=4", "l5p": 4, "note": "Dallas högsta val 2026. Klar för Western Michigan från 2027-28."}, {"n": "Ryan Brown", "pos": "LW", "team": "London Knights", "lg": "OHL", "dr": "2026 R5 #155", "s": "16 GP · 5 M · 20 A · 25 P · +8", "l5": "2+4=6", "l5p": 6, "note": "Ny lagkapten i London. Klar för Ohio State längre fram."}, {"n": "Brandon Gorzynski", "pos": "LW", "team": "Prince Albert Raiders", "lg": "WHL", "dr": "2025 R4 #126", "s": "18 GP · 9 M · 5 A · 14 P · +2", "l5": "1+1=2", "l5p": 2, "note": "Valde bort NCAA för en ny säsong i Prince Albert."}, {"n": "Mikhail Cherepanov", "pos": "D", "team": "Kamloops Blazers", "lg": "WHL", "dr": "2026 R7 #219", "s": "18 GP · 3 M · 4 A · 7 P · +9", "l5": "1+2=3", "l5p": 3, "note": "Rysk back från NAHL, importdraftad av Kamloops."}, {"n": "Jasper Kuhta", "pos": "C", "team": "UMass", "lg": "NCAA", "dr": "2026 R7 #197", "s": "11 GP · 0 M · 3 A · 3 P · −4", "l5": "0+2=2", "l5p": 2, "note": "Freshman i UMass powerplay."}, {"n": "Dawson Sharkey", "pos": "RW", "team": "Northeastern", "lg": "NCAA", "dr": "", "s": "8 GP · 5 M · 0 A · 5 P · −1", "l5": "4+0=4", "l5p": 4, "note": "Freshman, fyra mål på fem matcher."}, {"n": "William Samuelsson", "pos": "C", "team": "Lake Superior State", "lg": "NCAA", "dr": "2024 R7 #222", "s": "10 GP · 1 M · 0 A · 1 P · −5", "l5": "1+0=1", "l5p": 1, "note": "Södertäljekille, första NCAA-säsongen efter USHL."}, {"n": "George Fegaras", "pos": "D", "team": "Cornell", "lg": "NCAA", "dr": "", "s": "6 GP · 0 M · 2 A · 2 P · −1", "l5": "0+1=1", "l5p": 1, "note": "Seniorår, ankare i Cornells backlinje. Ej kontrakterad."}, {"n": "Atte Joki", "pos": "C", "team": "HIFK", "lg": "Liiga", "dr": "", "s": "18 GP · 0 M · 0 A · 0 P · −3", "l5": "0+0=0", "l5p": 0, "note": "Bra närkamper, svag i tekningar. Boxplayroll nästa steg."}, {"n": "Måns Goos", "pos": "G", "team": "BIK Karlskoga", "lg": "HockeyAllsvenskan", "dr": "2025 R5 #158", "s": "9 GP · 4-5 · 3.21 GAA · .876", "l5": "", "l5p": -1, "note": "Utlånad från Färjestad. Stod när BIK slog AIK 3–2 efter förl. 13 nov."}, {"n": "Anton Emil Wilde Larsen", "pos": "G", "team": "Linköping HC J20", "lg": "U20 Nationell", "dr": "2026 R6 #187", "s": "14 GP · 7-7 · 3.28 GAA · .877", "l5": "", "l5p": -1, "note": "Dansk målvakt, kom från Frederikshavn i somras."}];
 
   // Italienska – ett nytt ord varje dag
   var IT = [
@@ -690,30 +686,21 @@
   renderDallas(); setInterval(renderDallas, 10000);
 
   // ---------- Prospects ----------
-  function gameStatus(g) {
-    if (g.done) return '<span class="pill">Klar</span> <b>' + esc(g.line) + '</b>';
-    var now = new Date();
-    if (g.t <= now) return '<span class="pill" style="background:#2f4a3a;color:#bfe3cb">Pågår</span>';
-    var dd = dayDiff(g.t, now), lbl = dd === 0 ? (g.t.getHours() >= 17 ? "Ikväll" : "Idag") : "Natt";
-    return lbl + " <b>" + hm(g.t) + "</b>";
+  function prosRow(x, full) {
+    return '<div class="g"><div class="who">' + esc(x.n) + ' <span class="pill">' + x.pos + '</span>' + (full ? '' : ' <span class="sub">' + esc(x.team) + '</span>') +
+      (full ? '<div class="sub">' + esc(x.team) + ' · ' + esc(x.lg) + (x.dr ? ' · ' + esc(x.dr) : '') + '</div><div class="sub">' + esc(x.s) + '</div><div class="sub" style="color:#a9b0bb">' + esc(x.note) + '</div>' : '') +
+      '</div><div class="st">' + (x.l5 ? (full ? '<span class="sub">senaste 5</span> ' : '') + '<b>' + x.l5 + '</b>' : '<b>' + esc(x.s.split(" · ").slice(-1)[0]) + '</b> rädd%') + '</div></div>';
   }
-  function sortedGames() { var a = GAMES.slice(); a.sort(function (x, y) { return x.t - y.t; }); return a; }
+  function hotPros() { var a = PROS.slice(); a.sort(function (x, y) { return y.l5p - x.l5p; }); return a; }
   function renderGames() {
-    var a = sortedGames(), s = "";
-    for (var i = 0; i < a.length; i++) {
-      var g = a[i];
-      s += '<div class="g"><div class="who">' + esc(g.name) + ' <span class="sub">' + g.pos + ' · ' + esc(g.team) + ' – ' + esc(g.opp) + '</span></div><div class="st">' + gameStatus(g) + '</div></div>';
-    }
+    var a = hotPros(), s = "";
+    for (var i = 0; i < 5 && i < a.length; i++) s += prosRow(a[i], false);
     el("gamesShort").innerHTML = s;
   }
   function gamesDetail() {
-    var a = sortedGames(), s = '<h2>Prospects idag <span class="demo">exempel</span></h2>';
-    for (var i = 0; i < a.length; i++) {
-      var g = a[i];
-      s += '<div class="g"><div class="who">' + esc(g.name) + ' <span class="pill">' + g.pos + '</span><div class="sub">' + esc(g.team) + ' – ' + esc(g.opp) + ' · ' + esc(g.league) +
-           '</div><div class="sub">Senaste 5: ' + (g.pos === "G" ? g.last5.join(" · ") : g.last5.join(" · ") + " poäng") + '</div></div><div class="st">' + gameStatus(g) + '</div></div>';
-    }
-    return s + '<p class="muted small">Alla tider i svensk tid. Exempeldata – nästa steg är din riktiga prospect-lista med resultat från ligornas sidor.</p>';
+    var s = '<h2>Stars prospects <span class="pill">' + PROS_DATE + '</span></h2><p class="muted small">Sorterat på poäng senaste 5 matcherna. Från din Prospekt-radar.</p>';
+    var a = hotPros(); for (var i = 0; i < a.length; i++) s += prosRow(a[i], true);
+    return s;
   }
 
   // ---------- Italienska ----------
