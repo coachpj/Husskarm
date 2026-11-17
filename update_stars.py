@@ -617,23 +617,26 @@ def svt_top(n=5):
         h = a["href"].split("?")[0].split("#")[0]
         if h.startswith("https://www.svt.se"):
             h = h[len("https://www.svt.se"):]
-        if not re.match(r"^/nyheter/[a-z-]+/[a-z0-9-]{8,}$", h) or "/lokalt/" in h:
+        m = re.match(r"^/nyheter/([a-z-]+)/[a-z0-9-]{8,}$", h)
+        if not m or m.group(1) in ("lokalt", "om", "amnesord", "svtforum", "granskning-om"):
             continue
         if h in seen:
             continue
         seen.add(h)
         links.append(h)
-        if len(links) >= n:
+        if len(links) >= n + 4:
             break
     out = []
     for h in links:
+        if len(out) >= n:
+            break
         try:
             art = BeautifulSoup(get("https://www.svt.se" + h).text, "html.parser")
             def meta(prop):
                 m = art.find("meta", attrs={"property": prop}) or art.find("meta", attrs={"name": prop})
                 return (m.get("content") or "").strip() if m else ""
             title = re.sub(r"\s*\|\s*SVT Nyheter\s*$", "", meta("og:title"))
-            if not title:
+            if not title or (meta("og:type") and meta("og:type") != "article"):
                 continue
             out.append({"t": title, "sum": meta("og:description"), "url": "https://www.svt.se" + h, "src": "SVT Nyheter"})
         except Exception as e:
@@ -740,7 +743,10 @@ def main():
     # matchrader: nya automatiska ersätter samma id, radarns och äldre automatiska behålls 4 dygn
     cutoff = (NOW - timedelta(days=4)).date().isoformat()
     new_ids = {n["id"] for n in AUTO}
-    news = [n for n in data.get("news", []) if n.get("d", "") >= cutoff and n.get("id") not in new_ids]
+    auto_keys = {(n["who"], n["d"]) for n in AUTO}
+    # radarns gamla rad för samma spelare och matchdag ersätts av den automatiska (statistiknotiser behålls)
+    news = [n for n in data.get("news", []) if n.get("d", "") >= cutoff and n.get("id") not in new_ids
+            and (n.get("auto") or n.get("kind") == "stat" or (n.get("who"), n.get("d")) not in auto_keys)]
     news += AUTO
     korder = {"out": 0, "hl": 1, "stat": 2, "news": 3}
     news.sort(key=lambda n: (n.get("d", ""), -korder.get(n.get("kind"), 3)), reverse=True)

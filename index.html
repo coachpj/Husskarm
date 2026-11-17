@@ -185,6 +185,22 @@
   .kwx { display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; }
   .kwx .i { font-size: 40px; margin-right: 12px; } .kwx .t { font-size: 40px; font-weight: 200; margin-right: 12px; }
   .nrow { padding: 7px 0; border-top: 1px solid #2a3039; font-size: 15px; color: #8a93a0; }
+  /* Matchrader, kommande matcher och toppnyheter i två kolumner */
+  .cols2 { -webkit-column-count: 2; column-count: 2; -webkit-column-gap: 18px; column-gap: 18px; }
+  .ln { font-size: 14px; line-height: 1.3; padding: 3px 0; border-top: 1px solid #2a3039; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; -webkit-column-break-inside: avoid; break-inside: avoid; }
+  .ln .m { color: #8a93a0; font-size: 12px; }
+  .ln.out { color: #f0b39b; }
+  .ln.lnmore { color: #8a93a0; font-size: 12px; border-top: 0; padding-top: 0; }
+  .nxs { font-size: 15px; padding: 3px 0; border-top: 1px solid #2a3039; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; -webkit-column-break-inside: avoid; break-inside: avoid; }
+  .nxs .w { display: inline-block; width: 46px; color: #a9b0bb; font-variant-numeric: tabular-nums; }
+  .nxs .dl { display: inline-block; width: 36px; color: #a9b0bb; }
+  .nxdense .nxs { font-size: 13px; padding: 2px 0; }
+  #viewTv .nxdense .nxs { font-size: 12px; padding: 1px 0; line-height: 1.25; }
+  #viewTv .nxdense .nxhead { margin: 1px 0; }
+  .nxhead { font-size: 12px; color: #8a93a0; letter-spacing: 1px; text-transform: uppercase; margin: 4px 0 2px; -webkit-column-span: all; column-span: all; }
+  .tn { font-size: 15px; line-height: 1.3; padding: 5px 0; border-top: 1px solid #2a3039; }
+  .tn:first-child { border-top: 0; }
+  .tn .s { display: block; font-size: 12px; color: #8a93a0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .nrow:first-child { border-top: 0; }
   /* Matlagningsläge */
   .cook { position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: #14171c; z-index: 20; display: none; padding: 16px 20px; }
@@ -276,20 +292,20 @@
       <div class="label">Natten · Stars &amp; prospects <span class="pill" id="prosDate">17 nov</span></div><div class="more">›</div>
       <div id="gamesShort"></div>
     </div>
-    <div class="tile" data-open="focus">
-      <div class="label">Veckans fokus</div><div class="more">›</div>
-      <div id="focusShort"></div>
-      <div id="dayLight" class="daylight"></div>
+    <div class="tile" data-open="news">
+      <div class="label">Nyheter · största just nu</div><div class="more">›</div>
+      <div id="topShort"></div>
     </div>
    </div>
    <div class="hrow">
-    <div class="tile" data-open="next">
+    <div class="tile wide" data-open="next">
       <div class="label">Kommande matcher · svensk tid</div><div class="more">›</div>
       <div id="nextShort"></div>
     </div>
     <div class="tile" data-open="weather">
       <div class="label">Veckan</div>
       <div id="weekShort" class="week"></div>
+      <div id="dayLight" class="daylight"></div>
     </div>
     <div class="tile" data-open="italian">
       <div class="label">Dagens italienska</div><div class="more">›</div>
@@ -335,7 +351,7 @@
           <div id="kToday"></div>
         </div>
         <div class="tile ktile" data-open="news">
-          <div class="label">Nyheter <span class="demo">kommer snart</span></div><div class="more">›</div>
+          <div class="label">Nyheter</div><div class="more">›</div>
           <div id="kNews"></div>
         </div>
       </div>
@@ -812,28 +828,52 @@
     return '<div class="g"><div class="who">' + (n.kind === "out" ? "⚠️ " : n.kind === "hl" ? "⭐ " : "") + esc(n.title) +
       '<div class="sub">' + esc(n.game || "") + (full && n.sum ? ' · ' + esc(n.sum) : '') + '</div></div><div class="st">' + dShort(n.d) + '</div></div>';
   }
+  function sortedNews() {
+    var k = { out: 0, hl: 1, stat: 2, news: 3 }, nw = SNEWS.slice();
+    nw.sort(function (a, b) { return (b.d > a.d) - (b.d < a.d) || (k[a.kind] || 3) - (k[b.kind] || 3); });
+    return nw;
+  }
+  function shortTitle(t) { // "Schmidt 1+1 när Victoria vann 4–2 mot Kamloops" -> "Schmidt 1+1 · vinst 4–2 mot Kamloops"
+    var m = /^(.*?) när .*? (vann|föll) (\d+–\d+)( efter (förlängning|straffar))? mot (.*)$/.exec(t);
+    if (!m) return t;
+    var who = m[1].replace(/ poänglös$/, " 0+0").replace(/ inte med$/, " ej med").replace(/ stod$/, " i mål");
+    return who + " · " + (m[2] === "vann" ? "vinst " : "förlust ") + m[3] + (m[5] ? (m[5] === "straffar" ? " str" : " fl") : "") + " mot " + m[6];
+  }
+  function lnRow(n) {
+    var ic = n.kind === "out" ? "⚠️ " : n.kind === "hl" ? "⭐ " : "";
+    return '<div class="ln' + (n.kind === "out" ? " out" : "") + '">' + ic + esc(shortTitle(n.title)) + ' <span class="m">' + dShort(n.d) + '</span></div>';
+  }
   function renderGames() {
-    var s = "", lg = latestGames(), i, n = 0;
-    for (i = 0; i < lg.length && i < 2; i++) { s += gameRow(lg[i], false); n++; }
-    var nw = SNEWS.slice(); nw.sort(function (a, b) { var k = { out: 0, hl: 1, stat: 2, news: 3 }; return (b.d > a.d) - (b.d < a.d) || (k[a.kind] || 3) - (k[b.kind] || 3); });
-    var lim = TVMODE ? 6 : window.innerHeight > 900 ? 6 : 4;
-    for (i = 0; i < nw.length && n < lim; i++) { s += newsRow(nw[i], false); n++; }
-    var hp = hotPros();
-    for (i = 0; n < lim && i < hp.length; i++) { s += prosRow(hp[i], false); n++; }
+    var s = "", lg = latestGames(), i;
+    for (i = 0; i < lg.length && i < 2; i++) s += gameRow(lg[i], false);
+    var nw = sortedNews(), newest = nw.length ? nw[0].d : "", lines = [];
+    var cap = (TVMODE ? 7 : window.innerHeight > 900 ? 6 : 4) * 2;
+    // senaste speldagens matchrader; äldre fyller bara på om det finns plats
+    for (i = 0; i < nw.length; i++) if (nw[i].d === newest || lines.length < cap) lines.push(nw[i]);
+    if (lines.length) {
+      s += '<div class="cols2" style="margin-top:4px">';
+      for (i = 0; i < lines.length && i < cap; i++) s += lnRow(lines[i]);
+      s += '</div>';
+      if (lines.length > cap) s += '<div class="ln lnmore" data-n="' + (lines.length - cap) + '">+ ' + (lines.length - cap) + ' till – tryck för alla</div>';
+    } else {
+      var hp = hotPros();
+      for (i = 0; i < hp.length && i < 4; i++) s += prosRow(hp[i], false);
+    }
     el("gamesShort").innerHTML = s;
     el("prosDate").innerHTML = PROS_DATE;
   }
   function gamesDetail() {
     var s = '<h2>Natten <span class="pill">' + PROS_DATE + '</span></h2>', i;
     if (SGAMES.length) { s += '<div class="label" style="margin-top:10px">Dallas &amp; Texas Stars</div>'; for (i = 0; i < SGAMES.length; i++) s += gameRow(SGAMES[i], true); }
-    if (SNEWS.length) { s += '<div class="label" style="margin-top:18px">Prospects senaste matcherna</div>'; for (i = 0; i < SNEWS.length; i++) s += newsRow(SNEWS[i], true); }
+    var nw = sortedNews();
+    if (nw.length) { s += '<div class="label" style="margin-top:18px">Prospects senaste matcherna</div>'; for (i = 0; i < nw.length; i++) s += newsRow(nw[i], true); }
     s += '<div class="label" style="margin-top:18px">Alla prospects · poäng senaste 5</div>';
     var a = hotPros(); for (i = 0; i < a.length; i++) s += prosRow(a[i], true);
     return s;
   }
   function applyData(d) {
     if (d.prospects && d.prospects.length) PROS = d.prospects;
-    SGAMES = d.games || []; SNEWS = d.news || []; SNEXT = d.next || []; renderNext(); setTimeout(syncTv, 0);
+    SGAMES = d.games || []; SNEWS = d.news || []; SNEXT = d.next || []; STOP = d.top || []; STOPAT = d.topUpdated || ""; renderNext(); renderNews(); setTimeout(syncTv, 0);
     if (d.updated) PROS_DATE = dShort(d.updated.substr(0, 10));
     renderGames();
   }
@@ -1275,12 +1315,23 @@
       '<div class="muted small">Känns som ' + w.cur.feels + '° · ' + w.cur.wind + ' m/s</div></div></div>';
     el("kWx").innerHTML = s;
   }
+  var STOP = [], STOPAT = "";
+  function topRows(max, withSum) {
+    var s = "";
+    for (var i = 0; i < STOP.length && i < max; i++)
+      s += '<div class="tn">' + esc(STOP[i].t) + (withSum && STOP[i].sum ? '<span class="s">' + esc(STOP[i].sum) + '</span>' : '') + '</div>';
+    return s;
+  }
   function renderNews() {
-    el("kNews").innerHTML = '<div class="nrow">Dagens 3–5 största nyheter visas här.</div><div class="nrow">Uppdateras morgon, lunch och kväll.</div>';
+    var empty = '<div class="muted small">Nyheterna hämtas vid nästa uppdatering.</div>';
+    el("kNews").innerHTML = STOP.length ? topRows(5, false) : empty;
+    if (el("topShort")) el("topShort").innerHTML = STOP.length ? topRows(window.innerHeight > 900 ? 5 : 4, window.innerHeight > 900) : empty;
   }
   function newsDetail() {
-    return '<h2>Nyheter</h2><p>Här kommer de 3–5 största händelserna att visas – utvalda morgon, lunch och kväll – med en kort sammanfattning för varje.</p>' +
-      '<p class="muted">Det slås på när skärmen har fått sin egen adress, så att urvalet kan skickas hit automatiskt.</p>';
+    var s = '<h2>Nyheter</h2><p class="muted small">De största nyheterna just nu enligt SVT:s förstasida' + (STOPAT ? ' · hämtade ' + esc(STOPAT.substr(11, 5)) : '') + '. Uppdateras fem gånger per dygn.</p>';
+    for (var i = 0; i < STOP.length; i++)
+      s += '<div class="row"><div class="what">' + esc(STOP[i].t) + '<div class="sub">' + esc(STOP[i].sum || "") + '</div></div></div>';
+    return s;
   }
 
   // ---------- Idag: enkel logg (sparas bara på den här iPaden) ----------
@@ -1352,11 +1403,35 @@
     var live = o.ms <= RD.now();
     return '<div class="nx"><span class="w">' + w + '</span><span class="o">' + '<b>' + (g.team === "dallas" ? "DAL" : g.team === "texas" ? "TEX" : esc(g.who || "")) + '</b>' + (full && g.club ? ' <span class="muted">(' + esc(g.club) + ')</span>' : '') + (g.home ? " – " : " @ ") + esc(full ? g.opp : (g.s || g.opp)) + (live ? ' <span class="pill">pågår</span>' : '') + '</span></div>';
   }
+  function nxTag(g) { return g.team === "dallas" ? "DAL" : g.team === "texas" ? "TEX" : esc(g.who || ""); }
+  function nxsRow(o, withDay) {
+    var x = SEat(o.ms), g = o.g, dd = dayDiff(x, SE());
+    var day = dd === 0 ? "idag" : DAYS_SHORT[x.getDay()];
+    var live = o.ms <= RD.now();
+    return '<div class="nxs' + (withDay ? ' lt' : '') + '">' + (withDay ? '<span class="dl">' + day + '</span>' : '') + '<span class="w">' + hm(x) + '</span><b>' + nxTag(g) + '</b>' +
+      (g.home ? " – " : " @ ") + esc(g.s || g.opp) + (live ? ' <span class="pill">pågår</span>' : '') + '</div>';
+  }
   function renderNext() {
-    var a = nextList(), s = "";
-    var max = TVMODE ? 7 : window.innerHeight > 900 ? 7 : window.innerHeight > 800 ? 4 : 3;
-    for (var i = 0; i < a.length && i < max; i++) s += nxRow(a[i], false);
-    el("nextShort").innerHTML = s || '<div class="muted small">Inga matcher inlagda</div>';
+    var a = nextList(), now = SE(), end = new Date(now.getTime()), i, s = "";
+    end.setDate(end.getDate() + 1); end.setHours(12, 0, 0, 0); // kvällens och nattens matcher fram till kl 12 i morgon
+    var endMs = RD.now() + (end - now), tonight = [], later = [];
+    for (i = 0; i < a.length; i++) (a[i].ms < endMs ? tonight : later).push(a[i]);
+    var perCol = TVMODE ? 10 : window.innerHeight > 900 ? 7 : 6, cap = TVMODE ? perCol : perCol * 2;
+    var dense = tonight.length > cap;
+    if (tonight.length) {
+      s += '<div class="nxhead">I kväll och i natt · ' + tonight.length + (tonight.length === 1 ? ' match' : ' matcher') + '</div>';
+      for (i = 0; i < tonight.length; i++) s += nxsRow(tonight[i], false); // alltid alla
+    }
+    // "Sedan" fylls på så långt det får plats (fitHem tar bort rader som inte ryms)
+    var room = TVMODE ? Math.max(0, cap - tonight.length - (tonight.length ? 2 : 1)) : 16;
+    if (later.length && room > 0) {
+      s += '<div class="nxhead lthead">Sedan</div>';
+      for (i = 0; i < later.length && i < room; i++) s += nxsRow(later[i], true);
+    }
+    var html = s ? '<div class="' + (TVMODE ? "" : "cols2") + (dense ? " nxdense" : "") + '">' + s + '</div>' : '<div class="muted small">Inga matcher inlagda</div>';
+    el("nextShort").innerHTML = html;
+    if (el("tvNext")) el("tvNext").innerHTML = html;
+    if (!TVMODE && !FITTING) setTimeout(fitHem, 0);
   }
   function nextDetail() {
     var a = nextList(), s = '<h2>Kommande matcher</h2><p class="muted small">Tider i svensk tid. Dallas Stars (NHL), Texas Stars (AHL) och alla prospects.</p>';
@@ -1394,6 +1469,7 @@
   // ---------- Veckans fokus (sparas bara på den här iPaden) ----------
   function getFocus() { try { return localStorage.getItem("fokus") || ""; } catch (e) { return ""; } }
   function renderFocus() {
+    if (!el("focusShort")) return;
     var f = getFocus();
     el("focusShort").innerHTML = f ? '<div class="focus-text">' + esc(f) + '</div>' : '<div class="muted">Tryck för att skriva veckans fokus</div>';
   }
@@ -1407,10 +1483,48 @@
   }
 
   // ---------- Fyll skärmen ----------
+  var FITTING = false;
   function fitHem() {
     var hr = el("hrows"); if (!hr || el("viewHem").style.display === "none") return;
     hr.style.height = "auto";
-    var tb = document.querySelector(".tabbar"), natural = hr.offsetHeight;
+    // bygg om listorna i full längd och korta sedan det som inte ryms
+    FITTING = true; try { renderGames(); renderNews(); renderNext(); } catch (e) {} FITTING = false;
+    var tb = document.querySelector(".tabbar");
+    // ta bort "Sedan"-rader i Kommande matcher tills allt ryms på skärmen (kvällens matcher tas aldrig bort)
+    var limit = window.innerHeight - tb.offsetHeight - 8 - 6 - 6 + (window.pageYOffset || 0);
+    // en rad tas bara bort om det faktiskt gör sidan kortare; annars läggs den tillbaka
+    function cut(nodes) { // tar bort noderna; om sidan inte blev kortare läggs de tillbaka
+      var b = hr.getBoundingClientRect().bottom, keep = [];
+      for (var j = 0; j < nodes.length; j++) { keep.push([nodes[j], nodes[j].parentNode, nodes[j].nextSibling]); nodes[j].parentNode.removeChild(nodes[j]); }
+      if (hr.getBoundingClientRect().bottom < b - 0.5) return true;
+      for (j = keep.length - 1; j >= 0; j--) keep[j][1].insertBefore(keep[j][0], keep[j][2]);
+      return false;
+    }
+    var lts = el("nextShort").querySelectorAll(".lt");
+    for (var k = lts.length - 1; k >= 0 && hr.getBoundingClientRect().bottom > limit; k -= 2) if (!cut(k > 0 ? [lts[k], lts[k - 1]] : [lts[k]])) break;
+    if (!el("nextShort").querySelector(".lt")) { var lh = el("nextShort").querySelector(".lthead"); if (lh) lh.parentNode.removeChild(lh); }
+    // räcker det inte: korta nyhetsrutan och Natten-listan stegvis, sist tätare text i Kommande matcher
+    function over() { return hr.getBoundingClientRect().bottom > limit; }
+    function trim(root, sel, keep, step) {
+      var a = root ? root.querySelectorAll(sel) : [], n = 0;
+      for (var q = a.length - 1; q >= keep && over(); q -= step) {
+        var grp = step === 2 && q - 1 >= keep ? [a[q], a[q - 1]] : [a[q]];
+        if (!cut(grp)) break; n += grp.length;
+      }
+      return n;
+    }
+    var removed = 0;
+    trim(el("topShort"), ".tn", 3, 1);
+    removed += trim(el("gamesShort"), ".cols2 .ln", 4, 2);
+    trim(el("topShort"), ".tn", 2, 1);
+    removed += trim(el("gamesShort"), ".cols2 .ln", 2, 2);
+    if (removed) {
+      var mo = el("gamesShort").querySelector(".lnmore"), extra = removed + (mo ? +(mo.getAttribute("data-n") || 0) : 0);
+      if (!mo) { mo = document.createElement("div"); mo.className = "ln lnmore"; el("gamesShort").appendChild(mo); }
+      mo.setAttribute("data-n", extra); mo.innerHTML = "+ " + extra + " till – tryck för alla";
+    }
+    if (over()) { var c = el("nextShort").firstChild; if (c && c.className !== undefined && c.className.indexOf("nxdense") < 0) c.className += " nxdense"; }
+    var natural = hr.offsetHeight;
     var avail = window.innerHeight - hr.getBoundingClientRect().top - (window.pageYOffset || 0) - tb.offsetHeight - 8 - 6 - 6;
     if (avail > natural) hr.style.height = avail + "px";
   }
@@ -1433,7 +1547,7 @@
   }
   function syncTv() {
     if (!TVMODE) return;
-    var m = [["wxNow","tvWxNow"],["wxHours","tvWxHours"],["weekShort","tvWeek"],["gamesShort","tvGames"],["nextShort","tvNext"],["dayLight","tvDay"],["itShort","tvIt"],["prosDate","tvDate"]];
+    var m = [["wxNow","tvWxNow"],["wxHours","tvWxHours"],["weekShort","tvWeek"],["gamesShort","tvGames"],["dayLight","tvDay"],["itShort","tvIt"],["prosDate","tvDate"]];
     for (var i = 0; i < m.length; i++) el(m[i][1]).innerHTML = el(m[i][0]).innerHTML;
     renderTvPros();
     el("tvFoot").innerHTML = el("foot").innerHTML;
@@ -1462,7 +1576,7 @@
   };
 
   // ---------- Start ----------
-  function refreshAll() { loadWeather(); loadPrices(); renderGames(); loadStars(); renderNext(); renderDaylight(); renderFocus(); renderIt(); renderStoic(); renderNews(); renderToday(); el("foot").innerHTML = "Uppdaterad " + hm(SE()) + " · v23"; setTimeout(fitHem, 50); }
+  function refreshAll() { loadWeather(); loadPrices(); renderGames(); loadStars(); renderNext(); renderDaylight(); renderFocus(); renderIt(); renderStoic(); renderNews(); renderToday(); el("foot").innerHTML = "Uppdaterad " + hm(SE()) + " · v24"; setTimeout(fitHem, 50); }
   renderRecipes(); renderTimers(); renderToday(); route();
   refreshAll();
   setInterval(refreshAll, 15 * 60 * 1000);
