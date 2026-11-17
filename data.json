@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T07:19:00+01:00",
+ "updated": "2026-11-17T19:55:00+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -10,7 +10,7 @@
    "s": "16 GP · 13 M · 13 A · 26 P · −4",
    "l5": "6+3=9",
    "l5p": 9,
-   "note": "Ledde WHL med 51 mål förra säsongen. Assisterande lagkapten i Victoria."
+   "note": "Ledde WHL med 51 mål förra säsongen. Assisterande lagkapten i Victoria efter trejden i maj. NHL.com rankar honom som Dallas näst bästa prospect."
   },
   {
    "n": "Jakub Vaněček",
@@ -21,7 +21,7 @@
    "s": "19 GP · 3 M · 8 A · 11 P · −2",
    "l5": "1+3=4",
    "l5p": 4,
-   "note": "Dallas högsta val 2026. Klar för Western Michigan från 2027-28."
+   "note": "Dallas högsta val 2026. Klar för Western Michigan (NCAA) från 2027-28."
   },
   {
    "n": "Ryan Brown",
@@ -32,7 +32,7 @@
    "s": "16 GP · 5 M · 20 A · 25 P · +8",
    "l5": "2+4=6",
    "l5p": 6,
-   "note": "Ny lagkapten i London. Klar för Ohio State längre fram."
+   "note": "Ny lagkapten i London. Energispelare som utvecklat sitt passningsspel. Har åtagit sig att spela för Ohio State längre fram."
   },
   {
    "n": "Brandon Gorzynski",
@@ -43,7 +43,7 @@
    "s": "18 GP · 9 M · 5 A · 14 P · +2",
    "l5": "1+1=2",
    "l5p": 2,
-   "note": "Valde bort NCAA för en ny säsong i Prince Albert."
+   "note": "Valde bort NCAA för en ny säsong i Prince Albert. Vände den tunga starten med mål i sex raka matcher; poängsviten bröts i 0–2-förlusten i Red Deer 7 nov."
   },
   {
    "n": "Mikhail Cherepanov",
@@ -54,7 +54,7 @@
    "s": "18 GP · 3 M · 4 A · 7 P · +9",
    "l5": "1+2=3",
    "l5p": 3,
-   "note": "Rysk back från NAHL, importdraftad av Kamloops."
+   "note": "Rysk back, kom från NAHL (31 poäng på 56 matcher). Valdes av Kamloops i CHL:s importdraft."
   },
   {
    "n": "Jasper Kuhta",
@@ -65,7 +65,7 @@
    "s": "11 GP · 0 M · 3 A · 3 P · −4",
    "l5": "0+2=2",
    "l5p": 2,
-   "note": "Freshman i UMass powerplay."
+   "note": "Freshman i UMass powerplay. Saknades i båda matcherna i Maine 6–7 nov men var tillbaka i uppställningen mot Boston College 13 nov."
   },
   {
    "n": "Dawson Sharkey",
@@ -76,7 +76,7 @@
    "s": "8 GP · 5 M · 0 A · 5 P · −1",
    "l5": "4+0=4",
    "l5p": 4,
-   "note": "Freshman, fyra mål på fem matcher."
+   "note": "Freshman. Första collegemålet kom mot UMass; två mål (varav det matchavgörande) mot Holy Cross 7 nov."
   },
   {
    "n": "William Samuelsson",
@@ -87,7 +87,7 @@
    "s": "10 GP · 1 M · 0 A · 1 P · −5",
    "l5": "1+0=1",
    "l5p": 1,
-   "note": "Södertäljekille, första NCAA-säsongen efter USHL."
+   "note": "Södertäljekille, son till Mikael Samuelsson. Första NCAA-säsongen efter två år i USHL."
   },
   {
    "n": "George Fegaras",
@@ -98,7 +98,7 @@
    "s": "6 GP · 0 M · 2 A · 2 P · −1",
    "l5": "0+1=1",
    "l5p": 1,
-   "note": "Seniorår, ankare i Cornells backlinje. Ej kontrakterad."
+   "note": "Seniorår och given ankare i Cornells backlinje. Ännu ej kontrakterad av Dallas."
   },
   {
    "n": "Atte Joki",
@@ -109,7 +109,7 @@
    "s": "18 GP · 0 M · 0 A · 0 P · −3",
    "l5": "0+0=0",
    "l5p": 0,
-   "note": "Bra närkamper, svag i tekningar. Boxplayroll nästa steg."
+   "note": "Bra närkampssiffror men svag i tekningar. Boxplayroll är nästa steg att följa."
   },
   {
    "n": "Måns Goos",
@@ -120,7 +120,7 @@
    "s": "9 GP · 4-5 · 3.21 GAA · .876",
    "l5": "",
    "l5p": -1,
-   "note": "Utlånad från Färjestad. Stod när BIK slog AIK 3–2 efter förl. 13 nov."
+   "note": "Utlånad från Färjestad hela säsongen. Startade sju matcher när Olof Lindbom var skadad. Lindbom kom tillbaka 30 okt, men Goos stod när BIK slog serieledande AIK 3–2 efter förlängning 13 nov. JVM-guld 2026 som tredjemålvakt."
   },
   {
    "n": "Anton Emil Wilde Larsen",
@@ -131,7 +131,7 @@
    "s": "14 GP · 7-7 · 3.28 GAA · .877",
    "l5": "",
    "l5p": -1,
-   "note": "Dansk målvakt, kom från Frederikshavn i somras."
+   "note": "Dansk målvakt som flyttade från Frederikshavn till Linköping i somras."
   }
  ],
  "games": [
@@ -144,7 +144,7 @@
     "Wyatt Johnston",
     "Jason Robertson (OT)"
    ],
-   "note": "DeSmith 25 räddningar. Robertson avgjorde efter 2:56 av förlängningen."
+   "note": "Casey DeSmith 25 räddningar. Robertson avgjorde på backhand efter 2:56 av förlängningen (assist Hintz). Tyler Myers lämnade matchen skadad."
   },
   {
    "team": "texas",
@@ -155,7 +155,7 @@
     "Jack Becker",
     "Dylan Hryckowian (PP)"
    ],
-   "note": "Poirier i mål. Säsongens första bortaseger."
+   "note": "Rémi Poirier (konditionslån från Dallas) i mål, 12 räddningar i tredje perioden (total ej angiven). Hryckowians PP-mål i andra perioden avgjorde; säsongens första bortaseger."
   },
   {
    "team": "dallas",
@@ -166,7 +166,7 @@
     "Jamie Benn",
     "Wyatt Johnston (PP)"
    ],
-   "note": "Oettinger 22 räddningar och nolla."
+   "note": "Jake Oettinger 22 räddningar och nolla. Benn 1–0 i andra perioden, Johnston 2–0 i powerplay sent i tredje."
   },
   {
    "team": "texas",
@@ -177,7 +177,7 @@
     "Cameron Hughes (PP)",
     "Kyle Looft (SH)"
    ],
-   "note": "Halverson 38 räddningar."
+   "note": "Brandon Halverson 38 räddningar på 41 skott. Borikov avgjorde efter 39 sekunder av förlängningen."
   }
  ],
  "news": [
@@ -186,51 +186,170 @@
    "who": "Cameron Schmidt",
    "kind": "hl",
    "title": "Schmidt två assist när Victoria krossade Kelowna",
-   "game": "Kelowna 1–7 Victoria"
-  },
-  {
-   "d": "2026-11-14",
-   "who": "Dawson Sharkey",
-   "kind": "hl",
-   "title": "Sharkey mål igen när Northeastern vann i förlängning",
-   "game": "Northeastern 4–3 UConn (förl.)"
-  },
-  {
-   "d": "2026-11-14",
-   "who": "Ryan Brown",
-   "kind": "hl",
-   "title": "Brown assist när London föll i Saginaw",
-   "game": "Saginaw 6–5 London"
+   "game": "Kelowna 1–7 Victoria",
+   "sum": "Schmidt spelade fram till Savin Virks powerplaymål till 1–0 och Miles Coopers powerplaymål till 5–1 när Victoria vann 7–1 i Kelowna. 0+2, fyra skott, ±0 och 12 utvisningsminuter; nu 26 poäng på 16 matcher."
   },
   {
    "d": "2026-11-14",
    "who": "Jakub Vaněček",
    "kind": "hl",
-   "title": "Vaněček assist när Tri-City föll i förlängning",
-   "game": "Tri-City 3–4 Everett (förl.)"
+   "title": "Vaněček assist när Tri-City föll i förlängning mot Everett",
+   "game": "Tri-City 3–4 Everett (förl.)",
+   "sum": "Vaněček hade förstaassisten på Caden Campions 1–1 i första perioden, men Everett vann 4–3 efter Caine Wilkes mål i förlängningen. 0+1, ett skott och +1."
   },
   {
    "d": "2026-11-14",
    "who": "Jasper Kuhta",
    "kind": "hl",
    "title": "Kuhta assist när UMass föll mot Boston College",
-   "game": "UMass 2–4 Boston College"
+   "game": "UMass 2–4 Boston College",
+   "sum": "Kuhta spelade fram till Melvin Novotnys 2–4 i tredje perioden när UMass förlorade borta mot Boston College. 0+1, tre skott, ±0 och 11–7 i tekningar."
   },
   {
    "d": "2026-11-14",
-   "who": "Måns Goos",
+   "who": "Ryan Brown",
+   "kind": "hl",
+   "title": "Brown assist när London föll i målrik match i Saginaw",
+   "game": "Saginaw 6–5 London",
+   "sum": "Lagkaptenen spelade fram till Jonathan Kapageridis 1–0-mål i första perioden, men Saginaw vann 6–5. 0+1, två skott, −1 och 4 utvisningsminuter; nu 25 poäng på 16 matcher."
+  },
+  {
+   "d": "2026-11-14",
+   "who": "Dawson Sharkey",
+   "kind": "hl",
+   "title": "Sharkey mål igen när Northeastern vann i förlängning",
+   "game": "Northeastern 4–3 UConn (förl.)",
+   "sum": "Sharkey gjorde 1–0 efter 3:36 när Northeastern slog UConn 4–3 efter Joe Connors mål i förlängningen. Tre skott och ±0; fem mål på åtta matcher."
+  },
+  {
+   "d": "2026-11-14",
+   "who": "Dawson Sharkey",
+   "kind": "stat",
+   "title": "Sharkey har gjort mål i tre raka matcher",
+   "game": "Northeastern 4–3 UConn (förl.)",
+   "sum": "Freshmannen har nu mål i tre raka matcher (Holy Cross, UConn två gånger) och fem mål totalt, varav två matchavgörande."
+  },
+  {
+   "d": "2026-11-14",
+   "who": "Anton Emil Wilde Larsen",
    "kind": "news",
-   "title": "Goos stod när BIK föll i förlängning mot Almtuna",
-   "game": "Almtuna 3–2 BIK Karlskoga (förl.)"
+   "title": "Wilde Larsen stod när Linköping J20 föll i Växjö",
+   "game": "Växjö 3–2 Linköping J20",
+   "sum": "Wilde Larsen startade när Linköping J20 förlorade 2–3 borta mot Växjö efter att ha legat under 0–3. Enligt förbundets statistik släppte han in tre mål på cirka 35 skott."
+  },
+  {
+   "d": "2026-11-14",
+   "who": "George Fegaras",
+   "kind": "news",
+   "title": "Fegaras poänglös när Cornell föll mot Yale",
+   "game": "Cornell 1–3 Yale",
+   "sum": "Cornell ledde 1–0 men förlorade 1–3 borta mot Yale i ECAC. Fegaras hade tre skott och ±0."
+  },
+  {
+   "d": "2026-11-14",
+   "who": "Mikhail Cherepanov",
+   "kind": "news",
+   "title": "Cherepanov poänglös när Kamloops föll på straffar",
+   "game": "Prince George 2–1 Kamloops (straffar)",
+   "sum": "Kamloops förlorade 1–2 efter straffläggning borta mot Prince George. Cherepanov startade, hade ett skott och +1."
+  },
+  {
+   "d": "2026-11-14",
+   "who": "William Samuelsson",
+   "kind": "news",
+   "title": "Samuelsson poänglös när LSSU föll i Houghton",
+   "game": "Lake Superior State 2–5 Michigan Tech",
+   "sum": "Lake Superior State förlorade 2–5 mot Michigan Tech i andra matchen av helgserien. Samuelsson hade två skott och −1."
   }
  ],
  "next": [
+  {
+   "team": "prospect",
+   "who": "Gorzynski",
+   "club": "Prince Albert Raiders",
+   "t": "2026-11-18T01:00:00Z",
+   "opp": "Wenatchee Wild",
+   "s": "Wenatchee",
+   "home": true
+  },
   {
    "team": "dallas",
    "t": "2026-11-18T03:00:00Z",
    "opp": "Vegas Golden Knights",
    "home": false,
    "s": "Vegas"
+  },
+  {
+   "team": "prospect",
+   "who": "Schmidt",
+   "club": "Victoria Royals",
+   "t": "2026-11-18T03:05:00Z",
+   "opp": "Kamloops Blazers",
+   "s": "Kamloops",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Cherepanov",
+   "club": "Kamloops Blazers",
+   "t": "2026-11-18T03:05:00Z",
+   "opp": "Victoria Royals",
+   "s": "Victoria",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Goos",
+   "club": "BIK Karlskoga",
+   "t": "2026-11-18T18:00:00Z",
+   "opp": "IK Oskarshamn",
+   "s": "Oskarshamn",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Wilde Larsen",
+   "club": "Linköping HC J20",
+   "t": "2026-11-18T18:00:00Z",
+   "opp": "Västerås IK J20",
+   "s": "Västerås",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Schmidt",
+   "club": "Victoria Royals",
+   "t": "2026-11-19T03:05:00Z",
+   "opp": "Kamloops Blazers",
+   "s": "Kamloops",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Cherepanov",
+   "club": "Kamloops Blazers",
+   "t": "2026-11-19T03:05:00Z",
+   "opp": "Victoria Royals",
+   "s": "Victoria",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Kuhta",
+   "club": "UMass",
+   "t": "2026-11-19T23:00:00Z",
+   "opp": "Providence Friars",
+   "s": "Providence",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Sharkey",
+   "club": "Northeastern",
+   "t": "2026-11-20T00:00:00Z",
+   "opp": "Stonehill Skyhawks",
+   "s": "Stonehill",
+   "home": false
   },
   {
    "team": "dallas",
@@ -240,11 +359,155 @@
    "s": "Vegas"
   },
   {
+   "team": "prospect",
+   "who": "Joki",
+   "club": "HIFK",
+   "t": "2026-11-20T16:30:00Z",
+   "opp": "JYP",
+   "s": "JYP",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Goos",
+   "club": "BIK Karlskoga",
+   "t": "2026-11-20T18:00:00Z",
+   "opp": "Västerås IK",
+   "s": "Västerås",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Brown",
+   "club": "London Knights",
+   "t": "2026-11-21T00:00:00Z",
+   "opp": "Sault Ste. Marie Greyhounds",
+   "s": "Sault Ste. Marie",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Sharkey",
+   "club": "Northeastern",
+   "t": "2026-11-21T00:00:00Z",
+   "opp": "Stonehill Skyhawks",
+   "s": "Stonehill",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Fegaras",
+   "club": "Cornell",
+   "t": "2026-11-21T00:00:00Z",
+   "opp": "Clarkson Golden Knights",
+   "s": "Clarkson",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Samuelsson",
+   "club": "Lake Superior State",
+   "t": "2026-11-21T00:07:00Z",
+   "opp": "Bemidji State Beavers",
+   "s": "Bemidji State",
+   "home": true
+  },
+  {
    "team": "texas",
    "t": "2026-11-21T01:00:00Z",
    "opp": "San Jose Barracuda",
    "home": true,
    "s": "San Jose"
+  },
+  {
+   "team": "prospect",
+   "who": "Gorzynski",
+   "club": "Prince Albert Raiders",
+   "t": "2026-11-21T01:00:00Z",
+   "opp": "Portland Winterhawks",
+   "s": "Portland",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Schmidt",
+   "club": "Victoria Royals",
+   "t": "2026-11-21T03:05:00Z",
+   "opp": "Spokane Chiefs",
+   "s": "Spokane",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Vaněček",
+   "club": "Tri-City Americans",
+   "t": "2026-11-21T03:05:00Z",
+   "opp": "Seattle Thunderbirds",
+   "s": "Seattle",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Cherepanov",
+   "club": "Kamloops Blazers",
+   "t": "2026-11-21T03:05:00Z",
+   "opp": "Everett Silvertips",
+   "s": "Everett",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Wilde Larsen",
+   "club": "Linköping HC J20",
+   "t": "2026-11-21T14:00:00Z",
+   "opp": "Örebro HK J20",
+   "s": "Örebro",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Joki",
+   "club": "HIFK",
+   "t": "2026-11-21T15:00:00Z",
+   "opp": "KalPa",
+   "s": "KalPa",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Brown",
+   "club": "London Knights",
+   "t": "2026-11-21T21:07:00Z",
+   "opp": "Guelph Storm",
+   "s": "Guelph",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Kuhta",
+   "club": "UMass",
+   "t": "2026-11-21T22:00:00Z",
+   "opp": "Providence Friars",
+   "s": "Providence",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Samuelsson",
+   "club": "Lake Superior State",
+   "t": "2026-11-21T23:07:00Z",
+   "opp": "Bemidji State Beavers",
+   "s": "Bemidji State",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Fegaras",
+   "club": "Cornell",
+   "t": "2026-11-22T00:00:00Z",
+   "opp": "St. Lawrence Saints",
+   "s": "St. Lawrence",
+   "home": true
   },
   {
    "team": "texas",
@@ -254,11 +517,65 @@
    "s": "San Jose"
   },
   {
+   "team": "prospect",
+   "who": "Gorzynski",
+   "club": "Prince Albert Raiders",
+   "t": "2026-11-22T01:00:00Z",
+   "opp": "Medicine Hat Tigers",
+   "s": "Medicine Hat",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Schmidt",
+   "club": "Victoria Royals",
+   "t": "2026-11-22T02:05:00Z",
+   "opp": "Tri-City Americans",
+   "s": "Tri-City",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Vaněček",
+   "club": "Tri-City Americans",
+   "t": "2026-11-22T02:05:00Z",
+   "opp": "Victoria Royals",
+   "s": "Victoria",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Brown",
+   "club": "London Knights",
+   "t": "2026-11-22T23:00:00Z",
+   "opp": "Peterborough Petes",
+   "s": "Peterborough",
+   "home": true
+  },
+  {
    "team": "dallas",
    "t": "2026-11-23T00:00:00Z",
    "opp": "Pittsburgh Penguins",
    "home": true,
    "s": "Pittsburgh"
+  },
+  {
+   "team": "prospect",
+   "who": "Cherepanov",
+   "club": "Kamloops Blazers",
+   "t": "2026-11-23T00:00:00Z",
+   "opp": "Vancouver Giants",
+   "s": "Vancouver",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Sharkey",
+   "club": "Northeastern",
+   "t": "2026-11-25T00:00:00Z",
+   "opp": "Brown Bears",
+   "s": "Brown",
+   "home": false
   },
   {
    "team": "texas",
@@ -308,6 +625,20 @@
    "opp": "Chicago Wolves",
    "home": false,
    "s": "Chicago"
+  },
+  {
+   "team": "texas",
+   "t": "2026-12-02T01:00:00Z",
+   "opp": "Milwaukee Admirals",
+   "s": "Milwaukee",
+   "home": false
+  },
+  {
+   "team": "dallas",
+   "t": "2026-12-02T02:40:00Z",
+   "opp": "Seattle Kraken",
+   "s": "Seattle",
+   "home": false
   }
  ]
 }
