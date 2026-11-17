@@ -223,5 +223,91 @@
    "title": "Goos stod när BIK föll i förlängning mot Almtuna",
    "game": "Almtuna 3–2 BIK Karlskoga (förl.)"
   }
+ ],
+ "next": [
+  {
+   "team": "dallas",
+   "t": "2026-11-18T03:00:00Z",
+   "opp": "Vegas Golden Knights",
+   "home": false,
+   "s": "Vegas"
+  },
+  {
+   "team": "dallas",
+   "t": "2026-11-20T03:00:00Z",
+   "opp": "Vegas Golden Knights",
+   "home": false,
+   "s": "Vegas"
+  },
+  {
+   "team": "texas",
+   "t": "2026-11-21T01:00:00Z",
+   "opp": "San Jose Barracuda",
+   "home": true,
+   "s": "San Jose"
+  },
+  {
+   "team": "texas",
+   "t": "2026-11-22T01:00:00Z",
+   "opp": "San Jose Barracuda",
+   "home": true,
+   "s": "San Jose"
+  },
+  {
+   "team": "dallas",
+   "t": "2026-11-23T00:00:00Z",
+   "opp": "Pittsburgh Penguins",
+   "home": true,
+   "s": "Pittsburgh"
+  },
+  {
+   "team": "texas",
+   "t": "2026-11-25T01:00:00Z",
+   "opp": "Tucson Roadrunners",
+   "home": true,
+   "s": "Tucson"
+  },
+  {
+   "team": "dallas",
+   "t": "2026-11-26T01:00:00Z",
+   "opp": "Nashville Predators",
+   "home": true,
+   "s": "Nashville"
+  },
+  {
+   "team": "texas",
+   "t": "2026-11-26T01:00:00Z",
+   "opp": "Tucson Roadrunners",
+   "home": true,
+   "s": "Tucson"
+  },
+  {
+   "team": "dallas",
+   "t": "2026-11-27T19:00:00Z",
+   "opp": "St. Louis Blues",
+   "home": false,
+   "s": "St. Louis"
+  },
+  {
+   "team": "texas",
+   "t": "2026-11-28T01:00:00Z",
+   "opp": "Rockford IceHogs",
+   "home": false,
+   "s": "Rockford"
+  },
+  {
+   "team": "dallas",
+   "t": "2026-11-29T01:00:00Z",
+   "opp": "Utah Mammoth",
+   "home": true,
+   "s": "Utah"
+  },
+  {
+   "team": "texas",
+   "t": "2026-11-29T21:00:00Z",
+   "opp": "Chicago Wolves",
+   "home": false,
+   "s": "Chicago"
+  }
  ]
 }
