@@ -107,8 +107,25 @@ def ht_schedule(lg, team_id):
     sid = ht_season(lg)
     return ht(lg, feed="modulekit", view="schedule", team_id=team_id, season_id=sid)["SiteKit"]["Schedule"]
 
+_TZ_ABBR = {"P": "America/Los_Angeles", "M": "America/Denver", "C": "America/Chicago", "E": "America/New_York",
+            "A": "America/Halifax"}
+
 def ht_game_time(g):
-    return datetime.fromisoformat(g["GameDateISO8601"]).astimezone(UTC)
+    # GameDateISO8601 har ibland fel offset (sommartid i november), så räkna
+    # själv från lokal tid + tidszonsförkortningen i scheduled_time.
+    try:
+        dp, st = g["date_played"], g["schedule_time"]
+        tzf = str(g.get("timezone", "")).replace("\\/", "/")
+        m = re.search(r"\b([PMCEA])[SDC]T\b", str(g.get("scheduled_time", "")).upper())
+        if any(k in tzf for k in ("Regina", "Saskatchewan", "Swift")):
+            zone = "America/Regina"
+        elif m:
+            zone = _TZ_ABBR[m.group(1)]
+        else:
+            zone = tzf
+        return datetime.fromisoformat(f"{dp}T{st}").replace(tzinfo=ZoneInfo(zone)).astimezone(UTC)
+    except Exception:
+        return datetime.fromisoformat(g["GameDateISO8601"]).astimezone(UTC)
 
 def ht_opp(g, team_id):
     home = str(g["home_team"]) == str(team_id)
@@ -135,7 +152,12 @@ def ht_player(p):
     row = [r for r in d.get("regular", []) if str(r.get("season_id")) == str(sid)]
     if not row:
         raise ValueError("ingen säsongsrad")
-    # spelaren kan ha bytt lag under säsongen: summera
+    # ibland finns både lagrader och en totalrad, eller dubbletter: välj totalrad, annars en rad per lag
+    tot = [r for r in row if str(r.get("team_id", "")).strip() in ("", "0") or "total" in str(r.get("team_name", "")).lower()]
+    if tot:
+        row = tot[:1]
+    else:
+        row = list({str(r.get("team_id")): r for r in row}.values())
     s = {"gp": 0, "g": 0, "a": 0, "p": 0, "pm": 0, "pim": 0}
     for r in row:
         s["gp"] += i(r.get("games_played")); s["g"] += i(r.get("goals")); s["a"] += i(r.get("assists"))
@@ -198,6 +220,8 @@ def ncaa_upcoming(url, days):
 
 def table_rows(soup):
     for tr in soup.find_all("tr"):
+        if tr.find("table"):
+            continue  # yttre layoutrad med en nästlad tabell
         cells = [c.get_text(" ", strip=True).replace("‑", "-").replace("−", "-") for c in tr.find_all(["td", "th"])]
         yield tr, cells
 
