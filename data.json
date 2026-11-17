@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T19:55:00+01:00",
+ "updated": "2026-11-17T21:38:21+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -8,8 +8,8 @@
    "lg": "WHL",
    "dr": "2025 R3",
    "s": "16 GP · 13 M · 13 A · 26 P · −4",
-   "l5": "6+3=9",
-   "l5p": 9,
+   "l5": "5+3=8",
+   "l5p": 8,
    "note": "Ledde WHL med 51 mål förra säsongen. Assisterande lagkapten i Victoria efter trejden i maj. NHL.com rankar honom som Dallas näst bästa prospect."
   },
   {
@@ -18,7 +18,7 @@
    "team": "Tri-City Americans",
    "lg": "WHL",
    "dr": "2026 R2 #59",
-   "s": "19 GP · 3 M · 8 A · 11 P · −2",
+   "s": "19 GP · 3 M · 8 A · 11 P · −3",
    "l5": "1+3=4",
    "l5p": 4,
    "note": "Dallas högsta val 2026. Klar för Western Michigan (NCAA) från 2027-28."
@@ -29,7 +29,7 @@
    "team": "London Knights",
    "lg": "OHL",
    "dr": "2026 R5 #155",
-   "s": "16 GP · 5 M · 20 A · 25 P · +8",
+   "s": "16 GP · 5 M · 20 A · 25 P · +9",
    "l5": "2+4=6",
    "l5p": 6,
    "note": "Ny lagkapten i London. Energispelare som utvecklat sitt passningsspel. Har åtagit sig att spela för Ohio State längre fram."
@@ -40,7 +40,7 @@
    "team": "Prince Albert Raiders",
    "lg": "WHL",
    "dr": "2025 R4 #126",
-   "s": "18 GP · 9 M · 5 A · 14 P · +2",
+   "s": "18 GP · 9 M · 5 A · 14 P · +1",
    "l5": "1+1=2",
    "l5p": 2,
    "note": "Valde bort NCAA för en ny säsong i Prince Albert. Vände den tunga starten med mål i sex raka matcher; poängsviten bröts i 0–2-förlusten i Red Deer 7 nov."
@@ -51,7 +51,7 @@
    "team": "Kamloops Blazers",
    "lg": "WHL",
    "dr": "2026 R7 #219",
-   "s": "18 GP · 3 M · 4 A · 7 P · +9",
+   "s": "36 GP · 6 M · 8 A · 14 P · +18",
    "l5": "1+2=3",
    "l5p": 3,
    "note": "Rysk back, kom från NAHL (31 poäng på 56 matcher). Valdes av Kamloops i CHL:s importdraft."
@@ -106,7 +106,7 @@
    "team": "HIFK",
    "lg": "Liiga",
    "dr": "",
-   "s": "18 GP · 0 M · 0 A · 0 P · −3",
+   "s": "18 GP · 0 M · 0 A · 0 P · −3 · 9:31 istid/match",
    "l5": "0+0=0",
    "l5p": 0,
    "note": "Bra närkampssiffror men svag i tekningar. Boxplayroll är nästa steg att följa."
@@ -117,7 +117,7 @@
    "team": "BIK Karlskoga",
    "lg": "HockeyAllsvenskan",
    "dr": "2025 R5 #158",
-   "s": "9 GP · 4-5 · 3.21 GAA · .876",
+   "s": "9 GP · 4-5 · 3.22 GAA · .876",
    "l5": "",
    "l5p": -1,
    "note": "Utlånad från Färjestad hela säsongen. Startade sju matcher när Olof Lindbom var skadad. Lindbom kom tillbaka 30 okt, men Goos stod när BIK slog serieledande AIK 3–2 efter förlängning 13 nov. JVM-guld 2026 som tredjemålvakt."
@@ -128,7 +128,7 @@
    "team": "Linköping HC J20",
    "lg": "U20 Nationell",
    "dr": "2026 R6 #187",
-   "s": "14 GP · 7-7 · 3.28 GAA · .877",
+   "s": "15 GP · 8-7 · 3.12 GAA · .880",
    "l5": "",
    "l5p": -1,
    "note": "Dansk målvakt som flyttade från Frederikshavn till Linköping i somras."
@@ -273,17 +273,10 @@
    "home": true
   },
   {
-   "team": "dallas",
-   "t": "2026-11-18T03:00:00Z",
-   "opp": "Vegas Golden Knights",
-   "home": false,
-   "s": "Vegas"
-  },
-  {
    "team": "prospect",
    "who": "Schmidt",
    "club": "Victoria Royals",
-   "t": "2026-11-18T03:05:00Z",
+   "t": "2026-11-18T02:05:00Z",
    "opp": "Kamloops Blazers",
    "s": "Kamloops",
    "home": true
@@ -292,34 +285,23 @@
    "team": "prospect",
    "who": "Cherepanov",
    "club": "Kamloops Blazers",
-   "t": "2026-11-18T03:05:00Z",
+   "t": "2026-11-18T02:05:00Z",
    "opp": "Victoria Royals",
    "s": "Victoria",
    "home": false
   },
   {
-   "team": "prospect",
-   "who": "Goos",
-   "club": "BIK Karlskoga",
-   "t": "2026-11-18T18:00:00Z",
-   "opp": "IK Oskarshamn",
-   "s": "Oskarshamn",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Wilde Larsen",
-   "club": "Linköping HC J20",
-   "t": "2026-11-18T18:00:00Z",
-   "opp": "Västerås IK J20",
-   "s": "Västerås",
-   "home": true
+   "team": "dallas",
+   "t": "2026-11-18T03:00:00Z",
+   "opp": "Vegas Golden Knights",
+   "s": "Vegas",
+   "home": false
   },
   {
    "team": "prospect",
    "who": "Schmidt",
    "club": "Victoria Royals",
-   "t": "2026-11-19T03:05:00Z",
+   "t": "2026-11-19T02:05:00Z",
    "opp": "Kamloops Blazers",
    "s": "Kamloops",
    "home": true
@@ -328,7 +310,7 @@
    "team": "prospect",
    "who": "Cherepanov",
    "club": "Kamloops Blazers",
-   "t": "2026-11-19T03:05:00Z",
+   "t": "2026-11-19T02:05:00Z",
    "opp": "Victoria Royals",
    "s": "Victoria",
    "home": false
@@ -338,7 +320,7 @@
    "who": "Kuhta",
    "club": "UMass",
    "t": "2026-11-19T23:00:00Z",
-   "opp": "Providence Friars",
+   "opp": "Providence",
    "s": "Providence",
    "home": true
   },
@@ -347,7 +329,7 @@
    "who": "Sharkey",
    "club": "Northeastern",
    "t": "2026-11-20T00:00:00Z",
-   "opp": "Stonehill Skyhawks",
+   "opp": "Stonehill",
    "s": "Stonehill",
    "home": false
   },
@@ -355,8 +337,8 @@
    "team": "dallas",
    "t": "2026-11-20T03:00:00Z",
    "opp": "Vegas Golden Knights",
-   "home": false,
-   "s": "Vegas"
+   "s": "Vegas",
+   "home": false
   },
   {
    "team": "prospect",
@@ -369,19 +351,10 @@
   },
   {
    "team": "prospect",
-   "who": "Goos",
-   "club": "BIK Karlskoga",
-   "t": "2026-11-20T18:00:00Z",
-   "opp": "Västerås IK",
-   "s": "Västerås",
-   "home": false
-  },
-  {
-   "team": "prospect",
    "who": "Brown",
    "club": "London Knights",
    "t": "2026-11-21T00:00:00Z",
-   "opp": "Sault Ste. Marie Greyhounds",
+   "opp": "Soo Greyhounds",
    "s": "Sault Ste. Marie",
    "home": true
   },
@@ -390,7 +363,7 @@
    "who": "Sharkey",
    "club": "Northeastern",
    "t": "2026-11-21T00:00:00Z",
-   "opp": "Stonehill Skyhawks",
+   "opp": "Stonehill",
    "s": "Stonehill",
    "home": false
   },
@@ -399,7 +372,7 @@
    "who": "Fegaras",
    "club": "Cornell",
    "t": "2026-11-21T00:00:00Z",
-   "opp": "Clarkson Golden Knights",
+   "opp": "Clarkson University",
    "s": "Clarkson",
    "home": true
   },
@@ -408,16 +381,9 @@
    "who": "Samuelsson",
    "club": "Lake Superior State",
    "t": "2026-11-21T00:07:00Z",
-   "opp": "Bemidji State Beavers",
+   "opp": "Bemidji State University",
    "s": "Bemidji State",
    "home": true
-  },
-  {
-   "team": "texas",
-   "t": "2026-11-21T01:00:00Z",
-   "opp": "San Jose Barracuda",
-   "home": true,
-   "s": "San Jose"
   },
   {
    "team": "prospect",
@@ -426,6 +392,13 @@
    "t": "2026-11-21T01:00:00Z",
    "opp": "Portland Winterhawks",
    "s": "Portland",
+   "home": true
+  },
+  {
+   "team": "texas",
+   "t": "2026-11-21T01:00:00Z",
+   "opp": "San Jose Barracuda",
+   "s": "San Jose",
    "home": true
   },
   {
@@ -457,15 +430,6 @@
   },
   {
    "team": "prospect",
-   "who": "Wilde Larsen",
-   "club": "Linköping HC J20",
-   "t": "2026-11-21T14:00:00Z",
-   "opp": "Örebro HK J20",
-   "s": "Örebro",
-   "home": true
-  },
-  {
-   "team": "prospect",
    "who": "Joki",
    "club": "HIFK",
    "t": "2026-11-21T15:00:00Z",
@@ -487,7 +451,7 @@
    "who": "Kuhta",
    "club": "UMass",
    "t": "2026-11-21T22:00:00Z",
-   "opp": "Providence Friars",
+   "opp": "Providence",
    "s": "Providence",
    "home": false
   },
@@ -496,7 +460,7 @@
    "who": "Samuelsson",
    "club": "Lake Superior State",
    "t": "2026-11-21T23:07:00Z",
-   "opp": "Bemidji State Beavers",
+   "opp": "Bemidji State University",
    "s": "Bemidji State",
    "home": true
   },
@@ -505,16 +469,9 @@
    "who": "Fegaras",
    "club": "Cornell",
    "t": "2026-11-22T00:00:00Z",
-   "opp": "St. Lawrence Saints",
+   "opp": "St. Lawrence University",
    "s": "St. Lawrence",
    "home": true
-  },
-  {
-   "team": "texas",
-   "t": "2026-11-22T01:00:00Z",
-   "opp": "San Jose Barracuda",
-   "home": true,
-   "s": "San Jose"
   },
   {
    "team": "prospect",
@@ -523,6 +480,13 @@
    "t": "2026-11-22T01:00:00Z",
    "opp": "Medicine Hat Tigers",
    "s": "Medicine Hat",
+   "home": true
+  },
+  {
+   "team": "texas",
+   "t": "2026-11-22T01:00:00Z",
+   "opp": "San Jose Barracuda",
+   "s": "San Jose",
    "home": true
   },
   {
@@ -553,91 +517,68 @@
    "home": true
   },
   {
-   "team": "dallas",
-   "t": "2026-11-23T00:00:00Z",
-   "opp": "Pittsburgh Penguins",
-   "home": true,
-   "s": "Pittsburgh"
-  },
-  {
    "team": "prospect",
    "who": "Cherepanov",
    "club": "Kamloops Blazers",
-   "t": "2026-11-23T00:00:00Z",
+   "t": "2026-11-22T23:00:00Z",
    "opp": "Vancouver Giants",
    "s": "Vancouver",
    "home": false
   },
   {
-   "team": "prospect",
-   "who": "Sharkey",
-   "club": "Northeastern",
-   "t": "2026-11-25T00:00:00Z",
-   "opp": "Brown Bears",
-   "s": "Brown",
-   "home": false
+   "team": "dallas",
+   "t": "2026-11-23T00:00:00Z",
+   "opp": "Pittsburgh Penguins",
+   "s": "Pittsburgh",
+   "home": true
   },
   {
    "team": "texas",
    "t": "2026-11-25T01:00:00Z",
    "opp": "Tucson Roadrunners",
-   "home": true,
-   "s": "Tucson"
+   "s": "Tucson",
+   "home": true
   },
   {
    "team": "dallas",
    "t": "2026-11-26T01:00:00Z",
    "opp": "Nashville Predators",
-   "home": true,
-   "s": "Nashville"
+   "s": "Nashville",
+   "home": true
   },
   {
    "team": "texas",
    "t": "2026-11-26T01:00:00Z",
    "opp": "Tucson Roadrunners",
-   "home": true,
-   "s": "Tucson"
+   "s": "Tucson",
+   "home": true
   },
   {
    "team": "dallas",
    "t": "2026-11-27T19:00:00Z",
    "opp": "St. Louis Blues",
-   "home": false,
-   "s": "St. Louis"
+   "s": "St. Louis",
+   "home": false
   },
   {
    "team": "texas",
    "t": "2026-11-28T01:00:00Z",
    "opp": "Rockford IceHogs",
-   "home": false,
-   "s": "Rockford"
+   "s": "Rockford",
+   "home": false
   },
   {
    "team": "dallas",
    "t": "2026-11-29T01:00:00Z",
    "opp": "Utah Mammoth",
-   "home": true,
-   "s": "Utah"
+   "s": "Utah",
+   "home": true
   },
   {
    "team": "texas",
    "t": "2026-11-29T21:00:00Z",
    "opp": "Chicago Wolves",
-   "home": false,
-   "s": "Chicago"
-  },
-  {
-   "team": "texas",
-   "t": "2026-12-02T01:00:00Z",
-   "opp": "Milwaukee Admirals",
-   "s": "Milwaukee",
-   "home": false
-  },
-  {
-   "team": "dallas",
-   "t": "2026-12-02T02:40:00Z",
-   "opp": "Seattle Kraken",
-   "s": "Seattle",
+   "s": "Chicago",
    "home": false
   }
  ]
