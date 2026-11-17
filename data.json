@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:38:21+01:00",
+ "updated": "2026-11-17T21:42:45+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -51,7 +51,7 @@
    "team": "Kamloops Blazers",
    "lg": "WHL",
    "dr": "2026 R7 #219",
-   "s": "36 GP · 6 M · 8 A · 14 P · +18",
+   "s": "18 GP · 3 M · 4 A · 7 P · +9",
    "l5": "1+2=3",
    "l5p": 3,
    "note": "Rysk back, kom från NAHL (31 poäng på 56 matcher). Valdes av Kamloops i CHL:s importdraft."
@@ -273,24 +273,6 @@
    "home": true
   },
   {
-   "team": "prospect",
-   "who": "Schmidt",
-   "club": "Victoria Royals",
-   "t": "2026-11-18T02:05:00Z",
-   "opp": "Kamloops Blazers",
-   "s": "Kamloops",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Cherepanov",
-   "club": "Kamloops Blazers",
-   "t": "2026-11-18T02:05:00Z",
-   "opp": "Victoria Royals",
-   "s": "Victoria",
-   "home": false
-  },
-  {
    "team": "dallas",
    "t": "2026-11-18T03:00:00Z",
    "opp": "Vegas Golden Knights",
@@ -301,7 +283,7 @@
    "team": "prospect",
    "who": "Schmidt",
    "club": "Victoria Royals",
-   "t": "2026-11-19T02:05:00Z",
+   "t": "2026-11-18T03:05:00Z",
    "opp": "Kamloops Blazers",
    "s": "Kamloops",
    "home": true
@@ -310,7 +292,25 @@
    "team": "prospect",
    "who": "Cherepanov",
    "club": "Kamloops Blazers",
-   "t": "2026-11-19T02:05:00Z",
+   "t": "2026-11-18T03:05:00Z",
+   "opp": "Victoria Royals",
+   "s": "Victoria",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Schmidt",
+   "club": "Victoria Royals",
+   "t": "2026-11-19T03:05:00Z",
+   "opp": "Kamloops Blazers",
+   "s": "Kamloops",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Cherepanov",
+   "club": "Kamloops Blazers",
+   "t": "2026-11-19T03:05:00Z",
    "opp": "Victoria Royals",
    "s": "Victoria",
    "home": false
@@ -520,7 +520,7 @@
    "team": "prospect",
    "who": "Cherepanov",
    "club": "Kamloops Blazers",
-   "t": "2026-11-22T23:00:00Z",
+   "t": "2026-11-23T00:00:00Z",
    "opp": "Vancouver Giants",
    "s": "Vancouver",
    "home": false
