@@ -501,7 +501,39 @@
     95:["⛈️","Åska"],96:["⛈️","Åska med hagel"],99:["⛈️","Åska med hagel"]
   };
   function wx(code) { return WX[code] || ["🌡️", "–"]; }
-  var weather = null, wxIsDemo = false;
+  var weather = null, wxIsDemo = false, wxErr = "", wxRetry = null;
+  // Reserv: MET Norway (yr.no) om Open-Meteo inte svarar
+  var MET = { clearsky: 0, fair: 1, partlycloudy: 2, cloudy: 3, fog: 45, lightrain: 61, rain: 63, heavyrain: 65,
+    lightrainshowers: 80, rainshowers: 81, heavyrainshowers: 82, lightsleet: 66, sleet: 67, heavysleet: 67,
+    lightsleetshowers: 66, sleetshowers: 67, lightsnow: 71, snow: 73, heavysnow: 75, lightsnowshowers: 85, snowshowers: 85, heavysnowshowers: 86 };
+  function metCode(sym) { if (!sym) return 3; var k = sym.split("_")[0]; if (k.indexOf("thunder") >= 0) return 95; return MET.hasOwnProperty(k) ? MET[k] : 3; }
+  function loadWeatherMet() {
+    getJSON("https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=" + LAT + "&lon=" + LON, function (j) {
+      var ts = j.properties.timeseries, now = SE(), hrs = { time: [], t: [], code: [], pp: [] }, byDay = {}, order = [], cur = null;
+      for (var i = 0; i < ts.length; i++) {
+        var ms = RD.parse(ts[i].time), x = SEat(ms), d = ts[i].data, t = d.instant.details.air_temperature;
+        var sym = d.next_1_hours ? d.next_1_hours.summary.symbol_code : (d.next_6_hours ? d.next_6_hours.summary.symbol_code : "");
+        var key = x.getFullYear() + "-" + pad(x.getMonth() + 1) + "-" + pad(x.getDate());
+        if (!byDay[key]) { byDay[key] = { max: -99, min: 99, code: 0, pr: 0, d: x }; order.push(key); }
+        var bd = byDay[key]; bd.max = Math.max(bd.max, t); bd.min = Math.min(bd.min, t);
+        var c = metCode(sym); if (c > bd.code) bd.code = c;
+        if (d.next_1_hours && d.next_1_hours.details) bd.pr += d.next_1_hours.details.precipitation_amount || 0;
+        if (x.getTime() < now.getTime() - 3600000) continue;
+        if (!cur) cur = { t: Math.round(t), feels: Math.round(t), wind: Math.round(d.instant.details.wind_speed), code: c };
+        if (hrs.time.length < 48) { hrs.time.push(x); hrs.t.push(Math.round(t)); hrs.code.push(c); hrs.pp.push(null); }
+      }
+      var days = { time: [], max: [], min: [], code: [], pr: [] };
+      for (var k = 0; k < order.length && days.time.length < 7; k++) { var o = byDay[order[k]];
+        days.time.push(o.d); days.max.push(Math.round(o.max)); days.min.push(Math.round(o.min)); days.code.push(o.code); days.pr.push(Math.round(o.pr * 10) / 10); }
+      var dm = demoWeather();
+      weather = { cur: cur, hours: hrs, days: days, sunrise: dm.sunrise, sunset: dm.sunset };
+      wxIsDemo = false; wxErr = ""; renderWeather();
+    }, function (why) {
+      wxErr += " · MET Norway: " + why;
+      weather = demoWeather(); wxIsDemo = true; renderWeather();
+      if (!wxRetry) wxRetry = setTimeout(function () { wxRetry = null; loadWeather(); }, 60000);
+    });
+  }
 
   function demoWeather() {
     var now = SE(), h = [], t = [], c = [], p = [], dd = [], mx = [], mn = [], dc = [], pr = [];
@@ -538,13 +570,13 @@
       weather = { cur: { t: Math.round(j.current.temperature_2m), feels: Math.round(j.current.apparent_temperature),
                          wind: Math.round(j.current.wind_speed_10m), code: j.current.weather_code },
                   hours: hrs, days: days, sunrise: parseLocal(j.daily.sunrise[0]), sunset: parseLocal(j.daily.sunset[0]) };
-      wxIsDemo = false; renderWeather();
-    }, function () { weather = demoWeather(); wxIsDemo = true; renderWeather(); });
+      wxIsDemo = false; wxErr = ""; renderWeather();
+    }, function (why) { wxErr = "Open-Meteo: " + why; loadWeatherMet(); });
   }
 
   function renderWeather() {
     var w = weather, i = wx(w.cur.code);
-    el("wxDemo").innerHTML = wxIsDemo ? '<span class="demo">exempel</span>' : "";
+    el("wxDemo").innerHTML = wxIsDemo ? '<span class="demo">exempel · kunde inte hämta</span>' : "";
     el("wxNow").innerHTML =
       '<div class="wx"><div class="wx-icon">' + i[0] + '</div><div><div class="wx-temp">' + w.cur.t + '°</div>' +
       '<div class="wx-desc">' + i[1] + ' <span class="muted small">· känns som ' + w.cur.feels + '° · vind ' + w.cur.wind + ' m/s</span></div></div></div>';
@@ -558,7 +590,7 @@
 
   function weatherDetail() {
     var w = weather; if (!w) return "<h2>Väder</h2><p class='muted'>Hämtar…</p>";
-    var s = "<h2>Väder i Tornesund" + (wxIsDemo ? ' <span class="demo">exempel</span>' : "") + "</h2>";
+    var s = "<h2>Väder i Tornesund" + (wxIsDemo ? ' <span class="demo">exempel</span>' : "") + "</h2>" + (wxIsDemo ? '<p class="muted small">Kunde inte hämta vädret (' + esc(wxErr) + '). Försöker igen om en minut.</p>' : "");
     s += '<div class="label">Nederbördsradar · senaste 2 timmarna</div><div id="radar"></div>';
     s += '<div class="radar-bar"><button class="speak" id="radarPlay">⏸ Pausa</button><div class="radar-time" id="radarTime">Laddar radar…</div>';
     s += '<a class="linkbtn" href="' + WINDY + '">⚡ Blixtar & radar i Windy</a></div>';
@@ -567,7 +599,7 @@
     s += '<div class="label">Kommande timmar</div><div class="wx-hours" style="-webkit-flex-wrap:wrap;flex-wrap:wrap">';
     for (var k = 0; k < 24 && k < w.hours.time.length; k += 2) {
       s += '<div class="wx-h" style="-webkit-flex:0 0 16.6%;flex:0 0 16.6%;margin-bottom:12px">' + pad(w.hours.time[k].getHours()) + ':00<span class="i">' + wx(w.hours.code[k])[0] +
-           '</span><span class="t">' + w.hours.t[k] + '°</span><br><span class="small">' + (w.hours.pp[k] || 0) + '% ☂︎</span></div>';
+           '</span><span class="t">' + w.hours.t[k] + '°</span><br><span class="small">' + (w.hours.pp[k] == null ? '' : w.hours.pp[k] + '% ☂︎') + '</span></div>';
     }
     s += '</div><div class="label" style="margin-top:14px">Veckan</div><div class="days">';
     for (var j = 0; j < w.days.time.length; j++) {
@@ -857,11 +889,15 @@
   function getJSON(url, ok, fail) {
     try {
       var x = new XMLHttpRequest();
-      x.open("GET", url, true); x.timeout = 8000;
-      x.onload = function () { if (x.status === 200) { try { ok(JSON.parse(x.responseText)); } catch (e) { fail(); } } else fail(); };
-      x.onerror = fail; x.ontimeout = fail; x.send();
-    } catch (e) { fail(); }
+      x.open("GET", url, true); x.timeout = 15000;
+      x.onload = function () {
+        if (x.status === 200) { try { ok(JSON.parse(x.responseText)); } catch (e) { fail("tolkningsfel: " + e.message); } }
+        else fail("svar " + x.status);
+      };
+      x.onerror = function () { fail("nätverksfel"); }; x.ontimeout = function () { fail("tidsgräns"); }; x.send();
+    } catch (e) { fail("kunde inte skicka: " + e.message); }
   }
+
 
   // ================= KÖK =================
   // Ingredienser: [mängd, enhet, namn] eller ["#", "Rubrik"]. Steg: [text, timerminuter]
@@ -1254,7 +1290,7 @@
   };
 
   // ---------- Start ----------
-  function refreshAll() { loadWeather(); loadPrices(); renderCal(); renderTrips(); renderGames(); loadStars(); renderIt(); renderStoic(); renderNews(); renderToday(); el("foot").innerHTML = "Uppdaterad " + hm(SE()) + " · v18"; }
+  function refreshAll() { loadWeather(); loadPrices(); renderCal(); renderTrips(); renderGames(); loadStars(); renderIt(); renderStoic(); renderNews(); renderToday(); el("foot").innerHTML = "Uppdaterad " + hm(SE()) + " · v19"; }
   renderRecipes(); renderTimers(); renderToday(); route();
   refreshAll();
   setInterval(refreshAll, 15 * 60 * 1000);
