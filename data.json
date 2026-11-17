@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:49:46+01:00",
+ "updated": "2026-11-17T22:12:51+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -120,7 +120,14 @@
    "s": "9 GP · 4-5 · 3.22 GAA · .876",
    "l5": "",
    "l5p": -1,
-   "note": "Utlånad från Färjestad hela säsongen. Startade sju matcher när Olof Lindbom var skadad. Lindbom kom tillbaka 30 okt, men Goos stod när BIK slog serieledande AIK 3–2 efter förlängning 13 nov. JVM-guld 2026 som tredjemålvakt."
+   "note": "Utlånad från Färjestad hela säsongen. Startade sju matcher när Olof Lindbom var skadad. Lindbom kom tillbaka 30 okt, men Goos stod när BIK slog serieledande AIK 3–2 efter förlängning 13 nov. JVM-guld 2026 som tredjemålvakt.",
+   "raw": {
+    "gpi": 9,
+    "svs": 198,
+    "ga": 28,
+    "w": 4,
+    "l": 5
+   }
   },
   {
    "n": "Anton Emil Wilde Larsen",
@@ -131,7 +138,14 @@
    "s": "15 GP · 8-7 · 3.12 GAA · .880",
    "l5": "",
    "l5p": -1,
-   "note": "Dansk målvakt som flyttade från Frederikshavn till Linköping i somras."
+   "note": "Dansk målvakt som flyttade från Frederikshavn till Linköping i somras.",
+   "raw": {
+    "gpi": 15,
+    "svs": 339,
+    "ga": 46,
+    "w": 8,
+    "l": 7
+   }
   }
  ],
  "games": [
@@ -222,6 +236,56 @@
    "sum": "Sharkey gjorde 1–0 efter 3:36 när Northeastern slog UConn 4–3 efter Joe Connors mål i förlängningen. Tre skott och ±0; fem mål på åtta matcher."
   },
   {
+   "id": "2026-11-14-Schmidt-1023294",
+   "d": "2026-11-14",
+   "who": "Cameron Schmidt",
+   "kind": "hl",
+   "title": "Schmidt 0+2 när Victoria vann 7–1 mot Kelowna",
+   "game": "Kelowna Rockets 1–7 Victoria Royals",
+   "sum": "0 i plus/minus, 4 skott, 12 utvisningsminuter.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-14-Vaněček-1023303",
+   "d": "2026-11-14",
+   "who": "Jakub Vaněček",
+   "kind": "hl",
+   "title": "Vaněček 0+1 när Tri-City föll 3–4 efter förlängning mot Everett",
+   "game": "Tri-City Americans 3–4 Everett Silvertips",
+   "sum": "+1 i plus/minus, 1 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-14-Brown-29199",
+   "d": "2026-11-14",
+   "who": "Ryan Brown",
+   "kind": "hl",
+   "title": "Brown 0+1 när London föll 5–6 mot Saginaw",
+   "game": "Saginaw Spirit 6–5 London Knights",
+   "sum": "−1 i plus/minus, 2 skott, 4 utvisningsminuter.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-14-Kuhta-BostonColleg",
+   "d": "2026-11-14",
+   "who": "Jasper Kuhta",
+   "kind": "hl",
+   "title": "Kuhta 0+1 när UMass föll 2–4 mot Boston College",
+   "game": "Boston College 4–2 UMass",
+   "sum": "0 i plus/minus, 3 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-14-Sharkey-UConn",
+   "d": "2026-11-14",
+   "who": "Dawson Sharkey",
+   "kind": "hl",
+   "title": "Sharkey 1+0 när Northeastern vann 4–3 mot UConn",
+   "game": "UConn 3–4 Northeastern",
+   "sum": "0 i plus/minus, 3 skott.",
+   "auto": true
+  },
+  {
    "d": "2026-11-14",
    "who": "Dawson Sharkey",
    "kind": "stat",
@@ -260,6 +324,46 @@
    "title": "Samuelsson poänglös när LSSU föll i Houghton",
    "game": "Lake Superior State 2–5 Michigan Tech",
    "sum": "Lake Superior State förlorade 2–5 mot Michigan Tech i andra matchen av helgserien. Samuelsson hade två skott och −1."
+  },
+  {
+   "id": "2026-11-14-Gorzynski-1023297",
+   "d": "2026-11-14",
+   "who": "Brandon Gorzynski",
+   "kind": "news",
+   "title": "Gorzynski poänglös när Prince Albert vann 6–2 mot Brandon",
+   "game": "Prince Albert Raiders 6–2 Brandon Wheat Kings",
+   "sum": "+1 i plus/minus, 3 skott, 2 utvisningsminuter.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-14-Cherepanov-1023298",
+   "d": "2026-11-14",
+   "who": "Mikhail Cherepanov",
+   "kind": "news",
+   "title": "Cherepanov poänglös när Kamloops föll 1–2 efter straffar mot Prince George",
+   "game": "Prince George Cougars 2–1 Kamloops Blazers",
+   "sum": "+1 i plus/minus, 1 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-14-Samuelsson-MichiganTech",
+   "d": "2026-11-14",
+   "who": "William Samuelsson",
+   "kind": "news",
+   "title": "Samuelsson poänglös när Lake Superior State föll 2–5 mot Michigan Tech",
+   "game": "Michigan Tech 5–2 Lake Superior State",
+   "sum": "−1 i plus/minus, 2 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-14-Fegaras-Yale",
+   "d": "2026-11-14",
+   "who": "George Fegaras",
+   "kind": "news",
+   "title": "Fegaras poänglös när Cornell föll 1–3 mot Yale",
+   "game": "Yale 3–1 Cornell",
+   "sum": "0 i plus/minus, 3 skott.",
+   "auto": true
   }
  ],
  "next": [
@@ -617,5 +721,38 @@
    "s": "Chicago",
    "home": false
   }
- ]
+ ],
+ "top": [
+  {
+   "t": "Val 2026",
+   "sum": "Söndagen den 13 september 2026 var det val i Sverige för mandatperioden 2026-2030. Det är riksdagsval i Sverige vart fjärde år. Samma dag kan man rösta i regionval och kommunalval.",
+   "url": "https://www.svt.se/nyheter/om/val-2026",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "SVT Verifierar",
+   "sum": "SVT Verifierar kombinerar traditionell journalistik med analys av bilder, digitala fotspår och öppna källor för att verifiera uppgifter som sprids och skildra viktiga nyhetshändelser på djupet.",
+   "url": "https://www.svt.se/nyheter/om/svt-nyheter-verifierar",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Senaste nytt om kriget mellan Iran, USA och Israel",
+   "sum": "SVT liverapporterar om konfliktens utveckling",
+   "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-iran-och-konflikten-med-usa-och-israel",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Regeringsbildning",
+   "sum": "Följ de ämnen och händelser som SVT Nyheter bevakar just nu.",
+   "url": "https://www.svt.se/nyheter/om/regeringsbildning",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Analys: ”Tydligt att Kristersson inte gett upp hoppet om Centerpartiet”",
+   "sum": "Inget tyder på att Vänsterpartiet kommer att släppa sitt krav på ministerposter. Och om de mot förmodan ändå skulle göra det så kommer det med en sakpolitisk nota som kan bli för hög för Centerpartiet. I det läget har Elisabeth Thand Ringqvist (C) skaffat sig en nödutgång i att välja Ulf Kristersson. Men det kräver att hon lyckas övertyga sitt parti om att en borgerlig minoritetsregering som kan behöva aktivt stöd av SD är bättre för C än ett extraval.",
+   "url": "https://www.svt.se/nyheter/inrikes/tydligt-att-ulf-kristersson-inte-gett-upp-hoppet-om-centerpartiet",
+   "src": "SVT Nyheter"
+  }
+ ],
+ "topUpdated": "2026-11-17T22:12+01:00"
 }
