@@ -50,6 +50,25 @@
   .focus-text { font-size: 19px; line-height: 1.35; white-space: pre-wrap; }
   .daylight { font-size: 14px; color: #a9b0bb; margin-top: 10px; border-top: 1px solid #2a3039; padding-top: 8px; }
   .focus-edit { width: 100%; box-sizing: border-box; min-height: 140px; font: inherit; font-size: 19px; background: #14171c; color: #eef0f3; border: 1px solid #2a3039; border-radius: 12px; padding: 12px; }
+  /* TV-läge: ritas för 1280x720 och skalas med zoom */
+  body.tv { overflow: hidden; }
+  body.tv .wrap { width: 1280px; max-width: none; height: 720px; box-sizing: border-box; padding: 14px 24px 8px; overflow: hidden; }
+  body.tv .tabbar, body.tv .more { display: none; }
+  body.tv .tile { cursor: default; }
+  .tvrow { display: -webkit-flex; display: flex; margin: 0 -6px; }
+  .tvrow .tile { min-width: 0; overflow: hidden; }
+  .tvw2 { -webkit-flex: 1.6 1 0; flex: 1.6 1 0; }
+  .tvw1 { -webkit-flex: 1 1 0; flex: 1 1 0; }
+  .tvfoot { text-align: right; font-size: 11px; color: #4f5863; margin-top: 2px; }
+  #viewTv .g .who { font-size: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+  #viewTv .g { padding: 3px 0; }
+  #viewTv .nx .w { width: 132px; }
+  #viewTv .nx { font-size: 16px; padding: 5px 0; }
+  .tp { display: -webkit-flex; display: flex; padding: 5px 0; border-top: 1px solid #2a3039; font-size: 16px; }
+  .tp:first-child { border-top: 0; }
+  .tp .n { -webkit-flex: 1; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .tp .n span { color: #8a93a0; font-size: 13px; }
+  .tp .v { font-weight: 600; margin-left: 8px; }
   /* Weather */
   .wx { display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; }
   .wx-icon { font-size: 52px; margin-right: 16px; }
@@ -278,6 +297,20 @@
     </div>
    </div>
   </div>
+  </div>
+
+  <div id="viewTv" style="display:none">
+   <div class="tvrow" style="height:226px">
+    <div class="tile tvw2"><div class="label">Väder · Tornesund</div><div id="tvWxNow"></div><div class="wx-hours" id="tvWxHours"></div></div>
+    <div class="tile tvw1"><div class="label">Veckan</div><div id="tvWeek" class="week"></div><div id="tvDay" class="daylight"></div></div>
+    <div class="tile tvw1"><div class="label">Dagens italienska</div><div id="tvIt"></div></div>
+   </div>
+   <div class="tvrow" style="height:336px">
+    <div class="tile tvw2"><div class="label">Natten · Stars &amp; prospects <span class="pill" id="tvDate"></span></div><div id="tvGames"></div></div>
+    <div class="tile tvw1"><div class="label">Kommande matcher · svensk tid</div><div id="tvNext"></div></div>
+    <div class="tile tvw1"><div class="label">Hetast · poäng senaste 5</div><div id="tvPros"></div></div>
+   </div>
+   <div class="tvfoot" id="tvFoot"></div>
   </div>
 
   <div id="viewKok" style="display:none">
@@ -783,7 +816,7 @@
     var s = "", lg = latestGames(), i, n = 0;
     for (i = 0; i < lg.length && i < 2; i++) { s += gameRow(lg[i], false); n++; }
     var nw = SNEWS.slice(); nw.sort(function (a, b) { var k = { out: 0, hl: 1, stat: 2, news: 3 }; return (b.d > a.d) - (b.d < a.d) || (k[a.kind] || 3) - (k[b.kind] || 3); });
-    var lim = window.innerHeight > 900 ? 6 : 4;
+    var lim = TVMODE ? 6 : window.innerHeight > 900 ? 6 : 4;
     for (i = 0; i < nw.length && n < lim; i++) { s += newsRow(nw[i], false); n++; }
     var hp = hotPros();
     for (i = 0; n < lim && i < hp.length; i++) { s += prosRow(hp[i], false); n++; }
@@ -800,7 +833,7 @@
   }
   function applyData(d) {
     if (d.prospects && d.prospects.length) PROS = d.prospects;
-    SGAMES = d.games || []; SNEWS = d.news || []; SNEXT = d.next || []; renderNext();
+    SGAMES = d.games || []; SNEWS = d.news || []; SNEXT = d.next || []; renderNext(); setTimeout(syncTv, 0);
     if (d.updated) PROS_DATE = dShort(d.updated.substr(0, 10));
     renderGames();
   }
@@ -1285,8 +1318,13 @@
   }, false);
 
   // ---------- Lägen: Hem / Kök ----------
+  var TVMODE = location.hash === "#tv";
   function route() {
     var kok = location.hash === "#kok";
+    TVMODE = location.hash === "#tv";
+    document.body.className = TVMODE ? "tv" : ""; if (!TVMODE) document.body.style.zoom = "";
+    el("viewTv").style.display = TVMODE ? "block" : "none";
+    if (TVMODE) { el("viewHem").style.display = "none"; el("viewKok").style.display = "none"; fitTv(); renderGames(); renderNext(); syncTv(); return; }
     el("viewHem").style.display = kok ? "none" : "block"; if (!kok) setTimeout(fitHem, 0);
     el("viewKok").style.display = kok ? "block" : "none";
     el("tabHem").className = "tab" + (kok ? "" : " on");
@@ -1316,7 +1354,7 @@
   }
   function renderNext() {
     var a = nextList(), s = "";
-    var max = window.innerHeight > 900 ? 7 : window.innerHeight > 800 ? 4 : 3;
+    var max = TVMODE ? 7 : window.innerHeight > 900 ? 7 : window.innerHeight > 800 ? 4 : 3;
     for (var i = 0; i < a.length && i < max; i++) s += nxRow(a[i], false);
     el("nextShort").innerHTML = s || '<div class="muted small">Inga matcher inlagda</div>';
   }
@@ -1379,6 +1417,34 @@
   window.addEventListener("resize", fitHem, false);
   window.addEventListener("orientationchange", function () { setTimeout(fitHem, 300); }, false);
 
+
+  // ---------- TV-läge ----------
+  function fitTv() { if (!TVMODE) return; var z = Math.min(window.innerWidth / 1280, window.innerHeight / 720); document.body.style.zoom = z; }
+  window.addEventListener("resize", fitTv, false);
+  function renderTvPros() {
+    var a = hotPros(), s = "";
+    for (var i = 0, n = 0; i < a.length && n < 6; i++) {
+      var x = a[i]; if (x.l5p < 0) continue;
+      s += '<div class="tp"><span class="n">' + esc(x.n) + ' <span>' + esc(x.pos) + ' · ' + esc(x.team) + '</span></span><span class="v">' + x.l5 + '</span></div>'; n++;
+    }
+    var g = PROS.filter ? PROS.filter(function (x) { return x.l5p < 0; }) : [];
+    for (var j = 0; j < g.length && n < 8; j++, n++) s += '<div class="tp"><span class="n">' + esc(g[j].n) + ' <span>G · ' + esc(g[j].team) + '</span></span><span class="v">' + esc(g[j].s.split(" · ").slice(-1)[0]) + '</span></div>';
+    el("tvPros").innerHTML = s;
+  }
+  function syncTv() {
+    if (!TVMODE) return;
+    var m = [["wxNow","tvWxNow"],["wxHours","tvWxHours"],["weekShort","tvWeek"],["gamesShort","tvGames"],["nextShort","tvNext"],["dayLight","tvDay"],["itShort","tvIt"],["prosDate","tvDate"]];
+    for (var i = 0; i < m.length; i++) el(m[i][1]).innerHTML = el(m[i][0]).innerHTML;
+    renderTvPros();
+    el("tvFoot").innerHTML = el("foot").innerHTML;
+    // flytta innehållet några pixlar då och då så att inget bränns in
+    var t = Math.floor(RD.now() / 300000) % 4, dx = [0, 2, 2, 0][t], dy = [0, 0, 2, 2][t];
+    el("viewTv").style.transform = "translate(" + dx + "px," + dy + "px)";
+  }
+  setInterval(syncTv, 5000);
+  // ladda om sidan var 6:e timme i TV-läge så att nya versioner kommer med
+  setTimeout(function () { if (TVMODE && navigator.onLine !== false) location.reload(); }, 6 * 3600000);
+
   var VIEWS = { weather: weatherDetail, house: houseDetail, games: gamesDetail, next: nextDetail, focus: focusDetail, italian: itDetail, stoic: stoicDetail, news: newsDetail, today: todayDetail, removed: removedDetail };
   function open(name) { stopRadar(); el("panelBody").innerHTML = VIEWS[name](); el("ov").className = "ov on"; if (name === "weather") initRadar(); if (name === "focus") bindFocus(); }
   function close() { stopRadar(); el("ov").className = "ov"; }
@@ -1396,7 +1462,7 @@
   };
 
   // ---------- Start ----------
-  function refreshAll() { loadWeather(); loadPrices(); renderGames(); loadStars(); renderNext(); renderDaylight(); renderFocus(); renderIt(); renderStoic(); renderNews(); renderToday(); el("foot").innerHTML = "Uppdaterad " + hm(SE()) + " · v22"; setTimeout(fitHem, 50); }
+  function refreshAll() { loadWeather(); loadPrices(); renderGames(); loadStars(); renderNext(); renderDaylight(); renderFocus(); renderIt(); renderStoic(); renderNews(); renderToday(); el("foot").innerHTML = "Uppdaterad " + hm(SE()) + " · v23"; setTimeout(fitHem, 50); }
   renderRecipes(); renderTimers(); renderToday(); route();
   refreshAll();
   setInterval(refreshAll, 15 * 60 * 1000);
