@@ -1,0 +1,33 @@
+name: Stars-data
+
+on:
+  schedule:
+    - cron: "17 5,8,12,17,21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stars-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - run: python update_stars.py
+      - name: Spara data.json
+        run: |
+          if git diff --quiet -- data.json; then echo "Ingen ändring"; exit 0; fi
+          git config user.name "stars-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git commit -m "Stars-data $(date -u +%Y-%m-%d) (automatisk)"
+          git pull --rebase origin main
+          git push
