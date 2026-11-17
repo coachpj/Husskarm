@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:18:08+01:00",
+ "updated": "2026-11-17T23:07:58+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -41,8 +41,8 @@
    "lg": "WHL",
    "dr": "2025 R4 #126",
    "s": "18 GP · 9 M · 5 A · 14 P · +1",
-   "l5": "1+1=2",
-   "l5p": 2,
+   "l5": "0+1=1",
+   "l5p": 1,
    "note": "Valde bort NCAA för en ny säsong i Prince Albert. Vände den tunga starten med mål i sex raka matcher; poängsviten bröts i 0–2-förlusten i Red Deer 7 nov."
   },
   {
@@ -660,6 +660,12 @@
  ],
  "top": [
   {
+   "t": "Nvidia slår förväntningarna i nya kvartalssiffror",
+   "sum": "Nvidias nya kvartalssiffror slår förväntningarna. Det kommer i kölvattnet av förra veckans otrohetsskandal – som ledde till vd:n Jensen Huangs avgång.",
+   "url": "https://www.svt.se/nyheter/utrikes/nvidia-slar-forvantningarna-i-nya-kvartalssiffror",
+   "src": "SVT Nyheter"
+  },
+  {
    "t": "Senaste nytt om kriget mellan Iran, USA och Israel",
    "sum": "SVT liverapporterar om konfliktens utveckling",
    "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-iran-och-konflikten-med-usa-och-israel",
@@ -682,13 +688,7 @@
    "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
    "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
    "src": "SVT Nyheter"
-  },
-  {
-   "t": "Krimbron delvis kollapsad efter ukrainsk attack",
-   "sum": "En del av den viktiga Kertjbron har kollapsat efter ukrainska angrepp – ett allvarligt slag mot Rysslands ockupation av Krim, enligt Johan Huovinen, lärare på Försvarshögskolan. – Det här är ett sätt att öka pressen på Moskva inför de kommande förhandlingarna, säger han.",
-   "url": "https://www.svt.se/nyheter/utrikes/krimbron-delvis-kollapsad-efter-ukrainsk-attack",
-   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-17T22:18+01:00"
+ "topUpdated": "2026-11-17T23:07+01:00"
 }
