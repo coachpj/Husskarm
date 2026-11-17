@@ -1312,7 +1312,7 @@
     var w = (dd === 0 ? "idag" : dd === 1 ? "imorgon" : DAYS_SHORT[x.getDay()] + " " + x.getDate() + "/" + (x.getMonth() + 1)) + " " + hm(x);
     if (!full) w = (dd === 0 ? "idag" : dd === 1 ? "imorgon" : DAYS_SHORT[x.getDay()]) + " " + hm(x);
     var live = o.ms <= RD.now();
-    return '<div class="nx"><span class="w">' + w + '</span><span class="o">' + '<b>' + (g.team === "dallas" ? "DAL" : "TEX") + '</b>' + (g.home ? " – " : " @ ") + esc(full ? g.opp : (g.s || g.opp)) + (live ? ' <span class="pill">pågår</span>' : '') + '</span></div>';
+    return '<div class="nx"><span class="w">' + w + '</span><span class="o">' + '<b>' + (g.team === "dallas" ? "DAL" : g.team === "texas" ? "TEX" : esc(g.who || "")) + '</b>' + (full && g.club ? ' <span class="muted">(' + esc(g.club) + ')</span>' : '') + (g.home ? " – " : " @ ") + esc(full ? g.opp : (g.s || g.opp)) + (live ? ' <span class="pill">pågår</span>' : '') + '</span></div>';
   }
   function renderNext() {
     var a = nextList(), s = "";
@@ -1321,7 +1321,7 @@
     el("nextShort").innerHTML = s || '<div class="muted small">Inga matcher inlagda</div>';
   }
   function nextDetail() {
-    var a = nextList(), s = '<h2>Kommande matcher</h2><p class="muted small">Tider i svensk tid. Dallas Stars (NHL) och Texas Stars (AHL).</p>';
+    var a = nextList(), s = '<h2>Kommande matcher</h2><p class="muted small">Tider i svensk tid. Dallas Stars (NHL), Texas Stars (AHL) och alla prospects.</p>';
     for (var i = 0; i < a.length; i++) s += nxRow(a[i], true);
     return s;
   }
@@ -1396,7 +1396,7 @@
   };
 
   // ---------- Start ----------
-  function refreshAll() { loadWeather(); loadPrices(); renderGames(); loadStars(); renderNext(); renderDaylight(); renderFocus(); renderIt(); renderStoic(); renderNews(); renderToday(); el("foot").innerHTML = "Uppdaterad " + hm(SE()) + " · v21"; setTimeout(fitHem, 50); }
+  function refreshAll() { loadWeather(); loadPrices(); renderGames(); loadStars(); renderNext(); renderDaylight(); renderFocus(); renderIt(); renderStoic(); renderNews(); renderToday(); el("foot").innerHTML = "Uppdaterad " + hm(SE()) + " · v22"; setTimeout(fitHem, 50); }
   renderRecipes(); renderTimers(); renderToday(); route();
   refreshAll();
   setInterval(refreshAll, 15 * 60 * 1000);
