@@ -1,0 +1,227 @@
+{
+ "updated": "2026-11-17T07:19:00+01:00",
+ "prospects": [
+  {
+   "n": "Cameron Schmidt",
+   "pos": "RW",
+   "team": "Victoria Royals",
+   "lg": "WHL",
+   "dr": "2025 R3",
+   "s": "16 GP · 13 M · 13 A · 26 P · −4",
+   "l5": "6+3=9",
+   "l5p": 9,
+   "note": "Ledde WHL med 51 mål förra säsongen. Assisterande lagkapten i Victoria."
+  },
+  {
+   "n": "Jakub Vaněček",
+   "pos": "D",
+   "team": "Tri-City Americans",
+   "lg": "WHL",
+   "dr": "2026 R2 #59",
+   "s": "19 GP · 3 M · 8 A · 11 P · −2",
+   "l5": "1+3=4",
+   "l5p": 4,
+   "note": "Dallas högsta val 2026. Klar för Western Michigan från 2027-28."
+  },
+  {
+   "n": "Ryan Brown",
+   "pos": "LW",
+   "team": "London Knights",
+   "lg": "OHL",
+   "dr": "2026 R5 #155",
+   "s": "16 GP · 5 M · 20 A · 25 P · +8",
+   "l5": "2+4=6",
+   "l5p": 6,
+   "note": "Ny lagkapten i London. Klar för Ohio State längre fram."
+  },
+  {
+   "n": "Brandon Gorzynski",
+   "pos": "LW",
+   "team": "Prince Albert Raiders",
+   "lg": "WHL",
+   "dr": "2025 R4 #126",
+   "s": "18 GP · 9 M · 5 A · 14 P · +2",
+   "l5": "1+1=2",
+   "l5p": 2,
+   "note": "Valde bort NCAA för en ny säsong i Prince Albert."
+  },
+  {
+   "n": "Mikhail Cherepanov",
+   "pos": "D",
+   "team": "Kamloops Blazers",
+   "lg": "WHL",
+   "dr": "2026 R7 #219",
+   "s": "18 GP · 3 M · 4 A · 7 P · +9",
+   "l5": "1+2=3",
+   "l5p": 3,
+   "note": "Rysk back från NAHL, importdraftad av Kamloops."
+  },
+  {
+   "n": "Jasper Kuhta",
+   "pos": "C",
+   "team": "UMass",
+   "lg": "NCAA",
+   "dr": "2026 R7 #197",
+   "s": "11 GP · 0 M · 3 A · 3 P · −4",
+   "l5": "0+2=2",
+   "l5p": 2,
+   "note": "Freshman i UMass powerplay."
+  },
+  {
+   "n": "Dawson Sharkey",
+   "pos": "RW",
+   "team": "Northeastern",
+   "lg": "NCAA",
+   "dr": "",
+   "s": "8 GP · 5 M · 0 A · 5 P · −1",
+   "l5": "4+0=4",
+   "l5p": 4,
+   "note": "Freshman, fyra mål på fem matcher."
+  },
+  {
+   "n": "William Samuelsson",
+   "pos": "C",
+   "team": "Lake Superior State",
+   "lg": "NCAA",
+   "dr": "2024 R7 #222",
+   "s": "10 GP · 1 M · 0 A · 1 P · −5",
+   "l5": "1+0=1",
+   "l5p": 1,
+   "note": "Södertäljekille, första NCAA-säsongen efter USHL."
+  },
+  {
+   "n": "George Fegaras",
+   "pos": "D",
+   "team": "Cornell",
+   "lg": "NCAA",
+   "dr": "",
+   "s": "6 GP · 0 M · 2 A · 2 P · −1",
+   "l5": "0+1=1",
+   "l5p": 1,
+   "note": "Seniorår, ankare i Cornells backlinje. Ej kontrakterad."
+  },
+  {
+   "n": "Atte Joki",
+   "pos": "C",
+   "team": "HIFK",
+   "lg": "Liiga",
+   "dr": "",
+   "s": "18 GP · 0 M · 0 A · 0 P · −3",
+   "l5": "0+0=0",
+   "l5p": 0,
+   "note": "Bra närkamper, svag i tekningar. Boxplayroll nästa steg."
+  },
+  {
+   "n": "Måns Goos",
+   "pos": "G",
+   "team": "BIK Karlskoga",
+   "lg": "HockeyAllsvenskan",
+   "dr": "2025 R5 #158",
+   "s": "9 GP · 4-5 · 3.21 GAA · .876",
+   "l5": "",
+   "l5p": -1,
+   "note": "Utlånad från Färjestad. Stod när BIK slog AIK 3–2 efter förl. 13 nov."
+  },
+  {
+   "n": "Anton Emil Wilde Larsen",
+   "pos": "G",
+   "team": "Linköping HC J20",
+   "lg": "U20 Nationell",
+   "dr": "2026 R6 #187",
+   "s": "14 GP · 7-7 · 3.28 GAA · .877",
+   "l5": "",
+   "l5p": -1,
+   "note": "Dansk målvakt, kom från Frederikshavn i somras."
+  }
+ ],
+ "games": [
+  {
+   "team": "dallas",
+   "d": "2026-11-15",
+   "title": "Dallas Stars 2–1 Florida Panthers",
+   "res": "OTW",
+   "sc": [
+    "Wyatt Johnston",
+    "Jason Robertson (OT)"
+   ],
+   "note": "DeSmith 25 räddningar. Robertson avgjorde efter 2:56 av förlängningen."
+  },
+  {
+   "team": "texas",
+   "d": "2026-11-15",
+   "title": "Texas Stars 2–1 Tucson Roadrunners",
+   "res": "W",
+   "sc": [
+    "Jack Becker",
+    "Dylan Hryckowian (PP)"
+   ],
+   "note": "Poirier i mål. Säsongens första bortaseger."
+  },
+  {
+   "team": "dallas",
+   "d": "2026-11-14",
+   "title": "Dallas Stars 2–0 Buffalo Sabres",
+   "res": "W",
+   "sc": [
+    "Jamie Benn",
+    "Wyatt Johnston (PP)"
+   ],
+   "note": "Oettinger 22 räddningar och nolla."
+  },
+  {
+   "team": "texas",
+   "d": "2026-11-14",
+   "title": "Texas Stars 2–3 Tucson Roadrunners",
+   "res": "OTL",
+   "sc": [
+    "Cameron Hughes (PP)",
+    "Kyle Looft (SH)"
+   ],
+   "note": "Halverson 38 räddningar."
+  }
+ ],
+ "news": [
+  {
+   "d": "2026-11-14",
+   "who": "Cameron Schmidt",
+   "kind": "hl",
+   "title": "Schmidt två assist när Victoria krossade Kelowna",
+   "game": "Kelowna 1–7 Victoria"
+  },
+  {
+   "d": "2026-11-14",
+   "who": "Dawson Sharkey",
+   "kind": "hl",
+   "title": "Sharkey mål igen när Northeastern vann i förlängning",
+   "game": "Northeastern 4–3 UConn (förl.)"
+  },
+  {
+   "d": "2026-11-14",
+   "who": "Ryan Brown",
+   "kind": "hl",
+   "title": "Brown assist när London föll i Saginaw",
+   "game": "Saginaw 6–5 London"
+  },
+  {
+   "d": "2026-11-14",
+   "who": "Jakub Vaněček",
+   "kind": "hl",
+   "title": "Vaněček assist när Tri-City föll i förlängning",
+   "game": "Tri-City 3–4 Everett (förl.)"
+  },
+  {
+   "d": "2026-11-14",
+   "who": "Jasper Kuhta",
+   "kind": "hl",
+   "title": "Kuhta assist när UMass föll mot Boston College",
+   "game": "UMass 2–4 Boston College"
+  },
+  {
+   "d": "2026-11-14",
+   "who": "Måns Goos",
+   "kind": "news",
+   "title": "Goos stod när BIK föll i förlängning mot Almtuna",
+   "game": "Almtuna 3–2 BIK Karlskoga (förl.)"
+  }
+ ]
+}
