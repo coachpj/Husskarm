@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T23:07:58+01:00",
+ "updated": "2026-11-18T07:18:54+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -7,7 +7,7 @@
    "team": "Victoria Royals",
    "lg": "WHL",
    "dr": "2025 R3",
-   "s": "16 GP · 13 M · 13 A · 26 P · −4",
+   "s": "17 GP · 13 M · 13 A · 26 P · −6",
    "l5": "5+3=8",
    "l5p": 8,
    "note": "Ledde WHL med 51 mål förra säsongen. Assisterande lagkapten i Victoria efter trejden i maj. NHL.com rankar honom som Dallas näst bästa prospect."
@@ -40,7 +40,7 @@
    "team": "Prince Albert Raiders",
    "lg": "WHL",
    "dr": "2025 R4 #126",
-   "s": "18 GP · 9 M · 5 A · 14 P · +1",
+   "s": "19 GP · 9 M · 5 A · 14 P · +1",
    "l5": "0+1=1",
    "l5p": 1,
    "note": "Valde bort NCAA för en ny säsong i Prince Albert. Vände den tunga starten med mål i sex raka matcher; poängsviten bröts i 0–2-förlusten i Red Deer 7 nov."
@@ -51,7 +51,7 @@
    "team": "Kamloops Blazers",
    "lg": "WHL",
    "dr": "2026 R7 #219",
-   "s": "18 GP · 3 M · 4 A · 7 P · +9",
+   "s": "19 GP · 3 M · 4 A · 7 P · +10",
    "l5": "1+2=3",
    "l5p": 3,
    "note": "Rysk back, kom från NAHL (31 poäng på 56 matcher). Valdes av Kamloops i CHL:s importdraft."
@@ -151,6 +151,19 @@
  "games": [
   {
    "team": "dallas",
+   "d": "2026-11-17",
+   "title": "Dallas Stars 4–3 Vegas Golden Knights",
+   "res": "OTW",
+   "sc": [
+    "Nils Lundkvist",
+    "Wyatt Johnston",
+    "Mikko Rantanen",
+    "Miro Heiskanen (OT)"
+   ],
+   "note": "J. Oettinger 24 räddningar"
+  },
+  {
+   "team": "dallas",
    "d": "2026-11-15",
    "title": "Dallas Stars 2–1 Florida Panthers",
    "res": "OTW",
@@ -181,20 +194,39 @@
     "Wyatt Johnston (PP)"
    ],
    "note": "Jake Oettinger 22 räddningar och nolla. Benn 1–0 i andra perioden, Johnston 2–0 i powerplay sent i tredje."
-  },
-  {
-   "team": "texas",
-   "d": "2026-11-14",
-   "title": "Texas Stars 2–3 Tucson Roadrunners",
-   "res": "OTL",
-   "sc": [
-    "Cameron Hughes (PP)",
-    "Kyle Looft (SH)"
-   ],
-   "note": "Brandon Halverson 38 räddningar på 41 skott. Borikov avgjorde efter 39 sekunder av förlängningen."
   }
  ],
  "news": [
+  {
+   "id": "2026-11-17-Schmidt-1023309",
+   "d": "2026-11-17",
+   "who": "Cameron Schmidt",
+   "kind": "news",
+   "title": "Schmidt poänglös när Victoria föll 2–4 mot Kamloops",
+   "game": "Victoria Royals 2–4 Kamloops Blazers",
+   "sum": "−2 i plus/minus, 10 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-17-Gorzynski-1023307",
+   "d": "2026-11-17",
+   "who": "Brandon Gorzynski",
+   "kind": "news",
+   "title": "Gorzynski poänglös när Prince Albert vann 3–0 mot Wenatchee",
+   "game": "Prince Albert Raiders 3–0 Wenatchee Wild",
+   "sum": "0 i plus/minus, 0 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-17-Cherepanov-1023309",
+   "d": "2026-11-17",
+   "who": "Mikhail Cherepanov",
+   "kind": "news",
+   "title": "Cherepanov poänglös när Kamloops vann 4–2 mot Victoria",
+   "game": "Victoria Royals 2–4 Kamloops Blazers",
+   "sum": "+1 i plus/minus, 1 skott.",
+   "auto": true
+  },
   {
    "id": "2026-11-14-Schmidt-1023294",
    "d": "2026-11-14",
@@ -303,40 +335,6 @@
   }
  ],
  "next": [
-  {
-   "team": "prospect",
-   "who": "Gorzynski",
-   "club": "Prince Albert Raiders",
-   "t": "2026-11-18T01:00:00Z",
-   "opp": "Wenatchee Wild",
-   "s": "Wenatchee",
-   "home": true
-  },
-  {
-   "team": "dallas",
-   "t": "2026-11-18T03:00:00Z",
-   "opp": "Vegas Golden Knights",
-   "s": "Vegas",
-   "home": false
-  },
-  {
-   "team": "prospect",
-   "who": "Schmidt",
-   "club": "Victoria Royals",
-   "t": "2026-11-18T03:05:00Z",
-   "opp": "Kamloops Blazers",
-   "s": "Kamloops",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Cherepanov",
-   "club": "Kamloops Blazers",
-   "t": "2026-11-18T03:05:00Z",
-   "opp": "Victoria Royals",
-   "s": "Victoria",
-   "home": false
-  },
   {
    "team": "prospect",
    "who": "Goos",
@@ -609,6 +607,15 @@
    "home": true
   },
   {
+   "team": "prospect",
+   "who": "Sharkey",
+   "club": "Northeastern",
+   "t": "2026-11-25T00:00:00Z",
+   "opp": "Brown",
+   "s": "Brown",
+   "home": false
+  },
+  {
    "team": "texas",
    "t": "2026-11-25T01:00:00Z",
    "opp": "Tucson Roadrunners",
@@ -656,19 +663,45 @@
    "opp": "Chicago Wolves",
    "s": "Chicago",
    "home": false
+  },
+  {
+   "team": "texas",
+   "t": "2026-12-02T01:00:00Z",
+   "opp": "Milwaukee Admirals",
+   "s": "Milwaukee",
+   "home": false
+  },
+  {
+   "team": "dallas",
+   "t": "2026-12-02T02:40:00Z",
+   "opp": "Seattle Kraken",
+   "s": "Seattle",
+   "home": false
   }
  ],
  "top": [
   {
-   "t": "Nvidia slår förväntningarna i nya kvartalssiffror",
-   "sum": "Nvidias nya kvartalssiffror slår förväntningarna. Det kommer i kölvattnet av förra veckans otrohetsskandal – som ledde till vd:n Jensen Huangs avgång.",
-   "url": "https://www.svt.se/nyheter/utrikes/nvidia-slar-forvantningarna-i-nya-kvartalssiffror",
+   "t": "Årets julklapp – startnumret till ett motionslopp",
+   "sum": "För 39:e året i rad presenterar HUI Research årets julklapp och i år är det startnumret till ett motionslopp.",
+   "url": "https://www.svt.se/nyheter/inrikes/arets-julklapp-startnumret-till-ett-motionslopp",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Senaste nytt om kriget mellan Iran, USA och Israel",
-   "sum": "SVT liverapporterar om konfliktens utveckling",
-   "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-iran-och-konflikten-med-usa-och-israel",
+   "t": "Jensen Huang ska vittna i öppet senatsförhör",
+   "sum": "Nvidias avgående vd Jensen Huang går med på att vittna i senaten i USA:s kongress, rapporterar Politico.",
+   "url": "https://www.svt.se/nyheter/ekonomi/jensen-huang-ska-vittna-i-oppet-senatsforhor",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Senaste nytt i Morgonstudion – följ sändningen här",
+   "sum": "Dagens viktigaste nyheter och analyser med ständiga uppdateringar.",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-i-morgonstudion-folj-sandningen-har-uisf4r",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "60 sekunder: Fallet Malin",
+   "sum": "Felaktiga uppgifter i vårdens journal låg till grund när Malins nyfödde son omhändertogs av socialtjänsten i Örebro. Trots nya intyg som visade att uppgifterna var fel fick hon leva åtskild från honom i nästan två år – men nu har tvångsvården upphört och kommunen ser över 244 omhändertaganden.",
+   "url": "https://www.svt.se/nyheter/video/268dd7f50900b0b0-60-sekunder-fallet-malin",
    "src": "SVT Nyheter"
   },
   {
@@ -676,19 +709,7 @@
    "sum": "Inget tyder på att Vänsterpartiet kommer att släppa sitt krav på ministerposter. Och om de mot förmodan ändå skulle göra det så kommer det med en sakpolitisk nota som kan bli för hög för Centerpartiet. I det läget har Elisabeth Thand Ringqvist (C) skaffat sig en nödutgång i att välja Ulf Kristersson. Men det kräver att hon lyckas övertyga sitt parti om att en borgerlig minoritetsregering som kan behöva aktivt stöd av SD är bättre för C än ett extraval.",
    "url": "https://www.svt.se/nyheter/inrikes/tydligt-att-ulf-kristersson-inte-gett-upp-hoppet-om-centerpartiet",
    "src": "SVT Nyheter"
-  },
-  {
-   "t": "Efter M-ledarens förslag – en veckas paus i sonderingen",
-   "sum": "Talmannen ger Ulf Kristersson (M) och övriga partier en veckas paus i sonderingsprocessen för att lämna utrymme för ytterligare förhandlingar. Alla partier kallas till en ny talmansrunda i nästa vecka.",
-   "url": "https://www.svt.se/nyheter/inrikes/efter-m-ledarens-forslag-en-veckas-paus-i-sonderingen",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Senaste nytt om valet 2026",
-   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
-   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
-   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-17T23:07+01:00"
+ "topUpdated": "2026-11-18T07:18+01:00"
 }
