@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T14:29:49+01:00",
+ "updated": "2026-11-18T19:04:23+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -8,8 +8,8 @@
    "lg": "WHL",
    "dr": "2025 R3",
    "s": "17 GP · 13 M · 13 A · 26 P · −6",
-   "l5": "5+3=8",
-   "l5p": 8,
+   "l5": "2+3=5",
+   "l5p": 5,
    "note": "Ledde WHL med 51 mål förra säsongen. Assisterande lagkapten i Victoria efter trejden i maj. NHL.com rankar honom som Dallas näst bästa prospect."
   },
   {
@@ -623,6 +623,24 @@
    "home": true
   },
   {
+   "team": "prospect",
+   "who": "Joki",
+   "club": "HIFK",
+   "t": "2026-11-25T16:30:00Z",
+   "opp": "TPS",
+   "s": "TPS",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Goos",
+   "club": "BIK Karlskoga",
+   "t": "2026-11-25T18:00:00Z",
+   "opp": "Vimmerby HC",
+   "s": "Vimmerby",
+   "home": false
+  },
+  {
    "team": "dallas",
    "t": "2026-11-26T01:00:00Z",
    "opp": "Nashville Predators",
@@ -681,35 +699,35 @@
  ],
  "top": [
   {
-   "t": "Svensk toppdiplomat blir EU:s sanktionssändebud",
-   "sum": "Den svenske diplomaten Lars Danielsson blir EU:s nya sanktionssändebud, rapporterar Politico. Han kommer att efterträda irländaren David O'Sullivan som går i pension efter fyra år på posten.",
-   "url": "https://www.svt.se/nyheter/utrikes/uppgifter-svensk-toppdiplomat-blir-eus-sanktionssandebud",
+   "t": "Flera partitoppar skippade omröstning – sitter i förhandlingar",
+   "sum": "Flera tunga rödgröna politiker saknades vid onsdagens omröstning i riksdagen. Enligt SVT:s uppgifter är orsaken att flera av dem just nu sitter i förhandlingar om regeringsmakten. – Vi jobbar på, säger Daniel Helldén (MP).",
+   "url": "https://www.svt.se/nyheter/inrikes/flera-partitoppar-skippade-omrostning-sitter-i-forhandlingar",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Klimatkrisen förstör grön omställning– Indien kräver enorma ersättningar",
-   "sum": "I Indien gör klimatförändringarna med smältande glaciärer att det blivit svårare att lita på Himalayas vattenkraft, som ska hjälpa till att fasa ut kolkraften. På årets klimatmöte COP31 i Turkiet kräver Indien att världens rika länder ska bidra med pengar till klimatomställningen. – Klimatfinansiering är en skyldighet för utvecklade länder, enligt Parisavtalet, poängterar Indiens miljöminister, Bhupender Yadav.",
-   "url": "https://www.svt.se/nyheter/utrikes/klimatkrisen-forstor-gron-omstallning-indien-kraver-enorma-ersattningar",
+   "t": "Senaste nytt om valet 2026",
+   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Få koll på COP31 – det händer härnäst på klimatmötet",
-   "sum": "En ny klimatdeklaration ska vara på plats för världens länder på fredag 20 november – men hur går det med förhandlingarna? SVT:s klimatreporter Calle Elfström berättar vad som händer på COP31 i Antalya i dag, onsdag. – Närmare 20 000 delegater vaknar upp till en näst intill omöjlig uppgift här, säger han.",
-   "url": "https://www.svt.se/nyheter/utrikes/fa-koll-pa-cop31-det-hander-harnast-pa-klimatmotet",
+   "t": "Mats Knutson: Tre scenarier – det kan hända nu",
+   "sum": "Försöken att bilda en ny svensk regering fortsätter. Men vägen framåt är långt ifrån självklar. SVT:s inrikespolitiska kommentator Mats Knutson har därför listat tre möjliga scenarier för hur regeringsfrågan kan komma att lösas. – För att lösa regeringspusslet måste förmodligen något osannolikt inträffa, säger han.",
+   "url": "https://www.svt.se/nyheter/inrikes/mats-knutson-tre-scenarier-det-kan-handa-nu",
    "src": "SVT Nyheter"
   },
   {
-   "t": "COP31 Antalya 2026 – följ senaste nytt om FN:s klimattoppmöte i Turkiet",
-   "sum": "Planeten blir varmare – extremhetta och skyfall har plågat människor under året. Följ SVT:s rapportering om förhandlingarna om de fossila utsläppen och pengarna till drabbade länder.",
-   "url": "https://www.svt.se/nyheter/utrikes/cop31-antalya-2026-folj-senaste-nytt-om-fns-klimattoppmote-i-turkiet",
+   "t": "Kustbevakningen vill avveckla sju fartyg: ”Obegripligt”",
+   "sum": "Säkerhetsläget i Östersjön har skärpts och regeringen vill öka den svenska närvaron till sjöss. Men samtidigt tvingas Kustbevakningen till besparingar – och planerar nu att göra sig av med flera fartyg, enligt SVT:s uppgifter. – Det är ett obegripligt beslut, säger en källa inom myndigheten.",
+   "url": "https://www.svt.se/nyheter/inrikes/kustbevakningen-vill-avveckla-sju-fartyg-obegripligt",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Nytt avtal ska antas på klimatmötet COP31 – punkterna det bråkas om",
-   "sum": "Ett första utkast till avtalstext för hur klimatarbetet ska gå vidare globalt har presenterats på COP31. En fullständig text ska presenteras på fredag. Men det kommer att bli bråk om formuleringarna kring klimatutsläppen och behovet av att minska fossil energianvändning. – Orden ”fasa ut” är helt tabu när det gäller fossila bränslen, säger SVT:s klimatreporter Calle Elfström på plats på mötet.",
-   "url": "https://www.svt.se/nyheter/utrikes/nytt-avtal-ska-antas-pa-klimatmotet-cop31-punkterna-det-brakas-om",
+   "t": "Försenade tåg efter kommunikationsproblem hos Trafikverket",
+   "sum": "Problem med Trafikverkets kommunikationssystem har orsakat förseningar i tågtrafiken över hela landet. Problemen är lösta men förseningarna väntas bestå resten av dygnet.",
+   "url": "https://www.svt.se/nyheter/inrikes/forsenade-tag-efter-telefoniproblem-hos-trafikverket",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-18T14:29+01:00"
+ "topUpdated": "2026-11-18T19:04+01:00"
 }
