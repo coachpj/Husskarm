@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:04:23+01:00",
+ "updated": "2026-11-18T23:04:03+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -52,8 +52,8 @@
    "lg": "WHL",
    "dr": "2026 R7 #219",
    "s": "19 GP · 3 M · 4 A · 7 P · +10",
-   "l5": "1+2=3",
-   "l5p": 3,
+   "l5": "1+1=2",
+   "l5p": 2,
    "note": "Rysk back, kom från NAHL (31 poäng på 56 matcher). Valdes av Kamloops i CHL:s importdraft."
   },
   {
@@ -135,16 +135,16 @@
    "team": "Linköping HC J20",
    "lg": "U20 Nationell",
    "dr": "2026 R6 #187",
-   "s": "15 GP · 8-7 · 3.12 GAA · .880",
+   "s": "16 GP · 8-8 · 3.04 GAA · .884",
    "l5": "",
    "l5p": -1,
    "note": "Dansk målvakt som flyttade från Frederikshavn till Linköping i somras.",
    "raw": {
-    "gpi": 15,
-    "svs": 339,
-    "ga": 46,
+    "gpi": 16,
+    "svs": 365,
+    "ga": 48,
     "w": 8,
-    "l": 7
+    "l": 8
    }
   }
  ],
@@ -197,6 +197,16 @@
   }
  ],
  "news": [
+  {
+   "id": "2026-11-18-Wilde Larsen-VstersIK",
+   "d": "2026-11-18",
+   "who": "Anton Emil Wilde Larsen",
+   "kind": "hl",
+   "title": "Wilde Larsen stod när Linköping föll 2–3 efter förlängning mot Västerås",
+   "game": "Linköping HC 2–3 Västerås IK",
+   "sum": "26 räddningar, 2 insläppta mål.",
+   "auto": true
+  },
   {
    "id": "2026-11-17-Schmidt-1023309",
    "d": "2026-11-17",
@@ -335,24 +345,6 @@
   }
  ],
  "next": [
-  {
-   "team": "prospect",
-   "who": "Goos",
-   "club": "BIK Karlskoga",
-   "t": "2026-11-18T18:00:00Z",
-   "opp": "IK Oskarshamn",
-   "s": "Oskarshamn",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Wilde Larsen",
-   "club": "Linköping HC J20",
-   "t": "2026-11-18T18:00:00Z",
-   "opp": "Västerås IK J20",
-   "s": "Västerås",
-   "home": true
-  },
   {
    "team": "prospect",
    "who": "Schmidt",
@@ -699,9 +691,21 @@
  ],
  "top": [
   {
-   "t": "Flera partitoppar skippade omröstning – sitter i förhandlingar",
-   "sum": "Flera tunga rödgröna politiker saknades vid onsdagens omröstning i riksdagen. Enligt SVT:s uppgifter är orsaken att flera av dem just nu sitter i förhandlingar om regeringsmakten. – Vi jobbar på, säger Daniel Helldén (MP).",
-   "url": "https://www.svt.se/nyheter/inrikes/flera-partitoppar-skippade-omrostning-sitter-i-forhandlingar",
+   "t": "Kina lanserar Shenzhen som skyltfönster mot världen",
+   "sum": "Staden Shenzhens ekonomi är större än hela Sveriges och fortsätter att växa. Nu samlas ledarna för 21 ekonomier för att diskutera handel, ekonomiskt samarbete och regional utveckling. Kina hoppas att världen ska få upp ögonen för staden. – Vägen framåt bygger på internationellt samarbete, säger företagaren Li Fusheng.",
+   "url": "https://www.svt.se/nyheter/utrikes/kina-lanserar-shenzhen-som-skyltfonster-mot-varlden",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Här hälsas Trump och Putin välkomna till Kina",
+   "sum": "Just nu träffas världens mäktigaste män i kinesiska Shenzhen. Men exakt vad Trump, Putin och mötesvärden Xi Jinping ska prata om första gången de ses tillsammans är oklart.",
+   "url": "https://www.svt.se/nyheter/utrikes/har-halsas-trump-och-putin-valkomna-till-kina",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Trump, Xi och Putin ska träffas – vad ska de prata om?",
+   "sum": "För första gången ska USA:s Donald Trump, Kinas Xi Jinping och Rysslands Vladimir Putin träffas tillsammans. Vad vill de uppnå – och riskerar Europa att hamna utanför när stormakterna gör upp?",
+   "url": "https://www.svt.se/nyheter/utrikes/trump-xi-och-putin-ska-traffas-vad-ska-de-prata-om",
    "src": "SVT Nyheter"
   },
   {
@@ -711,23 +715,11 @@
    "src": "SVT Nyheter"
   },
   {
-   "t": "Mats Knutson: Tre scenarier – det kan hända nu",
-   "sum": "Försöken att bilda en ny svensk regering fortsätter. Men vägen framåt är långt ifrån självklar. SVT:s inrikespolitiska kommentator Mats Knutson har därför listat tre möjliga scenarier för hur regeringsfrågan kan komma att lösas. – För att lösa regeringspusslet måste förmodligen något osannolikt inträffa, säger han.",
-   "url": "https://www.svt.se/nyheter/inrikes/mats-knutson-tre-scenarier-det-kan-handa-nu",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Kustbevakningen vill avveckla sju fartyg: ”Obegripligt”",
-   "sum": "Säkerhetsläget i Östersjön har skärpts och regeringen vill öka den svenska närvaron till sjöss. Men samtidigt tvingas Kustbevakningen till besparingar – och planerar nu att göra sig av med flera fartyg, enligt SVT:s uppgifter. – Det är ett obegripligt beslut, säger en källa inom myndigheten.",
-   "url": "https://www.svt.se/nyheter/inrikes/kustbevakningen-vill-avveckla-sju-fartyg-obegripligt",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Försenade tåg efter kommunikationsproblem hos Trafikverket",
-   "sum": "Problem med Trafikverkets kommunikationssystem har orsakat förseningar i tågtrafiken över hela landet. Problemen är lösta men förseningarna väntas bestå resten av dygnet.",
-   "url": "https://www.svt.se/nyheter/inrikes/forsenade-tag-efter-telefoniproblem-hos-trafikverket",
+   "t": "Flera partitoppar skippade omröstning – sitter i förhandlingar",
+   "sum": "Flera tunga rödgröna politiker saknades vid onsdagens omröstning i riksdagen. Enligt SVT:s uppgifter är orsaken att flera av dem just nu sitter i förhandlingar om regeringsmakten. – Vi jobbar på, säger Daniel Helldén (MP).",
+   "url": "https://www.svt.se/nyheter/inrikes/flera-partitoppar-skippade-omrostning-sitter-i-forhandlingar",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-18T19:04+01:00"
+ "topUpdated": "2026-11-18T23:04+01:00"
 }
