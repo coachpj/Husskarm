@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T07:18:54+01:00",
+ "updated": "2026-11-18T10:18:28+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -681,18 +681,6 @@
  ],
  "top": [
   {
-   "t": "Årets julklapp – startnumret till ett motionslopp",
-   "sum": "För 39:e året i rad presenterar HUI Research årets julklapp och i år är det startnumret till ett motionslopp.",
-   "url": "https://www.svt.se/nyheter/inrikes/arets-julklapp-startnumret-till-ett-motionslopp",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Jensen Huang ska vittna i öppet senatsförhör",
-   "sum": "Nvidias avgående vd Jensen Huang går med på att vittna i senaten i USA:s kongress, rapporterar Politico.",
-   "url": "https://www.svt.se/nyheter/ekonomi/jensen-huang-ska-vittna-i-oppet-senatsforhor",
-   "src": "SVT Nyheter"
-  },
-  {
    "t": "Senaste nytt i Morgonstudion – följ sändningen här",
    "sum": "Dagens viktigaste nyheter och analyser med ständiga uppdateringar.",
    "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-i-morgonstudion-folj-sandningen-har-uisf4r",
@@ -705,11 +693,23 @@
    "src": "SVT Nyheter"
   },
   {
+   "t": "Senaste nytt om valet 2026",
+   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "src": "SVT Nyheter"
+  },
+  {
    "t": "Analys: ”Tydligt att Kristersson inte gett upp hoppet om Centerpartiet”",
    "sum": "Inget tyder på att Vänsterpartiet kommer att släppa sitt krav på ministerposter. Och om de mot förmodan ändå skulle göra det så kommer det med en sakpolitisk nota som kan bli för hög för Centerpartiet. I det läget har Elisabeth Thand Ringqvist (C) skaffat sig en nödutgång i att välja Ulf Kristersson. Men det kräver att hon lyckas övertyga sitt parti om att en borgerlig minoritetsregering som kan behöva aktivt stöd av SD är bättre för C än ett extraval.",
    "url": "https://www.svt.se/nyheter/inrikes/tydligt-att-ulf-kristersson-inte-gett-upp-hoppet-om-centerpartiet",
    "src": "SVT Nyheter"
+  },
+  {
+   "t": "Efter M-ledarens förslag – en veckas paus i sonderingen",
+   "sum": "Talmannen ger Ulf Kristersson (M) och övriga partier en veckas paus i sonderingsprocessen för att lämna utrymme för ytterligare förhandlingar. Alla partier kallas till en ny talmansrunda i nästa vecka.",
+   "url": "https://www.svt.se/nyheter/inrikes/efter-m-ledarens-forslag-en-veckas-paus-i-sonderingen",
+   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-18T07:18+01:00"
+ "topUpdated": "2026-11-18T10:18+01:00"
 }
