@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:04:03+01:00",
+ "updated": "2026-11-19T07:15:42+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -8,8 +8,8 @@
    "lg": "WHL",
    "dr": "2025 R3",
    "s": "17 GP · 13 M · 13 A · 26 P · −6",
-   "l5": "2+3=5",
-   "l5p": 5,
+   "l5": "5+3=8",
+   "l5p": 8,
    "note": "Ledde WHL med 51 mål förra säsongen. Assisterande lagkapten i Victoria efter trejden i maj. NHL.com rankar honom som Dallas näst bästa prospect."
   },
   {
@@ -51,9 +51,9 @@
    "team": "Kamloops Blazers",
    "lg": "WHL",
    "dr": "2026 R7 #219",
-   "s": "19 GP · 3 M · 4 A · 7 P · +10",
-   "l5": "1+1=2",
-   "l5p": 2,
+   "s": "20 GP · 3 M · 5 A · 8 P · +11",
+   "l5": "1+2=3",
+   "l5p": 3,
    "note": "Rysk back, kom från NAHL (31 poäng på 56 matcher). Valdes av Kamloops i CHL:s importdraft."
   },
   {
@@ -208,6 +208,16 @@
    "auto": true
   },
   {
+   "id": "2026-11-18-Cherepanov-1023313",
+   "d": "2026-11-18",
+   "who": "Mikhail Cherepanov",
+   "kind": "hl",
+   "title": "Cherepanov 0+1 när Kamloops vann 4–3 efter förlängning mot Victoria",
+   "game": "Victoria Royals 3–4 Kamloops Blazers",
+   "sum": "+1 i plus/minus, 3 skott.",
+   "auto": true
+  },
+  {
    "id": "2026-11-17-Schmidt-1023309",
    "d": "2026-11-17",
    "who": "Cameron Schmidt",
@@ -236,133 +246,9 @@
    "game": "Victoria Royals 2–4 Kamloops Blazers",
    "sum": "+1 i plus/minus, 1 skott.",
    "auto": true
-  },
-  {
-   "id": "2026-11-14-Schmidt-1023294",
-   "d": "2026-11-14",
-   "who": "Cameron Schmidt",
-   "kind": "hl",
-   "title": "Schmidt 0+2 när Victoria vann 7–1 mot Kelowna",
-   "game": "Kelowna Rockets 1–7 Victoria Royals",
-   "sum": "0 i plus/minus, 4 skott, 12 utvisningsminuter.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-14-Vaněček-1023303",
-   "d": "2026-11-14",
-   "who": "Jakub Vaněček",
-   "kind": "hl",
-   "title": "Vaněček 0+1 när Tri-City föll 3–4 efter förlängning mot Everett",
-   "game": "Tri-City Americans 3–4 Everett Silvertips",
-   "sum": "+1 i plus/minus, 1 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-14-Brown-29199",
-   "d": "2026-11-14",
-   "who": "Ryan Brown",
-   "kind": "hl",
-   "title": "Brown 0+1 när London föll 5–6 mot Saginaw",
-   "game": "Saginaw Spirit 6–5 London Knights",
-   "sum": "−1 i plus/minus, 2 skott, 4 utvisningsminuter.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-14-Kuhta-BostonColleg",
-   "d": "2026-11-14",
-   "who": "Jasper Kuhta",
-   "kind": "hl",
-   "title": "Kuhta 0+1 när UMass föll 2–4 mot Boston College",
-   "game": "Boston College 4–2 UMass",
-   "sum": "0 i plus/minus, 3 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-14-Sharkey-UConn",
-   "d": "2026-11-14",
-   "who": "Dawson Sharkey",
-   "kind": "hl",
-   "title": "Sharkey 1+0 när Northeastern vann 4–3 mot UConn",
-   "game": "UConn 3–4 Northeastern",
-   "sum": "0 i plus/minus, 3 skott.",
-   "auto": true
-  },
-  {
-   "d": "2026-11-14",
-   "who": "Dawson Sharkey",
-   "kind": "stat",
-   "title": "Sharkey har gjort mål i tre raka matcher",
-   "game": "Northeastern 4–3 UConn (förl.)",
-   "sum": "Freshmannen har nu mål i tre raka matcher (Holy Cross, UConn två gånger) och fem mål totalt, varav två matchavgörande."
-  },
-  {
-   "d": "2026-11-14",
-   "who": "Anton Emil Wilde Larsen",
-   "kind": "news",
-   "title": "Wilde Larsen stod när Linköping J20 föll i Växjö",
-   "game": "Växjö 3–2 Linköping J20",
-   "sum": "Wilde Larsen startade när Linköping J20 förlorade 2–3 borta mot Växjö efter att ha legat under 0–3. Enligt förbundets statistik släppte han in tre mål på cirka 35 skott."
-  },
-  {
-   "id": "2026-11-14-Gorzynski-1023297",
-   "d": "2026-11-14",
-   "who": "Brandon Gorzynski",
-   "kind": "news",
-   "title": "Gorzynski poänglös när Prince Albert vann 6–2 mot Brandon",
-   "game": "Prince Albert Raiders 6–2 Brandon Wheat Kings",
-   "sum": "+1 i plus/minus, 3 skott, 2 utvisningsminuter.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-14-Cherepanov-1023298",
-   "d": "2026-11-14",
-   "who": "Mikhail Cherepanov",
-   "kind": "news",
-   "title": "Cherepanov poänglös när Kamloops föll 1–2 efter straffar mot Prince George",
-   "game": "Prince George Cougars 2–1 Kamloops Blazers",
-   "sum": "+1 i plus/minus, 1 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-14-Samuelsson-MichiganTech",
-   "d": "2026-11-14",
-   "who": "William Samuelsson",
-   "kind": "news",
-   "title": "Samuelsson poänglös när Lake Superior State föll 2–5 mot Michigan Tech",
-   "game": "Michigan Tech 5–2 Lake Superior State",
-   "sum": "−1 i plus/minus, 2 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-14-Fegaras-Yale",
-   "d": "2026-11-14",
-   "who": "George Fegaras",
-   "kind": "news",
-   "title": "Fegaras poänglös när Cornell föll 1–3 mot Yale",
-   "game": "Yale 3–1 Cornell",
-   "sum": "0 i plus/minus, 3 skott.",
-   "auto": true
   }
  ],
  "next": [
-  {
-   "team": "prospect",
-   "who": "Schmidt",
-   "club": "Victoria Royals",
-   "t": "2026-11-19T03:05:00Z",
-   "opp": "Kamloops Blazers",
-   "s": "Kamloops",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Cherepanov",
-   "club": "Kamloops Blazers",
-   "t": "2026-11-19T03:05:00Z",
-   "opp": "Victoria Royals",
-   "s": "Victoria",
-   "home": false
-  },
   {
    "team": "prospect",
    "who": "Kuhta",
@@ -633,6 +519,15 @@
    "home": false
   },
   {
+   "team": "prospect",
+   "who": "Brown",
+   "club": "London Knights",
+   "t": "2026-11-26T00:00:00Z",
+   "opp": "Erie Otters",
+   "s": "Erie",
+   "home": false
+  },
+  {
    "team": "dallas",
    "t": "2026-11-26T01:00:00Z",
    "opp": "Nashville Predators",
@@ -645,6 +540,24 @@
    "opp": "Tucson Roadrunners",
    "s": "Tucson",
    "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Schmidt",
+   "club": "Victoria Royals",
+   "t": "2026-11-26T03:05:00Z",
+   "opp": "Regina Pats",
+   "s": "Regina",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Vaněček",
+   "club": "Tri-City Americans",
+   "t": "2026-11-26T03:05:00Z",
+   "opp": "Seattle Thunderbirds",
+   "s": "Seattle",
+   "home": false
   },
   {
    "team": "dallas",
@@ -691,35 +604,35 @@
  ],
  "top": [
   {
-   "t": "Kina lanserar Shenzhen som skyltfönster mot världen",
-   "sum": "Staden Shenzhens ekonomi är större än hela Sveriges och fortsätter att växa. Nu samlas ledarna för 21 ekonomier för att diskutera handel, ekonomiskt samarbete och regional utveckling. Kina hoppas att världen ska få upp ögonen för staden. – Vägen framåt bygger på internationellt samarbete, säger företagaren Li Fusheng.",
-   "url": "https://www.svt.se/nyheter/utrikes/kina-lanserar-shenzhen-som-skyltfonster-mot-varlden",
+   "t": "Anthropic bekräftar aktiepris – sätter rekord",
+   "sum": "AI-jätten Anthropic sätter sin introduktionskurs till 83 dollar per aktie inför noteringen på Nasdaq i New York, bekräftar bolaget.",
+   "url": "https://www.svt.se/nyheter/ekonomi/anthropic-bekraftar-aktiepris-satter-rekord",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Här hälsas Trump och Putin välkomna till Kina",
-   "sum": "Just nu träffas världens mäktigaste män i kinesiska Shenzhen. Men exakt vad Trump, Putin och mötesvärden Xi Jinping ska prata om första gången de ses tillsammans är oklart.",
-   "url": "https://www.svt.se/nyheter/utrikes/har-halsas-trump-och-putin-valkomna-till-kina",
+   "t": "19 november: Nattens nyheter",
+   "sum": "",
+   "url": "https://www.svt.se/nyheter/inrikes/19-november-nattens-nyheter-syym5m",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Trump, Xi och Putin ska träffas – vad ska de prata om?",
-   "sum": "För första gången ska USA:s Donald Trump, Kinas Xi Jinping och Rysslands Vladimir Putin träffas tillsammans. Vad vill de uppnå – och riskerar Europa att hamna utanför när stormakterna gör upp?",
-   "url": "https://www.svt.se/nyheter/utrikes/trump-xi-och-putin-ska-traffas-vad-ska-de-prata-om",
+   "t": "Senaste nytt i Morgonstudion – följ sändningen här",
+   "sum": "Dagens viktigaste nyheter och analyser med ständiga uppdateringar.",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-i-morgonstudion-folj-sandningen-har-uisf4r",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Senaste nytt om valet 2026",
-   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
-   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "t": "I dag möts världsledarna – Trump, Putin och Xi i trepartsmöte",
+   "sum": "Efter drygt 40 minuter har Donald Trump och Vladimir Putin avslutat sitt bilaterala möte, rapporterar CNN. Om några timmar ska världsledarna även träffa Kinas Xi Jinping i ett trepartsmöte men redan tidigt på torsdagsmorgonen har ett möte inletts mellan Xi och Trump.",
+   "url": "https://www.svt.se/nyheter/utrikes/putin-och-trump-har-inlett-mote",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Flera partitoppar skippade omröstning – sitter i förhandlingar",
-   "sum": "Flera tunga rödgröna politiker saknades vid onsdagens omröstning i riksdagen. Enligt SVT:s uppgifter är orsaken att flera av dem just nu sitter i förhandlingar om regeringsmakten. – Vi jobbar på, säger Daniel Helldén (MP).",
-   "url": "https://www.svt.se/nyheter/inrikes/flera-partitoppar-skippade-omrostning-sitter-i-forhandlingar",
+   "t": "Möte mellan Trump, Putin och Xi",
+   "sum": "Donald Trump, Vladimir Putin och Xi Jinping möts i dag för ett historiskt trepartssamtal inför Apec-mötet i Shenzhen. Följ SVT:s direktrapportering här.",
+   "url": "https://www.svt.se/nyheter/utrikes/mote-mellan-trump-putin-och-xi",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-18T23:04+01:00"
+ "topUpdated": "2026-11-19T07:15+01:00"
 }
