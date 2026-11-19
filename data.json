@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T07:15:42+01:00",
+ "updated": "2026-11-19T10:22:55+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -604,26 +604,14 @@
  ],
  "top": [
   {
-   "t": "Anthropic bekräftar aktiepris – sätter rekord",
-   "sum": "AI-jätten Anthropic sätter sin introduktionskurs till 83 dollar per aktie inför noteringen på Nasdaq i New York, bekräftar bolaget.",
-   "url": "https://www.svt.se/nyheter/ekonomi/anthropic-bekraftar-aktiepris-satter-rekord",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "19 november: Nattens nyheter",
-   "sum": "",
-   "url": "https://www.svt.se/nyheter/inrikes/19-november-nattens-nyheter-syym5m",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Senaste nytt i Morgonstudion – följ sändningen här",
-   "sum": "Dagens viktigaste nyheter och analyser med ständiga uppdateringar.",
-   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-i-morgonstudion-folj-sandningen-har-uisf4r",
+   "t": "Cyberattack mot EU-kommissionen",
+   "sum": "EU-kommissionen har utsatts för en omfattande cyberattack, rapporterar Politico. Attacken kan ha pågått i över tio dagar och har bland annat påverkar anställdas möjlighet att tidrapportera. Det är hittills oklart om angriparna har kommit över känslig persondata.",
+   "url": "https://www.svt.se/nyheter/utrikes/cyberattack-mot-eu-kommissionen",
    "src": "SVT Nyheter"
   },
   {
    "t": "I dag möts världsledarna – Trump, Putin och Xi i trepartsmöte",
-   "sum": "Efter drygt 40 minuter har Donald Trump och Vladimir Putin avslutat sitt bilaterala möte, rapporterar CNN. Om några timmar ska världsledarna även träffa Kinas Xi Jinping i ett trepartsmöte men redan tidigt på torsdagsmorgonen har ett möte inletts mellan Xi och Trump.",
+   "sum": "Nu möts Putin, Xi och Trump i ett historiskt möte som inleddes vid 09.30 svensk tid, enligt ryska nyhetsbyrån RIA. Ledarna var överens om att deras tre länder hade ett gemensamt ansvar att upprätthålla den globala stabiliteten. – Låt oss se om vi kan få något gjort, sa Trump i början av mötet.",
    "url": "https://www.svt.se/nyheter/utrikes/putin-och-trump-har-inlett-mote",
    "src": "SVT Nyheter"
   },
@@ -632,7 +620,19 @@
    "sum": "Donald Trump, Vladimir Putin och Xi Jinping möts i dag för ett historiskt trepartssamtal inför Apec-mötet i Shenzhen. Följ SVT:s direktrapportering här.",
    "url": "https://www.svt.se/nyheter/utrikes/mote-mellan-trump-putin-och-xi",
    "src": "SVT Nyheter"
+  },
+  {
+   "t": "Kina lanserar Shenzhen som skyltfönster mot världen",
+   "sum": "Staden Shenzhens ekonomi är större än hela Sveriges och fortsätter att växa. Nu samlas ledarna för 21 ekonomier för att diskutera handel, ekonomiskt samarbete och regional utveckling. Kina hoppas att världen ska få upp ögonen för staden. – Vägen framåt bygger på internationellt samarbete, säger företagaren Li Fusheng.",
+   "url": "https://www.svt.se/nyheter/utrikes/kina-lanserar-shenzhen-som-skyltfonster-mot-varlden",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Trump, Xi och Putin ska träffas – vad ska de prata om?",
+   "sum": "För första gången ska USA:s Donald Trump, Kinas Xi Jinping och Rysslands Vladimir Putin träffas tillsammans. Vad vill de uppnå – och riskerar Europa att hamna utanför när stormakterna gör upp?",
+   "url": "https://www.svt.se/nyheter/utrikes/trump-xi-och-putin-ska-traffas-vad-ska-de-prata-om",
+   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-19T07:15+01:00"
+ "topUpdated": "2026-11-19T10:22+01:00"
 }
