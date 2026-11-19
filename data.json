@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T10:22:55+01:00",
+ "updated": "2026-11-19T14:33:46+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -197,6 +197,16 @@
   }
  ],
  "news": [
+  {
+   "id": "2026-11-18-Schmidt-1023313",
+   "d": "2026-11-18",
+   "who": "Cameron Schmidt",
+   "kind": "out",
+   "title": "Schmidt inte med när Victoria föll 3–4 efter förlängning mot Kamloops",
+   "game": "Victoria Royals 3–4 Kamloops Blazers",
+   "sum": "Fanns inte i matchprotokollet. Orsaken framgår inte av ligans data – se Prospekt-radarn.",
+   "auto": true
+  },
   {
    "id": "2026-11-18-Wilde Larsen-VstersIK",
    "d": "2026-11-18",
@@ -604,15 +614,27 @@
  ],
  "top": [
   {
-   "t": "Cyberattack mot EU-kommissionen",
-   "sum": "EU-kommissionen har utsatts för en omfattande cyberattack, rapporterar Politico. Attacken kan ha pågått i över tio dagar och har bland annat påverkar anställdas möjlighet att tidrapportera. Det är hittills oklart om angriparna har kommit över känslig persondata.",
-   "url": "https://www.svt.se/nyheter/utrikes/cyberattack-mot-eu-kommissionen",
+   "t": "SVT-profil anmäler SVT till Granskningsnämnden",
+   "sum": "Årets julvärd Carina Bergfeldt har anmält SVT till Granskningsnämnden, skriver Aftonbladet.",
+   "url": "https://www.svt.se/nyheter/inrikes/svt-profil-anmaler-svt-till-granskningsnamnden",
    "src": "SVT Nyheter"
   },
   {
-   "t": "I dag möts världsledarna – Trump, Putin och Xi i trepartsmöte",
-   "sum": "Nu möts Putin, Xi och Trump i ett historiskt möte som inleddes vid 09.30 svensk tid, enligt ryska nyhetsbyrån RIA. Ledarna var överens om att deras tre länder hade ett gemensamt ansvar att upprätthålla den globala stabiliteten. – Låt oss se om vi kan få något gjort, sa Trump i början av mötet.",
-   "url": "https://www.svt.se/nyheter/utrikes/putin-och-trump-har-inlett-mote",
+   "t": "Rättegången mot Katja Nyberg hålls i januari",
+   "sum": "Den tidigare SD-ledamoten Katja Nyberg står åtalad för grov olovlig körning, rattfylleri, ringa narkotikabruk och innehav av narkotika. Rättegången kommer att hållas den 26 och 27 januari, rapporterar TV4 Nyheterna.",
+   "url": "https://www.svt.se/nyheter/inrikes/rattegangen-mot-katja-nyberg-halls-i-januari",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Analys: USA, Kina och Ryssland möts – Europa står vid sidan",
+   "sum": "Kina har inga planer på att ändra sin nära handelsrelation med Iran för att stärka USA i kriget. Samtidigt står Europa utanför toppmötet i Shenzhen.",
+   "url": "https://www.svt.se/nyheter/utrikes/den-stora-vinnaren-blev-nog-den-annars-vingklippte-putin",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Kinesisk statlig media: Mötet mellan Xi, Putin och Trump avslutas",
+   "sum": "Trepartsmötet mellan Xi Jinping, Vladimir Putin och Donald Trump håller nu på att avslutas, rapporterar Kinas statliga media. Mötet pågick i en och en halv timme och ska bland annat ha handlat om kärnvapenfrågan och kriget i Ukraina. Strax efter mötet kommer ett gemensamt uttalande från de tre länderna, rapporterar kinesisk statlig media.",
+   "url": "https://www.svt.se/nyheter/utrikes/motet-mellan-xi-putin-och-trump-avslutas",
    "src": "SVT Nyheter"
   },
   {
@@ -620,19 +642,7 @@
    "sum": "Donald Trump, Vladimir Putin och Xi Jinping möts i dag för ett historiskt trepartssamtal inför Apec-mötet i Shenzhen. Följ SVT:s direktrapportering här.",
    "url": "https://www.svt.se/nyheter/utrikes/mote-mellan-trump-putin-och-xi",
    "src": "SVT Nyheter"
-  },
-  {
-   "t": "Kina lanserar Shenzhen som skyltfönster mot världen",
-   "sum": "Staden Shenzhens ekonomi är större än hela Sveriges och fortsätter att växa. Nu samlas ledarna för 21 ekonomier för att diskutera handel, ekonomiskt samarbete och regional utveckling. Kina hoppas att världen ska få upp ögonen för staden. – Vägen framåt bygger på internationellt samarbete, säger företagaren Li Fusheng.",
-   "url": "https://www.svt.se/nyheter/utrikes/kina-lanserar-shenzhen-som-skyltfonster-mot-varlden",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Trump, Xi och Putin ska träffas – vad ska de prata om?",
-   "sum": "För första gången ska USA:s Donald Trump, Kinas Xi Jinping och Rysslands Vladimir Putin träffas tillsammans. Vad vill de uppnå – och riskerar Europa att hamna utanför när stormakterna gör upp?",
-   "url": "https://www.svt.se/nyheter/utrikes/trump-xi-och-putin-ska-traffas-vad-ska-de-prata-om",
-   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-19T10:22+01:00"
+ "topUpdated": "2026-11-19T14:33+01:00"
 }
