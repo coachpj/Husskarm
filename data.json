@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:11:06+01:00",
+ "updated": "2026-11-20T23:02:19+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -52,8 +52,8 @@
    "lg": "WHL",
    "dr": "2026 R7 #219",
    "s": "20 GP · 3 M · 5 A · 8 P · +11",
-   "l5": "1+2=3",
-   "l5p": 3,
+   "l5": "1+1=2",
+   "l5p": 2,
    "note": "Rysk back, kom från NAHL (31 poäng på 56 matcher). Valdes av Kamloops i CHL:s importdraft."
   },
   {
@@ -117,15 +117,15 @@
    "team": "BIK Karlskoga",
    "lg": "HockeyAllsvenskan",
    "dr": "2025 R5 #158",
-   "s": "9 GP · 4-5 · 3.22 GAA · .876",
+   "s": "10 GP · 5-5 · 3.09 GAA · .882",
    "l5": "",
    "l5p": -1,
    "note": "Utlånad från Färjestad hela säsongen. Startade sju matcher när Olof Lindbom var skadad. Lindbom kom tillbaka 30 okt, men Goos stod när BIK slog serieledande AIK 3–2 efter förlängning 13 nov. JVM-guld 2026 som tredjemålvakt.",
    "raw": {
-    "gpi": 9,
-    "svs": 198,
-    "ga": 28,
-    "w": 4,
+    "gpi": 10,
+    "svs": 224,
+    "ga": 30,
+    "w": 5,
     "l": 5
    }
   },
@@ -198,6 +198,26 @@
   }
  ],
  "news": [
+  {
+   "id": "2026-11-20-Goos-VstersIK",
+   "d": "2026-11-20",
+   "who": "Måns Goos",
+   "kind": "hl",
+   "title": "Goos stod när Karlskoga vann 5–2 mot Västerås",
+   "game": "Västerås IK 2–5 BIK Karlskoga",
+   "sum": "26 räddningar, 2 insläppta mål.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-20-Joki-2701466",
+   "d": "2026-11-20",
+   "who": "Atte Joki",
+   "kind": "news",
+   "title": "Joki poänglös när HIFK vann 3–2 mot JYP",
+   "game": "JYP 2–3 HIFK",
+   "sum": "0:00 istid, 0 i plus/minus.",
+   "auto": true
+  },
   {
    "id": "2026-11-19-Sharkey-Stonehill",
    "d": "2026-11-19",
@@ -280,24 +300,6 @@
   }
  ],
  "next": [
-  {
-   "team": "prospect",
-   "who": "Joki",
-   "club": "HIFK",
-   "t": "2026-11-20T16:30:00Z",
-   "opp": "JYP",
-   "s": "JYP",
-   "home": false
-  },
-  {
-   "team": "prospect",
-   "who": "Goos",
-   "club": "BIK Karlskoga",
-   "t": "2026-11-20T18:00:00Z",
-   "opp": "Västerås IK",
-   "s": "Västerås",
-   "home": false
-  },
   {
    "team": "prospect",
    "who": "Brown",
@@ -582,6 +584,15 @@
    "home": false
   },
   {
+   "team": "prospect",
+   "who": "Goos",
+   "club": "BIK Karlskoga",
+   "t": "2026-11-27T19:30:00Z",
+   "opp": "Södertälje SK",
+   "s": "Södertälje",
+   "home": true
+  },
+  {
    "team": "texas",
    "t": "2026-11-28T01:00:00Z",
    "opp": "Rockford IceHogs",
@@ -626,9 +637,9 @@
  ],
  "top": [
   {
-   "t": "Mordplaner på ukrainsk rappare i Danmark – Ryssland misstänks",
-   "sum": "Två danska män misstänkts ha anlitats av rysk underrättelsetjänst för att mörda en ukrainsk artist i samband med en konsert i Köpenhamn, rapporterar flera danska medier. Männen ska ha koppling till den gängkriminella miljön.",
-   "url": "https://www.svt.se/nyheter/utrikes/mordplaner-pa-ukrainsk-rappare-i-danmark-ryssland-misstanks",
+   "t": "Blodig fredag med AI-slakt på Wall Street",
+   "sum": "New York-börsen öppnade deppigt och fallet tilltog efter ett tal av president Donald Trump på fredagskvällen. En redan stor oro i den AI-kopplade sektorn förstärktes – och den nyfödda jätten Anthropic föll ned till nära nollpunkten.",
+   "url": "https://www.svt.se/nyheter/ekonomi/blodig-fredag-med-ai-slakt-pa-wall-street",
    "src": "SVT Nyheter"
   },
   {
@@ -656,5 +667,5 @@
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-20T19:11+01:00"
+ "topUpdated": "2026-11-20T23:02+01:00"
 }
