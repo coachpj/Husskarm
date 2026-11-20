@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T07:18:56+01:00",
+ "updated": "2026-11-20T10:17:54+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -617,15 +617,9 @@
  ],
  "top": [
   {
-   "t": "20 november: Nattens nyheter",
-   "sum": "",
-   "url": "https://www.svt.se/nyheter/inrikes/20-november-nattens-nyheter-137ocy",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Senaste nytt i Morgonstudion – följ sändningen här",
-   "sum": "Dagens viktigaste nyheter och analyser med ständiga uppdateringar.",
-   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-i-morgonstudion-folj-sandningen-har-uisf4r",
+   "t": "Foxtrotnamn på Europols lista – kopplas till grova brott",
+   "sum": "En efterlyst man med koppling till Foxtrotnätverket har satts upp på Europols lista över de mest eftersökta i Europa. Han kopplas till ett Signal-konto som ligger bakom flera grova våldsbrott i år.",
+   "url": "https://www.svt.se/nyheter/inrikes/foxtrotnamn-pa-europols-lista-konto-kopplas-till-grova-brott",
    "src": "SVT Nyheter"
   },
   {
@@ -635,17 +629,23 @@
    "src": "SVT Nyheter"
   },
   {
+   "t": "COP31 Antalya 2026 – följ senaste nytt om FN:s klimattoppmöte i Turkiet",
+   "sum": "Planeten blir varmare – extremhetta och skyfall har plågat människor under året. Följ SVT:s rapportering om förhandlingarna om de fossila utsläppen och pengarna till drabbade länder.",
+   "url": "https://www.svt.se/nyheter/utrikes/cop31-antalya-2026-folj-senaste-nytt-om-fns-klimattoppmote-i-turkiet",
+   "src": "SVT Nyheter"
+  },
+  {
    "t": "”Glaciärkatastrofen i Nepal är rika länders fel – måste betala”",
    "sum": "Fattiga länder kräver att den rika världen, som historiskt släppt ut mest växthusgaser, ska stå för notan när det gäller skador till följd av klimatförändringar. Glaciärkatastrofen i Nepal orsakade skador för uppemot 5 miljarder dollar – och på klimatmötet COP31 i Turkiet kräver landet nu att rika länder betalar. – Det är inte vi som har orsakat detta, säger Gobinda Bahadur Shahi från den nepalesiska frivilligorganisationen Kirdarc.",
    "url": "https://www.svt.se/nyheter/utrikes/glaciarkatastrofen-i-nepal-ar-rika-landers-fel-maste-betala",
    "src": "SVT Nyheter"
   },
   {
-   "t": "COP31 Antalya 2026 – följ senaste nytt om FN:s klimattoppmöte i Turkiet",
-   "sum": "Planeten blir varmare – extremhetta och skyfall har plågat människor under året. Följ SVT:s rapportering om förhandlingarna om de fossila utsläppen och pengarna till drabbade länder.",
-   "url": "https://www.svt.se/nyheter/utrikes/cop31-antalya-2026-folj-senaste-nytt-om-fns-klimattoppmote-i-turkiet",
+   "t": "COP31 – det här behöver du veta",
+   "sum": "Den 9–20 november 2026 hålls FN:s klimatmöte COP31 i Antalya, Turkiet. Tusentals politiker, forskare, företag och organisationer väntas delta – däribland Sveriges representanter. Här är en guide för vad du behöver ha koll på inför veckan.",
+   "url": "https://www.svt.se/nyheter/utrikes/cop31-det-har-behover-du-veta",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-20T07:18+01:00"
+ "topUpdated": "2026-11-20T10:17+01:00"
 }
