@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T14:29:07+01:00",
+ "updated": "2026-11-20T19:11:06+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -19,8 +19,8 @@
    "lg": "WHL",
    "dr": "2026 R2 #59",
    "s": "19 GP · 3 M · 8 A · 11 P · −3",
-   "l5": "1+3=4",
-   "l5p": 4,
+   "l5": "0+3=3",
+   "l5p": 3,
    "note": "Dallas högsta val 2026. Klar för Western Michigan (NCAA) från 2027-28."
   },
   {
@@ -106,7 +106,7 @@
    "team": "HIFK",
    "lg": "Liiga",
    "dr": "",
-   "s": "18 GP · 0 M · 0 A · 0 P · −3 · 9:31 istid/match",
+   "s": "19 GP · 0 M · 0 A · 0 P · −3 · 9:31 istid/match",
    "l5": "0+0=0",
    "l5p": 0,
    "note": "Bra närkampssiffror men svag i tekningar. Boxplayroll är nästa steg att följa."
@@ -566,6 +566,15 @@
    "home": false
   },
   {
+   "team": "prospect",
+   "who": "Joki",
+   "club": "HIFK",
+   "t": "2026-11-27T17:30:00Z",
+   "opp": "SaiPa",
+   "s": "SaiPa",
+   "home": true
+  },
+  {
    "team": "dallas",
    "t": "2026-11-27T19:00:00Z",
    "opp": "St. Louis Blues",
@@ -617,6 +626,18 @@
  ],
  "top": [
   {
+   "t": "Mordplaner på ukrainsk rappare i Danmark – Ryssland misstänks",
+   "sum": "Två danska män misstänkts ha anlitats av rysk underrättelsetjänst för att mörda en ukrainsk artist i samband med en konsert i Köpenhamn, rapporterar flera danska medier. Männen ska ha koppling till den gängkriminella miljön.",
+   "url": "https://www.svt.se/nyheter/utrikes/mordplaner-pa-ukrainsk-rappare-i-danmark-ryssland-misstanks",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Uppgifter: V nobbar S-bud om tjänstemän på regeringskansliet",
+   "sum": "Efter att ha förhandlat och övernattat tillsammans är läget fortsatt låst bland de rödgröna partierna. Enligt SVT:s uppgifter har V fått ett bud från S som innehåller tjänstemän på regeringskansliet. – Jag hoppas det finns en gemensam vilja att hitta lösningar, säger Mikael Damberg (S).",
+   "url": "https://www.svt.se/nyheter/inrikes/uppgifter-v-nobbar-s-bud-om-tjansteman-pa-regeringskansliet",
+   "src": "SVT Nyheter"
+  },
+  {
    "t": "Lokal C-topp öppnar för V-ministrar i regeringen",
    "sum": "Christian Widlund (C) är kommunalråd i Norrköping. Han är den första förtroendevalda Centerpartisten som öppet säger att C bör ta bort sin röda linje mot att släppa in Vänsterpartiet i regeringen. – Vi behöver en regering och är det det som behövs får vi nog tugga i oss det, säger han till SVT:s Agenda.",
    "url": "https://www.svt.se/nyheter/inrikes/lokal-c-topp-oppnar-for-v-ministrar-i-regeringen",
@@ -629,23 +650,11 @@
    "src": "SVT Nyheter"
   },
   {
-   "t": "Långa köer E6 efter lastbilskrock",
-   "sum": "Under fredagsförmiddagen fick räddningstjänsten ett larm om att en lastbil som hade krockat på E6 mellan Slöinge och Heberg. Ett körfält var avstängt på E6 men trafiken rullar på igen enligt räddningstjänsten.",
-   "url": "https://www.svt.se/nyheter/inrikes/stopp-pa-e6-efter-lastbilskrock-9jh7yn",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Lista: Så förutspås klimatkatastrofer – med nya data",
-   "sum": "Försäkringsbolagen ser klimatförändringar som det dominerande hotet på lång sikt. Försäkringsjätten Zurich varnar för att extremväder och naturkatastrofer har blivit svårare att förutse – samtidigt som allt fler områden att bli omöjliga att försäkra. – Försäkringsbolag är som en kanariefågel i gruvan. Innan något blir obeboeligt blir det ofta oförsäkringsbart, säger Mattias Fritz på ett av världens största försäkringsbolag, Zurich.",
-   "url": "https://www.svt.se/nyheter/utrikes/lista-sa-forutspas-klimatkatastrofer-med-nya-data",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "COP31 Antalya 2026 – följ senaste nytt om FN:s klimattoppmöte i Turkiet",
-   "sum": "Planeten blir varmare – extremhetta och skyfall har plågat människor under året. Följ SVT:s rapportering om förhandlingarna om de fossila utsläppen och pengarna till drabbade länder.",
-   "url": "https://www.svt.se/nyheter/utrikes/cop31-antalya-2026-folj-senaste-nytt-om-fns-klimattoppmote-i-turkiet",
+   "t": "SVT-profil anmäler SVT till Granskningsnämnden",
+   "sum": "Årets julvärd Carina Bergfeldt har anmält SVT till Granskningsnämnden, skriver Aftonbladet.",
+   "url": "https://www.svt.se/nyheter/inrikes/svt-profil-anmaler-svt-till-granskningsnamnden",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-20T14:29+01:00"
+ "topUpdated": "2026-11-20T19:11+01:00"
 }
