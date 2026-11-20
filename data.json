@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T10:17:54+01:00",
+ "updated": "2026-11-20T14:29:07+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -617,15 +617,27 @@
  ],
  "top": [
   {
-   "t": "Foxtrotnamn på Europols lista – kopplas till grova brott",
-   "sum": "En efterlyst man med koppling till Foxtrotnätverket har satts upp på Europols lista över de mest eftersökta i Europa. Han kopplas till ett Signal-konto som ligger bakom flera grova våldsbrott i år.",
-   "url": "https://www.svt.se/nyheter/inrikes/foxtrotnamn-pa-europols-lista-konto-kopplas-till-grova-brott",
+   "t": "Lokal C-topp öppnar för V-ministrar i regeringen",
+   "sum": "Christian Widlund (C) är kommunalråd i Norrköping. Han är den första förtroendevalda Centerpartisten som öppet säger att C bör ta bort sin röda linje mot att släppa in Vänsterpartiet i regeringen. – Vi behöver en regering och är det det som behövs får vi nog tugga i oss det, säger han till SVT:s Agenda.",
+   "url": "https://www.svt.se/nyheter/inrikes/lokal-c-topp-oppnar-for-v-ministrar-i-regeringen",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Senaste nytt om kriget i Ukraina",
-   "sum": "Rysslands invasion av Ukraina har pågått sedan den 24 februari 2022. Följ SVT:s liverapport med senaste nytt om kriget.",
-   "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage",
+   "t": "Senaste nytt om valet 2026",
+   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Långa köer E6 efter lastbilskrock",
+   "sum": "Under fredagsförmiddagen fick räddningstjänsten ett larm om att en lastbil som hade krockat på E6 mellan Slöinge och Heberg. Ett körfält var avstängt på E6 men trafiken rullar på igen enligt räddningstjänsten.",
+   "url": "https://www.svt.se/nyheter/inrikes/stopp-pa-e6-efter-lastbilskrock-9jh7yn",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Lista: Så förutspås klimatkatastrofer – med nya data",
+   "sum": "Försäkringsbolagen ser klimatförändringar som det dominerande hotet på lång sikt. Försäkringsjätten Zurich varnar för att extremväder och naturkatastrofer har blivit svårare att förutse – samtidigt som allt fler områden att bli omöjliga att försäkra. – Försäkringsbolag är som en kanariefågel i gruvan. Innan något blir obeboeligt blir det ofta oförsäkringsbart, säger Mattias Fritz på ett av världens största försäkringsbolag, Zurich.",
+   "url": "https://www.svt.se/nyheter/utrikes/lista-sa-forutspas-klimatkatastrofer-med-nya-data",
    "src": "SVT Nyheter"
   },
   {
@@ -633,19 +645,7 @@
    "sum": "Planeten blir varmare – extremhetta och skyfall har plågat människor under året. Följ SVT:s rapportering om förhandlingarna om de fossila utsläppen och pengarna till drabbade länder.",
    "url": "https://www.svt.se/nyheter/utrikes/cop31-antalya-2026-folj-senaste-nytt-om-fns-klimattoppmote-i-turkiet",
    "src": "SVT Nyheter"
-  },
-  {
-   "t": "”Glaciärkatastrofen i Nepal är rika länders fel – måste betala”",
-   "sum": "Fattiga länder kräver att den rika världen, som historiskt släppt ut mest växthusgaser, ska stå för notan när det gäller skador till följd av klimatförändringar. Glaciärkatastrofen i Nepal orsakade skador för uppemot 5 miljarder dollar – och på klimatmötet COP31 i Turkiet kräver landet nu att rika länder betalar. – Det är inte vi som har orsakat detta, säger Gobinda Bahadur Shahi från den nepalesiska frivilligorganisationen Kirdarc.",
-   "url": "https://www.svt.se/nyheter/utrikes/glaciarkatastrofen-i-nepal-ar-rika-landers-fel-maste-betala",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "COP31 – det här behöver du veta",
-   "sum": "Den 9–20 november 2026 hålls FN:s klimatmöte COP31 i Antalya, Turkiet. Tusentals politiker, forskare, företag och organisationer väntas delta – däribland Sveriges representanter. Här är en guide för vad du behöver ha koll på inför veckan.",
-   "url": "https://www.svt.se/nyheter/utrikes/cop31-det-har-behover-du-veta",
-   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-20T10:17+01:00"
+ "topUpdated": "2026-11-20T14:29+01:00"
 }
