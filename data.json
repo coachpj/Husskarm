@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T18:55:20+01:00",
+ "updated": "2026-11-21T22:55:38+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -29,8 +29,8 @@
    "team": "London Knights",
    "lg": "OHL",
    "dr": "2026 R5 #155",
-   "s": "17 GP · 5 M · 21 A · 26 P · +9",
-   "l5": "1+4=5",
+   "s": "18 GP · 6 M · 21 A · 27 P · +10",
+   "l5": "2+3=5",
    "l5p": 5,
    "note": "Ny lagkapten i London. Energispelare som utvecklat sitt passningsspel. Har åtagit sig att spela för Ohio State längre fram."
   },
@@ -96,8 +96,8 @@
    "lg": "NCAA",
    "dr": "",
    "s": "7 GP · 0 M · 3 A · 3 P · 0",
-   "l5": "0+2=2",
-   "l5p": 2,
+   "l5": "0+1=1",
+   "l5p": 1,
    "note": "Seniorår och given ankare i Cornells backlinje. Ännu ej kontrakterad av Dallas."
   },
   {
@@ -268,16 +268,6 @@
    "auto": true
   },
   {
-   "id": "2026-11-20-Fegaras-Clarkson",
-   "d": "2026-11-20",
-   "who": "George Fegaras",
-   "kind": "hl",
-   "title": "Fegaras 0+1 när Cornell föll 2–4 mot Clarkson",
-   "game": "Cornell 2–4 Clarkson",
-   "sum": "+1 i plus/minus, 3 skott.",
-   "auto": true
-  },
-  {
    "id": "2026-11-20-Sharkey-Stonehill",
    "d": "2026-11-20",
    "who": "Dawson Sharkey",
@@ -295,6 +285,16 @@
    "title": "Samuelsson poänglös när Lake Superior State spelade 4–4 mot Bemidji State",
    "game": "Lake Superior State 4–4 Bemidji State",
    "sum": "+1 i plus/minus, 2 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-20-Fegaras-Clarkson",
+   "d": "2026-11-20",
+   "who": "George Fegaras",
+   "kind": "news",
+   "title": "Fegaras poänglös när Cornell föll 2–4 mot Clarkson",
+   "game": "Cornell 2–4 Clarkson",
+   "sum": "+1 i plus/minus, 3 skott.",
    "auto": true
   },
   {
@@ -664,6 +664,15 @@
    "home": true
   },
   {
+   "team": "prospect",
+   "who": "Brown",
+   "club": "London Knights",
+   "t": "2026-11-28T21:00:00Z",
+   "opp": "Kitchener Rangers",
+   "s": "Kitchener",
+   "home": true
+  },
+  {
    "team": "dallas",
    "t": "2026-11-29T01:00:00Z",
    "opp": "Utah Mammoth",
@@ -708,27 +717,27 @@
  ],
  "top": [
   {
+   "t": "Senaste nytt om kriget mellan Iran, USA och Israel",
+   "sum": "SVT liverapporterar om konfliktens utveckling",
+   "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-iran-och-konflikten-med-usa-och-israel",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Analys: ”Östersjön – Ukrainakrigets nya front”",
+   "sum": "Från drönare i Finska viken till mordplaner i Köpenhamn. Ukrainakriget flyttar norrut.",
+   "url": "https://www.svt.se/nyheter/utrikes/ostersjon-ukrainakrigets-nya-front",
+   "src": "SVT Nyheter"
+  },
+  {
    "t": "Drönarattack mot fraktfartyg i Finska viken",
-   "sum": "Ett ryskt lastfartyg brinner efter en drönarattack på internationellt vatten i Finska viken. Fartyget har drivit in på finskt vatten. Nu evakuerar besättningen till en livflotte. – Svenskt stridsflyg lyfte inom ramen för vårt stöd till Finland med anledning av drönaraktivitet på finländskt territorium, uppger Försvarsmakten.",
+   "sum": "En brand bröt ut på ett rysk lastfartyg efter en drönarattack i Finska viken på lördagsförmiddagen. Fartyget har drivit in på finskt vatten och besättningen har evakuerats till Ryssland. Brandbekämpning pågår ute till havs. Enligt finska försvaret rör det sig sannolikt om en ukrainsk attack.",
    "url": "https://www.svt.se/nyheter/utrikes/dronarattack-mot-fraktfartyg-i-finska-viken",
    "src": "SVT Nyheter"
   },
   {
-   "t": "C-toppen: Bör gå vidare med allianspartierna",
-   "sum": "Centerpartiet bör ingå ett regeringssamarbete med övriga borgerliga partier. Det skriver C-toppen och Europaparlamentarikern Emma Ytterell i ett inlägg på Facebook.",
-   "url": "https://www.svt.se/nyheter/inrikes/c-toppen-bor-ga-vidare-med-allianspartierna",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Därför backar inte V",
-   "sum": "Vänsterpartiet kräver att få sitta i en rödgrön regering – men pressen att de ska backa ökar. Varför är det så viktigt för V med ministerposter? Och finns det något som talar för att de kommer vika ner sig? – Det är nu eller aldrig för Vänsterpartiet, säger SVT:s inrikespolitiska kommentator Elisabeth Marmorstein.",
-   "url": "https://www.svt.se/nyheter/inrikes/darfor-backar-inte-v",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Därför kan kvinnor få mindre för pengarna i klädbutiken",
-   "sum": "En undersökning visar att damtröjor oftare innehåller blandningar med polyester och akryl, medan herrtröjor oftare består av 100 procent naturliga fibrer. Ändå kan plaggen kosta lika mycket. – Det här drabbar den kvinnliga konsumenten, för hon får plast när mannen får ull, säger Philip Warkander, doktor i modevetenskap.",
-   "url": "https://www.svt.se/nyheter/inrikes/darfor-kan-kvinnor-fa-mindre-for-pengarna-i-kladbutiken",
+   "t": "Professorn: ”Allting pekar på ukrainska drönare”",
+   "sum": "Det ryska lastfartyget Sparta II träffades av drönare i Finska viken – och började brinna. Fartyget har evakuerats. Enligt Hans Liwång, professor vid Försvarshögskolan, pekar mycket på att Ukraina ligger bakom attacken. – Allting pekar på att det är ukrainska drönare som har riktat in sig mot den här, säger han till SVT Nyheter.",
+   "url": "https://www.svt.se/nyheter/utrikes/professorn-allting-pekar-pa-ukrainska-dronare",
    "src": "SVT Nyheter"
   },
   {
@@ -738,5 +747,5 @@
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-21T18:55+01:00"
+ "topUpdated": "2026-11-21T22:55+01:00"
 }
