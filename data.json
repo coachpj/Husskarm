@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T10:00:26+01:00",
+ "updated": "2026-11-21T14:14:46+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -197,6 +197,16 @@
   }
  ],
  "news": [
+  {
+   "id": "2026-11-20-Schmidt-1023323",
+   "d": "2026-11-20",
+   "who": "Cameron Schmidt",
+   "kind": "out",
+   "title": "Schmidt inte med när Victoria vann 6–2 mot Spokane",
+   "game": "Spokane Chiefs 2–6 Victoria Royals",
+   "sum": "Fanns inte i matchprotokollet. Orsaken framgår inte av ligans data – se Prospekt-radarn.",
+   "auto": true
+  },
   {
    "id": "2026-11-20-Goos-VstersIK",
    "d": "2026-11-20",
@@ -635,6 +645,15 @@
    "home": true
   },
   {
+   "team": "prospect",
+   "who": "Wilde Larsen",
+   "club": "Linköping HC J20",
+   "t": "2026-11-28T13:00:00Z",
+   "opp": "HV 71 J20",
+   "s": "HV 71",
+   "home": false
+  },
+  {
    "team": "dallas",
    "t": "2026-11-29T01:00:00Z",
    "opp": "Utah Mammoth",
@@ -679,9 +698,21 @@
  ],
  "top": [
   {
-   "t": "Drönarlarm i Finland och Estland – Natoflyg i luften",
-   "sum": "Invånare i Estland har varnats för drönare under natten. I Finland har flyg- och sjötrafik begränsats.",
-   "url": "https://www.svt.se/nyheter/utrikes/dronarlarm-i-finland-och-estland-natoflyg-i-luften",
+   "t": "Carina Bergfeldts ånger efter SVT-anmälan: ”Borde hållits isär”",
+   "sum": "SVT-profilen Carina Bergfeldt ångrar att hon hjälpte en adhd-expert att anmäla SVT:s ”Kulturnyheterna” till Granskningsnämden. Det skriver hon i ett inlägg på Instagram.",
+   "url": "https://www.svt.se/nyheter/inrikes/carina-bergfeldts-anger-efter-svt-anmalan-borde-hallits-isar",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Drönarattack mot fraktfartyg i Finska viken",
+   "sum": "Ett fraktfartyg brinner efter att ha attackerats med drönare på internationellt vatten i Finska viken. Fartyget ifråga står under sanktioner för vapentransporter till den ryska militären.",
+   "url": "https://www.svt.se/nyheter/utrikes/dronarattack-mot-fraktfartyg-i-finska-viken",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "C-toppen: Bör gå vidare med allianspartierna",
+   "sum": "Centerpartiet bör ingå ett regeringssamarbete med övriga allianspartier. Det skriver C-toppen och Europaparlamentarikern Emma Ytterell i ett inlägg på Facebook.",
+   "url": "https://www.svt.se/nyheter/inrikes/c-toppen-bor-ga-vidare-med-allianspartierna",
    "src": "SVT Nyheter"
   },
   {
@@ -691,23 +722,11 @@
    "src": "SVT Nyheter"
   },
   {
-   "t": "Uppgifter: V nobbar S-bud om tjänstemän på regeringskansliet",
-   "sum": "Efter att ha förhandlat och övernattat tillsammans är läget fortsatt låst bland de rödgröna partierna. Enligt SVT:s uppgifter har V fått ett bud från S som innehåller tjänstemän på regeringskansliet. – Jag hoppas det finns en gemensam vilja att hitta lösningar, säger Mikael Damberg (S).",
-   "url": "https://www.svt.se/nyheter/inrikes/uppgifter-v-nobbar-s-bud-om-tjansteman-pa-regeringskansliet",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Lokal C-topp öppnar för V-ministrar i regeringen",
-   "sum": "Christian Widlund (C) är kommunalråd i Norrköping. Han är den första förtroendevalda Centerpartisten som öppet säger att C bör ta bort sin röda linje mot att släppa in Vänsterpartiet i regeringen. – Vi behöver en regering och är det det som behövs får vi nog tugga i oss det, säger han till SVT:s Agenda.",
-   "url": "https://www.svt.se/nyheter/inrikes/lokal-c-topp-oppnar-for-v-ministrar-i-regeringen",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Man döms för dödsbranden i Pacific Palisades",
-   "sum": "En man har dömts för att ha orsakat den omfattande branden i Pacific Palisades i Los Angeles i januari 2025, rapporterar NBC News. Händelsen krävde 12 människors liv och förstörde tusentals byggnader. Mannen riskerar upp till 40 års fängelse.",
-   "url": "https://www.svt.se/nyheter/utrikes/man-doms-for-dodsbranden-i-pacific-palisades",
+   "t": "Expertens tips efter börsras: Logga inte in",
+   "sum": "Börsraset i USA har lett lett till oro – nu krävs tålamod och is i magen, menar Avanzas börsstrateg Elin Benjaminsson: – Om du inte kan logga in på kontot utan att agera: logga inte in.",
+   "url": "https://www.svt.se/nyheter/ekonomi/expertens-tips-efter-borsras-logga-inte-in",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-21T10:00+01:00"
+ "topUpdated": "2026-11-21T14:14+01:00"
 }
