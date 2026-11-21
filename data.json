@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T23:02:19+01:00",
+ "updated": "2026-11-21T07:08:38+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -18,9 +18,9 @@
    "team": "Tri-City Americans",
    "lg": "WHL",
    "dr": "2026 R2 #59",
-   "s": "19 GP · 3 M · 8 A · 11 P · −3",
-   "l5": "0+3=3",
-   "l5p": 3,
+   "s": "20 GP · 3 M · 9 A · 12 P · −4",
+   "l5": "0+4=4",
+   "l5p": 4,
    "note": "Dallas högsta val 2026. Klar för Western Michigan (NCAA) från 2027-28."
   },
   {
@@ -29,9 +29,9 @@
    "team": "London Knights",
    "lg": "OHL",
    "dr": "2026 R5 #155",
-   "s": "16 GP · 5 M · 20 A · 25 P · +9",
-   "l5": "2+4=6",
-   "l5p": 6,
+   "s": "17 GP · 5 M · 21 A · 26 P · +9",
+   "l5": "1+4=5",
+   "l5p": 5,
    "note": "Ny lagkapten i London. Energispelare som utvecklat sitt passningsspel. Har åtagit sig att spela för Ohio State längre fram."
   },
   {
@@ -40,9 +40,9 @@
    "team": "Prince Albert Raiders",
    "lg": "WHL",
    "dr": "2025 R4 #126",
-   "s": "19 GP · 9 M · 5 A · 14 P · +1",
-   "l5": "0+1=1",
-   "l5p": 1,
+   "s": "20 GP · 9 M · 7 A · 16 P · +2",
+   "l5": "0+3=3",
+   "l5p": 3,
    "note": "Valde bort NCAA för en ny säsong i Prince Albert. Vände den tunga starten med mål i sex raka matcher; poängsviten bröts i 0–2-förlusten i Red Deer 7 nov."
   },
   {
@@ -51,9 +51,9 @@
    "team": "Kamloops Blazers",
    "lg": "WHL",
    "dr": "2026 R7 #219",
-   "s": "20 GP · 3 M · 5 A · 8 P · +11",
-   "l5": "1+1=2",
-   "l5p": 2,
+   "s": "21 GP · 3 M · 6 A · 9 P · +11",
+   "l5": "1+2=3",
+   "l5p": 3,
    "note": "Rysk back, kom från NAHL (31 poäng på 56 matcher). Valdes av Kamloops i CHL:s importdraft."
   },
   {
@@ -73,7 +73,7 @@
    "team": "Northeastern",
    "lg": "NCAA",
    "dr": "",
-   "s": "9 GP · 6 M · 0 A · 6 P · −1",
+   "s": "10 GP · 6 M · 0 A · 6 P · −1",
    "l5": "5+0=5",
    "l5p": 5,
    "note": "Freshman. Första collegemålet kom mot UMass; två mål (varav det matchavgörande) mot Holy Cross 7 nov."
@@ -84,9 +84,9 @@
    "team": "Lake Superior State",
    "lg": "NCAA",
    "dr": "2024 R7 #222",
-   "s": "10 GP · 1 M · 0 A · 1 P · −5",
-   "l5": "1+0=1",
-   "l5p": 1,
+   "s": "11 GP · 1 M · 0 A · 1 P · −4",
+   "l5": "0+0=0",
+   "l5p": 0,
    "note": "Södertäljekille, son till Mikael Samuelsson. Första NCAA-säsongen efter två år i USHL."
   },
   {
@@ -95,9 +95,9 @@
    "team": "Cornell",
    "lg": "NCAA",
    "dr": "",
-   "s": "6 GP · 0 M · 2 A · 2 P · −1",
-   "l5": "0+1=1",
-   "l5p": 1,
+   "s": "7 GP · 0 M · 3 A · 3 P · 0",
+   "l5": "0+2=2",
+   "l5p": 2,
    "note": "Seniorår och given ankare i Cornells backlinje. Ännu ej kontrakterad av Dallas."
   },
   {
@@ -150,6 +150,16 @@
  ],
  "games": [
   {
+   "team": "texas",
+   "d": "2026-11-20",
+   "title": "Texas Stars 2–4 San Jose Barracuda",
+   "res": "L",
+   "sc": [
+    "Dylan Hryckowian 2"
+   ],
+   "note": ""
+  },
+  {
    "team": "dallas",
    "d": "2026-11-19",
    "title": "Dallas Stars 4–3 Vegas Golden Knights",
@@ -184,17 +194,6 @@
     "Jason Robertson (OT)"
    ],
    "note": "Casey DeSmith 25 räddningar. Robertson avgjorde på backhand efter 2:56 av förlängningen (assist Hintz). Tyler Myers lämnade matchen skadad."
-  },
-  {
-   "team": "texas",
-   "d": "2026-11-15",
-   "title": "Texas Stars 2–1 Tucson Roadrunners",
-   "res": "W",
-   "sc": [
-    "Jack Becker",
-    "Dylan Hryckowian (PP)"
-   ],
-   "note": "Rémi Poirier (konditionslån från Dallas) i mål, 12 räddningar i tredje perioden (total ej angiven). Hryckowians PP-mål i andra perioden avgjorde; säsongens första bortaseger."
   }
  ],
  "news": [
@@ -206,6 +205,76 @@
    "title": "Goos stod när Karlskoga vann 5–2 mot Västerås",
    "game": "Västerås IK 2–5 BIK Karlskoga",
    "sum": "26 räddningar, 2 insläppta mål.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-20-Vaněček-1023322",
+   "d": "2026-11-20",
+   "who": "Jakub Vaněček",
+   "kind": "hl",
+   "title": "Vaněček 0+1 när Tri-City föll 1–2 mot Seattle",
+   "game": "Seattle Thunderbirds 2–1 Tri-City Americans",
+   "sum": "−1 i plus/minus, 4 skott, 2 utvisningsminuter.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-20-Brown-29219",
+   "d": "2026-11-20",
+   "who": "Ryan Brown",
+   "kind": "hl",
+   "title": "Brown 0+1 när London vann 4–3 mot Sault Ste. Marie",
+   "game": "London Knights 4–3 Soo Greyhounds",
+   "sum": "0 i plus/minus, 10 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-20-Gorzynski-1023319",
+   "d": "2026-11-20",
+   "who": "Brandon Gorzynski",
+   "kind": "hl",
+   "title": "Gorzynski 0+2 när Prince Albert vann 4–1 mot Portland",
+   "game": "Prince Albert Raiders 4–1 Portland Winterhawks",
+   "sum": "+1 i plus/minus, 3 skott, 2 utvisningsminuter.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-20-Cherepanov-1023316",
+   "d": "2026-11-20",
+   "who": "Mikhail Cherepanov",
+   "kind": "hl",
+   "title": "Cherepanov 0+1 när Kamloops föll 1–2 mot Everett",
+   "game": "Everett Silvertips 2–1 Kamloops Blazers",
+   "sum": "0 i plus/minus, 3 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-20-Fegaras-Clarkson",
+   "d": "2026-11-20",
+   "who": "George Fegaras",
+   "kind": "hl",
+   "title": "Fegaras 0+1 när Cornell föll 2–4 mot Clarkson",
+   "game": "Cornell 2–4 Clarkson",
+   "sum": "+1 i plus/minus, 3 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-20-Sharkey-Stonehill",
+   "d": "2026-11-20",
+   "who": "Dawson Sharkey",
+   "kind": "news",
+   "title": "Sharkey poänglös när Northeastern föll 0–4 mot Stonehill",
+   "game": "Stonehill 4–0 Northeastern",
+   "sum": "0 i plus/minus, 4 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-20-Samuelsson-BemidjiState",
+   "d": "2026-11-20",
+   "who": "William Samuelsson",
+   "kind": "news",
+   "title": "Samuelsson poänglös när Lake Superior State spelade 4–4 mot Bemidji State",
+   "game": "Lake Superior State 4–4 Bemidji State",
+   "sum": "+1 i plus/minus, 2 skott.",
    "auto": true
   },
   {
@@ -300,85 +369,6 @@
   }
  ],
  "next": [
-  {
-   "team": "prospect",
-   "who": "Brown",
-   "club": "London Knights",
-   "t": "2026-11-21T00:00:00Z",
-   "opp": "Soo Greyhounds",
-   "s": "Sault Ste. Marie",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Sharkey",
-   "club": "Northeastern",
-   "t": "2026-11-21T00:00:00Z",
-   "opp": "Stonehill",
-   "s": "Stonehill",
-   "home": false
-  },
-  {
-   "team": "prospect",
-   "who": "Fegaras",
-   "club": "Cornell",
-   "t": "2026-11-21T00:00:00Z",
-   "opp": "Clarkson University",
-   "s": "Clarkson",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Samuelsson",
-   "club": "Lake Superior State",
-   "t": "2026-11-21T00:07:00Z",
-   "opp": "Bemidji State University",
-   "s": "Bemidji State",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Gorzynski",
-   "club": "Prince Albert Raiders",
-   "t": "2026-11-21T01:00:00Z",
-   "opp": "Portland Winterhawks",
-   "s": "Portland",
-   "home": true
-  },
-  {
-   "team": "texas",
-   "t": "2026-11-21T01:00:00Z",
-   "opp": "San Jose Barracuda",
-   "s": "San Jose",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Schmidt",
-   "club": "Victoria Royals",
-   "t": "2026-11-21T03:05:00Z",
-   "opp": "Spokane Chiefs",
-   "s": "Spokane",
-   "home": false
-  },
-  {
-   "team": "prospect",
-   "who": "Vaněček",
-   "club": "Tri-City Americans",
-   "t": "2026-11-21T03:05:00Z",
-   "opp": "Seattle Thunderbirds",
-   "s": "Seattle",
-   "home": false
-  },
-  {
-   "team": "prospect",
-   "who": "Cherepanov",
-   "club": "Kamloops Blazers",
-   "t": "2026-11-21T03:05:00Z",
-   "opp": "Everett Silvertips",
-   "s": "Everett",
-   "home": false
-  },
   {
    "team": "prospect",
    "who": "Wilde Larsen",
@@ -593,11 +583,56 @@
    "home": true
   },
   {
+   "team": "prospect",
+   "who": "Brown",
+   "club": "London Knights",
+   "t": "2026-11-28T00:00:00Z",
+   "opp": "Niagara IceDogs",
+   "s": "Niagara",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Gorzynski",
+   "club": "Prince Albert Raiders",
+   "t": "2026-11-28T01:00:00Z",
+   "opp": "Swift Current Broncos",
+   "s": "Swift Current",
+   "home": true
+  },
+  {
    "team": "texas",
    "t": "2026-11-28T01:00:00Z",
    "opp": "Rockford IceHogs",
    "s": "Rockford",
    "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Cherepanov",
+   "club": "Kamloops Blazers",
+   "t": "2026-11-28T03:00:00Z",
+   "opp": "Prince George Cougars",
+   "s": "Prince George",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Schmidt",
+   "club": "Victoria Royals",
+   "t": "2026-11-28T03:05:00Z",
+   "opp": "Seattle Thunderbirds",
+   "s": "Seattle",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Vaněček",
+   "club": "Tri-City Americans",
+   "t": "2026-11-28T03:05:00Z",
+   "opp": "Penticton Vees",
+   "s": "Penticton",
+   "home": true
   },
   {
    "team": "dallas",
@@ -633,13 +668,26 @@
    "opp": "Seattle Kraken",
    "s": "Seattle",
    "home": false
+  },
+  {
+   "team": "texas",
+   "t": "2026-12-05T03:00:00Z",
+   "opp": "San Jose Barracuda",
+   "s": "San Jose",
+   "home": false
   }
  ],
  "top": [
   {
-   "t": "Blodig fredag med AI-slakt på Wall Street",
-   "sum": "New York-börsen öppnade deppigt och fallet tilltog efter ett tal av president Donald Trump på fredagskvällen. En redan stor oro i den AI-kopplade sektorn förstärktes – och den nyfödda jätten Anthropic föll ned till nära nollpunkten.",
-   "url": "https://www.svt.se/nyheter/ekonomi/blodig-fredag-med-ai-slakt-pa-wall-street",
+   "t": "21 november: Nattens nyheter",
+   "sum": "",
+   "url": "https://www.svt.se/nyheter/utrikes/21-november-nattens-nyheter-jccau2",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Därför backar inte V",
+   "sum": "Vänsterpartiet kräver att få sitta i en rödgrön regering – men pressen att de ska backa ökar. Varför är det så viktigt för V med ministerposter? Och finns det något som talar för att de kommer vika ner sig? – Det är nu eller aldrig för Vänsterpartiet, säger SVT:s inrikespolitiska kommentator Elisabeth Marmorstein.",
+   "url": "https://www.svt.se/nyheter/inrikes/darfor-backar-inte-v",
    "src": "SVT Nyheter"
   },
   {
@@ -659,13 +707,7 @@
    "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
    "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
    "src": "SVT Nyheter"
-  },
-  {
-   "t": "SVT-profil anmäler SVT till Granskningsnämnden",
-   "sum": "Årets julvärd Carina Bergfeldt har anmält SVT till Granskningsnämnden, skriver Aftonbladet.",
-   "url": "https://www.svt.se/nyheter/inrikes/svt-profil-anmaler-svt-till-granskningsnamnden",
-   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-20T23:02+01:00"
+ "topUpdated": "2026-11-21T07:08+01:00"
 }
