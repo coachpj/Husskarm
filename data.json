@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T14:14:46+01:00",
+ "updated": "2026-11-21T18:55:20+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -106,7 +106,7 @@
    "team": "HIFK",
    "lg": "Liiga",
    "dr": "",
-   "s": "19 GP · 0 M · 0 A · 0 P · −3 · 9:31 istid/match",
+   "s": "20 GP · 0 M · 0 A · 0 P · −3 · 9:31 istid/match",
    "l5": "0+0=0",
    "l5p": 0,
    "note": "Bra närkampssiffror men svag i tekningar. Boxplayroll är nästa steg att följa."
@@ -197,6 +197,16 @@
   }
  ],
  "news": [
+  {
+   "id": "2026-11-21-Joki-2701471",
+   "d": "2026-11-21",
+   "who": "Atte Joki",
+   "kind": "news",
+   "title": "Joki poänglös när HIFK vann 3–2 mot KalPa",
+   "game": "KalPa 2–3 HIFK",
+   "sum": "0:00 istid, 0 i plus/minus.",
+   "auto": true
+  },
   {
    "id": "2026-11-20-Schmidt-1023323",
    "d": "2026-11-20",
@@ -379,24 +389,6 @@
   }
  ],
  "next": [
-  {
-   "team": "prospect",
-   "who": "Wilde Larsen",
-   "club": "Linköping HC J20",
-   "t": "2026-11-21T14:00:00Z",
-   "opp": "Örebro HK J20",
-   "s": "Örebro",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Joki",
-   "club": "HIFK",
-   "t": "2026-11-21T15:00:00Z",
-   "opp": "KalPa",
-   "s": "KalPa",
-   "home": false
-  },
   {
    "team": "prospect",
    "who": "Brown",
@@ -654,6 +646,24 @@
    "home": false
   },
   {
+   "team": "prospect",
+   "who": "Joki",
+   "club": "HIFK",
+   "t": "2026-11-28T15:00:00Z",
+   "opp": "Ilves",
+   "s": "Ilves",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Fegaras",
+   "club": "Cornell",
+   "t": "2026-11-28T17:00:00Z",
+   "opp": "University of Maine",
+   "s": "Maine",
+   "home": true
+  },
+  {
    "team": "dallas",
    "t": "2026-11-29T01:00:00Z",
    "opp": "Utah Mammoth",
@@ -698,20 +708,14 @@
  ],
  "top": [
   {
-   "t": "Carina Bergfeldts ånger efter SVT-anmälan: ”Borde hållits isär”",
-   "sum": "SVT-profilen Carina Bergfeldt ångrar att hon hjälpte en adhd-expert att anmäla SVT:s ”Kulturnyheterna” till Granskningsnämden. Det skriver hon i ett inlägg på Instagram.",
-   "url": "https://www.svt.se/nyheter/inrikes/carina-bergfeldts-anger-efter-svt-anmalan-borde-hallits-isar",
-   "src": "SVT Nyheter"
-  },
-  {
    "t": "Drönarattack mot fraktfartyg i Finska viken",
-   "sum": "Ett fraktfartyg brinner efter att ha attackerats med drönare på internationellt vatten i Finska viken. Fartyget ifråga står under sanktioner för vapentransporter till den ryska militären.",
+   "sum": "Ett ryskt lastfartyg brinner efter en drönarattack på internationellt vatten i Finska viken. Fartyget har drivit in på finskt vatten. Nu evakuerar besättningen till en livflotte. – Svenskt stridsflyg lyfte inom ramen för vårt stöd till Finland med anledning av drönaraktivitet på finländskt territorium, uppger Försvarsmakten.",
    "url": "https://www.svt.se/nyheter/utrikes/dronarattack-mot-fraktfartyg-i-finska-viken",
    "src": "SVT Nyheter"
   },
   {
    "t": "C-toppen: Bör gå vidare med allianspartierna",
-   "sum": "Centerpartiet bör ingå ett regeringssamarbete med övriga allianspartier. Det skriver C-toppen och Europaparlamentarikern Emma Ytterell i ett inlägg på Facebook.",
+   "sum": "Centerpartiet bör ingå ett regeringssamarbete med övriga borgerliga partier. Det skriver C-toppen och Europaparlamentarikern Emma Ytterell i ett inlägg på Facebook.",
    "url": "https://www.svt.se/nyheter/inrikes/c-toppen-bor-ga-vidare-med-allianspartierna",
    "src": "SVT Nyheter"
   },
@@ -722,11 +726,17 @@
    "src": "SVT Nyheter"
   },
   {
-   "t": "Expertens tips efter börsras: Logga inte in",
-   "sum": "Börsraset i USA har lett lett till oro – nu krävs tålamod och is i magen, menar Avanzas börsstrateg Elin Benjaminsson: – Om du inte kan logga in på kontot utan att agera: logga inte in.",
-   "url": "https://www.svt.se/nyheter/ekonomi/expertens-tips-efter-borsras-logga-inte-in",
+   "t": "Därför kan kvinnor få mindre för pengarna i klädbutiken",
+   "sum": "En undersökning visar att damtröjor oftare innehåller blandningar med polyester och akryl, medan herrtröjor oftare består av 100 procent naturliga fibrer. Ändå kan plaggen kosta lika mycket. – Det här drabbar den kvinnliga konsumenten, för hon får plast när mannen får ull, säger Philip Warkander, doktor i modevetenskap.",
+   "url": "https://www.svt.se/nyheter/inrikes/darfor-kan-kvinnor-fa-mindre-for-pengarna-i-kladbutiken",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "COP31 Antalya 2026 – följ senaste nytt om FN:s klimattoppmöte i Turkiet",
+   "sum": "Planeten blir varmare – extremhetta och skyfall har plågat människor under året. Följ SVT:s rapportering om förhandlingarna om de fossila utsläppen och pengarna till drabbade länder.",
+   "url": "https://www.svt.se/nyheter/utrikes/cop31-antalya-2026-folj-senaste-nytt-om-fns-klimattoppmote-i-turkiet",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-21T14:14+01:00"
+ "topUpdated": "2026-11-21T18:55+01:00"
 }
