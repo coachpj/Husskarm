@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T14:13:39+01:00",
+ "updated": "2026-11-22T18:54:29+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -668,6 +668,15 @@
    "home": true
   },
   {
+   "team": "prospect",
+   "who": "Wilde Larsen",
+   "club": "Linköping HC J20",
+   "t": "2026-11-29T15:00:00Z",
+   "opp": "Frölunda HC J20",
+   "s": "Frölunda",
+   "home": false
+  },
+  {
    "team": "texas",
    "t": "2026-11-29T21:00:00Z",
    "opp": "Chicago Wolves",
@@ -719,35 +728,35 @@
  ],
  "top": [
   {
+   "t": "Andersson (S) erbjuder ”startpaket” till V – får nobben",
+   "sum": "S, MP och C erbjuder nu Vänsterpartiet ett ”startpaket” på Expressen debatt. V erbjuds plats i ett inre kabinett med partiledarna – men inga ministerposter. V-toppen Ida Gabrielsson (V) skriver på X: ”Tack men nej tack”.",
+   "url": "https://www.svt.se/nyheter/inrikes/andersson-s-erbjuder-startpaket-till-v-far-nobben",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Senaste nytt om valet 2026",
+   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Vem är Ida Gabrielsson?",
+   "sum": "Ida Gabrielsson har i media beskrivits både som ”hjärnan bakom Nooshi” och Vänsterpartiets ”attackhund”. Nu står hon återigen i rampljuset – som en av få toppolitiker som dyker upp när medier bjuder in dem.",
+   "url": "https://www.svt.se/nyheter/inrikes/vem-ar-ida-gabrielsson",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Analys: ”Klimatmötet COP31 totalkraschade – kan öppna för ny väg framåt”",
+   "sum": "Orden fossila bränslen suddades bort ur sluttexten på FN:s klimattoppmöte COP31 – det fick EU att gå i taket och vägra skriva under. Mötet avslutades i oenighet. Det har bara hänt en gång tidigare för 26 år sedan. – Mötet i Antalya blev ett pinsamt praktfiasko för Turkiet, säger SVT:s klimatreporter Calle Elfström.",
+   "url": "https://www.svt.se/nyheter/utrikes/klimatmotet-cop31-totalkraschade-kan-oppna-for-ny-vag-framat",
+   "src": "SVT Nyheter"
+  },
+  {
    "t": "Klimatförhandlingarna kollapsar – EU skriver inte under",
    "sum": "Klimatförhandlingarna på COP31 i Turkiet har brutit samman. ”Vi kommer inte att acceptera en COP som gröntvättar fossila bränslen”, säger EU:s representant, Irlands miljöminister Darragh O'Brien. Sveriges klimatminister Romina Pourmokhtari (L) och chefsförhandlare Mattias de Frumerie har lämnat mötet.",
    "url": "https://www.svt.se/nyheter/utrikes/klimatforhandlingarna-kollapsar-eu-skriver-inte-under",
    "src": "SVT Nyheter"
-  },
-  {
-   "t": "Ställ dina frågor till SVT:s reporter",
-   "sum": "Klimattoppmötet COP31 i Turkiet har kollapsat. Länderna har inte lyckats enas om ett slutavtal. Vad är man oense om och vad betyder det för det fortsatta klimatarbetet? Ställ dina frågor till SVT:s reporter Johan Zachrisson Winberg.",
-   "url": "https://www.svt.se/nyheter/utrikes/stall-dina-fragor-till-svts-reporter",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "COP31 Antalya 2026 – följ senaste nytt om FN:s klimattoppmöte i Turkiet",
-   "sum": "Planeten blir varmare – extremhetta och skyfall har plågat människor under året. Följ SVT:s rapportering om förhandlingarna om de fossila utsläppen och pengarna till drabbade länder.",
-   "url": "https://www.svt.se/nyheter/utrikes/cop31-antalya-2026-folj-senaste-nytt-om-fns-klimattoppmote-i-turkiet",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Lista: Så förutspås klimatkatastrofer – med nya data",
-   "sum": "Försäkringsbolagen ser klimatförändringar som det dominerande hotet på lång sikt. Försäkringsjätten Zurich varnar för att extremväder och naturkatastrofer har blivit svårare att förutse – samtidigt som allt fler områden att bli omöjliga att försäkra. – Försäkringsbolag är som en kanariefågel i gruvan. Innan något blir obeboeligt blir det ofta oförsäkringsbart, säger Mattias Fritz på ett av världens största försäkringsbolag, Zurich.",
-   "url": "https://www.svt.se/nyheter/utrikes/lista-sa-forutspas-klimatkatastrofer-med-nya-data",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Fartyget i finska viken ännu inte släckt",
-   "sum": "Insatsen för att släcka det ryskflaggade fartyg som attackerades av drönare under lördagen pågår fortfarande i Finska viken. Händelsen är ännu ett tecken på att kriget i Ukraina kommer närmare Sverige, menar SVT:s säkerhetsreporter John Granlund. – Och risken är att den utvecklingen kommer fortsätta framöver, säger han.",
-   "url": "https://www.svt.se/nyheter/utrikes/fartyget-i-finska-viken-annu-inte-slackt",
-   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-22T14:13+01:00"
+ "topUpdated": "2026-11-22T18:54+01:00"
 }
