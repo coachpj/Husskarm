@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T10:00:41+01:00",
+ "updated": "2026-11-22T14:13:39+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -197,6 +197,16 @@
   }
  ],
  "news": [
+  {
+   "id": "2026-11-21-Schmidt-1023331",
+   "d": "2026-11-21",
+   "who": "Cameron Schmidt",
+   "kind": "out",
+   "title": "Schmidt inte med när Victoria vann 4–3 efter förlängning mot Tri-City",
+   "game": "Tri-City Americans 3–4 Victoria Royals",
+   "sum": "Fanns inte i matchprotokollet. Orsaken framgår inte av ligans data – se Prospekt-radarn.",
+   "auto": true
+  },
   {
    "id": "2026-11-21-Vaněček-1023331",
    "d": "2026-11-21",
@@ -709,35 +719,35 @@
  ],
  "top": [
   {
-   "t": "Sju döda i fabriksbrand i Indonesien – fler än 50 saknas",
-   "sum": "Sju personer har omkommit och man letar efter över 50 personer som saknas sedan en brand brutit ut i en godisfabrik väster om den indonesiska huvudstaden Jakarta.",
-   "url": "https://www.svt.se/nyheter/utrikes/nara-40-saknas-efter-fabriksbrand-i-jakarta",
+   "t": "Klimatförhandlingarna kollapsar – EU skriver inte under",
+   "sum": "Klimatförhandlingarna på COP31 i Turkiet har brutit samman. ”Vi kommer inte att acceptera en COP som gröntvättar fossila bränslen”, säger EU:s representant, Irlands miljöminister Darragh O'Brien. Sveriges klimatminister Romina Pourmokhtari (L) och chefsförhandlare Mattias de Frumerie har lämnat mötet.",
+   "url": "https://www.svt.se/nyheter/utrikes/klimatforhandlingarna-kollapsar-eu-skriver-inte-under",
    "src": "SVT Nyheter"
   },
   {
-   "t": "22 november: Nattens nyheter",
-   "sum": "",
-   "url": "https://www.svt.se/nyheter/utrikes/22-november-nattens-nyheter-mbr3mt",
+   "t": "Ställ dina frågor till SVT:s reporter",
+   "sum": "Klimattoppmötet COP31 i Turkiet har kollapsat. Länderna har inte lyckats enas om ett slutavtal. Vad är man oense om och vad betyder det för det fortsatta klimatarbetet? Ställ dina frågor till SVT:s reporter Johan Zachrisson Winberg.",
+   "url": "https://www.svt.se/nyheter/utrikes/stall-dina-fragor-till-svts-reporter",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Ex-generalens kritik: Europa inte redo för Rysslands luftkrig",
-   "sum": "Natos och Sveriges luftförsvar är oförberett inför det ryska luftkriget som väntas vid en väpnad konflikt. Det säger tidigare chefen för USA:s armé i Europa – i en minidokumentär på SVT Play: – De kommer att använda missiler, drönare och glidbomber för att förstöra vår infrastruktur och jag tror inte vi är redo för det, säger Ben Hodges.",
-   "url": "https://www.svt.se/nyheter/inrikes/ex-generalens-kritik-europa-inte-redo-for-rysslands-luftkrig",
+   "t": "COP31 Antalya 2026 – följ senaste nytt om FN:s klimattoppmöte i Turkiet",
+   "sum": "Planeten blir varmare – extremhetta och skyfall har plågat människor under året. Följ SVT:s rapportering om förhandlingarna om de fossila utsläppen och pengarna till drabbade länder.",
+   "url": "https://www.svt.se/nyheter/utrikes/cop31-antalya-2026-folj-senaste-nytt-om-fns-klimattoppmote-i-turkiet",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Lista: Så förutspås klimatkatastrofer – med nya data",
+   "sum": "Försäkringsbolagen ser klimatförändringar som det dominerande hotet på lång sikt. Försäkringsjätten Zurich varnar för att extremväder och naturkatastrofer har blivit svårare att förutse – samtidigt som allt fler områden att bli omöjliga att försäkra. – Försäkringsbolag är som en kanariefågel i gruvan. Innan något blir obeboeligt blir det ofta oförsäkringsbart, säger Mattias Fritz på ett av världens största försäkringsbolag, Zurich.",
+   "url": "https://www.svt.se/nyheter/utrikes/lista-sa-forutspas-klimatkatastrofer-med-nya-data",
    "src": "SVT Nyheter"
   },
   {
    "t": "Fartyget i finska viken ännu inte släckt",
-   "sum": "Släckningsarbetet fortsätter efter lördagens förmodat ukrainska attack mot ett ryskflaggat fartyg i Finska viken. Vad fartyget är lastat med är fortfarande okänt.",
+   "sum": "Insatsen för att släcka det ryskflaggade fartyg som attackerades av drönare under lördagen pågår fortfarande i Finska viken. Händelsen är ännu ett tecken på att kriget i Ukraina kommer närmare Sverige, menar SVT:s säkerhetsreporter John Granlund. – Och risken är att den utvecklingen kommer fortsätta framöver, säger han.",
    "url": "https://www.svt.se/nyheter/utrikes/fartyget-i-finska-viken-annu-inte-slackt",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Analys: ”Östersjön – Ukrainakrigets nya front”",
-   "sum": "Från drönare i Finska viken till mordplaner i Köpenhamn. Ukrainakriget flyttar norrut.",
-   "url": "https://www.svt.se/nyheter/utrikes/ostersjon-ukrainakrigets-nya-front",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-22T10:00+01:00"
+ "topUpdated": "2026-11-22T14:13+01:00"
 }
