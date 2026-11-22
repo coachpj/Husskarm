@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T22:55:38+01:00",
+ "updated": "2026-11-22T07:10:22+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -18,9 +18,9 @@
    "team": "Tri-City Americans",
    "lg": "WHL",
    "dr": "2026 R2 #59",
-   "s": "20 GP · 3 M · 9 A · 12 P · −4",
-   "l5": "0+4=4",
-   "l5p": 4,
+   "s": "21 GP · 3 M · 11 A · 14 P · −6",
+   "l5": "0+6=6",
+   "l5p": 6,
    "note": "Dallas högsta val 2026. Klar för Western Michigan (NCAA) från 2027-28."
   },
   {
@@ -29,7 +29,7 @@
    "team": "London Knights",
    "lg": "OHL",
    "dr": "2026 R5 #155",
-   "s": "18 GP · 6 M · 21 A · 27 P · +10",
+   "s": "18 GP · 6 M · 21 A · 27 P · +9",
    "l5": "2+3=5",
    "l5p": 5,
    "note": "Ny lagkapten i London. Energispelare som utvecklat sitt passningsspel. Har åtagit sig att spela för Ohio State längre fram."
@@ -40,9 +40,9 @@
    "team": "Prince Albert Raiders",
    "lg": "WHL",
    "dr": "2025 R4 #126",
-   "s": "20 GP · 9 M · 7 A · 16 P · +2",
-   "l5": "0+3=3",
-   "l5p": 3,
+   "s": "21 GP · 9 M · 8 A · 17 P · 0",
+   "l5": "0+4=4",
+   "l5p": 4,
    "note": "Valde bort NCAA för en ny säsong i Prince Albert. Vände den tunga starten med mål i sex raka matcher; poängsviten bröts i 0–2-förlusten i Red Deer 7 nov."
   },
   {
@@ -62,9 +62,9 @@
    "team": "UMass",
    "lg": "NCAA",
    "dr": "2026 R7 #197",
-   "s": "12 GP · 0 M · 3 A · 3 P · −7",
-   "l5": "0+1=1",
-   "l5p": 1,
+   "s": "13 GP · 1 M · 3 A · 4 P · −7",
+   "l5": "1+1=2",
+   "l5p": 2,
    "note": "Freshman i UMass powerplay. Saknades i båda matcherna i Maine 6–7 nov men var tillbaka i uppställningen mot Boston College 13 nov."
   },
   {
@@ -84,7 +84,7 @@
    "team": "Lake Superior State",
    "lg": "NCAA",
    "dr": "2024 R7 #222",
-   "s": "11 GP · 1 M · 0 A · 1 P · −4",
+   "s": "12 GP · 1 M · 0 A · 1 P · −4",
    "l5": "0+0=0",
    "l5p": 0,
    "note": "Södertäljekille, son till Mikael Samuelsson. Första NCAA-säsongen efter två år i USHL."
@@ -95,9 +95,9 @@
    "team": "Cornell",
    "lg": "NCAA",
    "dr": "",
-   "s": "7 GP · 0 M · 3 A · 3 P · 0",
-   "l5": "0+1=1",
-   "l5p": 1,
+   "s": "8 GP · 0 M · 4 A · 4 P · +2",
+   "l5": "0+3=3",
+   "l5p": 3,
    "note": "Seniorår och given ankare i Cornells backlinje. Ännu ej kontrakterad av Dallas."
   },
   {
@@ -151,6 +151,17 @@
  "games": [
   {
    "team": "texas",
+   "d": "2026-11-21",
+   "title": "Texas Stars 2–1 San Jose Barracuda",
+   "res": "W",
+   "sc": [
+    "Connor Punnett",
+    "Curtis McKenzie"
+   ],
+   "note": ""
+  },
+  {
+   "team": "texas",
    "d": "2026-11-20",
    "title": "Texas Stars 2–4 San Jose Barracuda",
    "res": "L",
@@ -183,20 +194,69 @@
     "Miro Heiskanen (OT)"
    ],
    "note": "J. Oettinger 24 räddningar"
-  },
-  {
-   "team": "dallas",
-   "d": "2026-11-15",
-   "title": "Dallas Stars 2–1 Florida Panthers",
-   "res": "OTW",
-   "sc": [
-    "Wyatt Johnston",
-    "Jason Robertson (OT)"
-   ],
-   "note": "Casey DeSmith 25 räddningar. Robertson avgjorde på backhand efter 2:56 av förlängningen (assist Hintz). Tyler Myers lämnade matchen skadad."
   }
  ],
  "news": [
+  {
+   "id": "2026-11-21-Vaněček-1023331",
+   "d": "2026-11-21",
+   "who": "Jakub Vaněček",
+   "kind": "hl",
+   "title": "Vaněček 0+2 när Tri-City föll 3–4 efter förlängning mot Victoria",
+   "game": "Tri-City Americans 3–4 Victoria Royals",
+   "sum": "−2 i plus/minus, 2 skott, 2 utvisningsminuter.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-21-Brown-29226",
+   "d": "2026-11-21",
+   "who": "Ryan Brown",
+   "kind": "hl",
+   "title": "Brown 1+0 när London föll 2–4 mot Guelph",
+   "game": "Guelph Storm 4–2 London Knights",
+   "sum": "0 i plus/minus, 3 skott, 4 utvisningsminuter.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-21-Gorzynski-1023328",
+   "d": "2026-11-21",
+   "who": "Brandon Gorzynski",
+   "kind": "hl",
+   "title": "Gorzynski 0+1 när Prince Albert föll 1–5 mot Medicine Hat",
+   "game": "Prince Albert Raiders 1–5 Medicine Hat Tigers",
+   "sum": "−2 i plus/minus, 1 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-21-Kuhta-Providence",
+   "d": "2026-11-21",
+   "who": "Jasper Kuhta",
+   "kind": "hl",
+   "title": "Kuhta 1+0 när UMass föll 3–9 mot Providence",
+   "game": "Providence 9–3 UMass",
+   "sum": "0 i plus/minus, 1 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-21-Fegaras-StLawrence",
+   "d": "2026-11-21",
+   "who": "George Fegaras",
+   "kind": "hl",
+   "title": "Fegaras 0+2 när Cornell vann 5–2 mot St. Lawrence",
+   "game": "Cornell 5–2 St. Lawrence",
+   "sum": "+2 i plus/minus, 3 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-21-Samuelsson-BemidjiState",
+   "d": "2026-11-21",
+   "who": "William Samuelsson",
+   "kind": "news",
+   "title": "Samuelsson poänglös när Lake Superior State vann 4–1 mot Bemidji State",
+   "game": "Lake Superior State 4–1 Bemidji State",
+   "sum": "0 i plus/minus, 0 skott.",
+   "auto": true
+  },
   {
    "id": "2026-11-21-Joki-2701471",
    "d": "2026-11-21",
@@ -356,109 +416,9 @@
    "game": "Victoria Royals 3–4 Kamloops Blazers",
    "sum": "+1 i plus/minus, 3 skott.",
    "auto": true
-  },
-  {
-   "id": "2026-11-17-Schmidt-1023309",
-   "d": "2026-11-17",
-   "who": "Cameron Schmidt",
-   "kind": "news",
-   "title": "Schmidt poänglös när Victoria föll 2–4 mot Kamloops",
-   "game": "Victoria Royals 2–4 Kamloops Blazers",
-   "sum": "−2 i plus/minus, 10 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-17-Gorzynski-1023307",
-   "d": "2026-11-17",
-   "who": "Brandon Gorzynski",
-   "kind": "news",
-   "title": "Gorzynski poänglös när Prince Albert vann 3–0 mot Wenatchee",
-   "game": "Prince Albert Raiders 3–0 Wenatchee Wild",
-   "sum": "0 i plus/minus, 0 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-17-Cherepanov-1023309",
-   "d": "2026-11-17",
-   "who": "Mikhail Cherepanov",
-   "kind": "news",
-   "title": "Cherepanov poänglös när Kamloops vann 4–2 mot Victoria",
-   "game": "Victoria Royals 2–4 Kamloops Blazers",
-   "sum": "+1 i plus/minus, 1 skott.",
-   "auto": true
   }
  ],
  "next": [
-  {
-   "team": "prospect",
-   "who": "Brown",
-   "club": "London Knights",
-   "t": "2026-11-21T21:07:00Z",
-   "opp": "Guelph Storm",
-   "s": "Guelph",
-   "home": false
-  },
-  {
-   "team": "prospect",
-   "who": "Kuhta",
-   "club": "UMass",
-   "t": "2026-11-21T22:00:00Z",
-   "opp": "Providence",
-   "s": "Providence",
-   "home": false
-  },
-  {
-   "team": "prospect",
-   "who": "Samuelsson",
-   "club": "Lake Superior State",
-   "t": "2026-11-21T23:07:00Z",
-   "opp": "Bemidji State University",
-   "s": "Bemidji State",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Fegaras",
-   "club": "Cornell",
-   "t": "2026-11-22T00:00:00Z",
-   "opp": "St. Lawrence University",
-   "s": "St. Lawrence",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Gorzynski",
-   "club": "Prince Albert Raiders",
-   "t": "2026-11-22T01:00:00Z",
-   "opp": "Medicine Hat Tigers",
-   "s": "Medicine Hat",
-   "home": true
-  },
-  {
-   "team": "texas",
-   "t": "2026-11-22T01:00:00Z",
-   "opp": "San Jose Barracuda",
-   "s": "San Jose",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Schmidt",
-   "club": "Victoria Royals",
-   "t": "2026-11-22T02:05:00Z",
-   "opp": "Tri-City Americans",
-   "s": "Tri-City",
-   "home": false
-  },
-  {
-   "team": "prospect",
-   "who": "Vaněček",
-   "club": "Tri-City Americans",
-   "t": "2026-11-22T02:05:00Z",
-   "opp": "Victoria Royals",
-   "s": "Victoria",
-   "home": true
-  },
   {
    "team": "prospect",
    "who": "Brown",
@@ -673,10 +633,28 @@
    "home": true
   },
   {
+   "team": "prospect",
+   "who": "Gorzynski",
+   "club": "Prince Albert Raiders",
+   "t": "2026-11-29T00:00:00Z",
+   "opp": "Moose Jaw Warriors",
+   "s": "Moose Jaw",
+   "home": false
+  },
+  {
    "team": "dallas",
    "t": "2026-11-29T01:00:00Z",
    "opp": "Utah Mammoth",
    "s": "Utah",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Cherepanov",
+   "club": "Kamloops Blazers",
+   "t": "2026-11-29T02:00:00Z",
+   "opp": "Regina Pats",
+   "s": "Regina",
    "home": true
   },
   {
@@ -713,31 +691,39 @@
    "opp": "San Jose Barracuda",
    "s": "San Jose",
    "home": false
+  },
+  {
+   "team": "texas",
+   "t": "2026-12-06T02:00:00Z",
+   "opp": "San Jose Barracuda",
+   "s": "San Jose",
+   "home": false
+  },
+  {
+   "team": "dallas",
+   "t": "2026-12-06T03:00:00Z",
+   "opp": "Vancouver Canucks",
+   "s": "Vancouver",
+   "home": false
   }
  ],
  "top": [
   {
-   "t": "Senaste nytt om kriget mellan Iran, USA och Israel",
-   "sum": "SVT liverapporterar om konfliktens utveckling",
-   "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-iran-och-konflikten-med-usa-och-israel",
+   "t": "22 november: Nattens nyheter",
+   "sum": "",
+   "url": "https://www.svt.se/nyheter/utrikes/22-november-nattens-nyheter-mbr3mt",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Analys: ”Östersjön – Ukrainakrigets nya front”",
-   "sum": "Från drönare i Finska viken till mordplaner i Köpenhamn. Ukrainakriget flyttar norrut.",
-   "url": "https://www.svt.se/nyheter/utrikes/ostersjon-ukrainakrigets-nya-front",
+   "t": "Tre döda i fabriksbrand i Indonesien – fler än 30 saknas",
+   "sum": "Tre personer har omkommit och man letar efter 36 personer som saknas sedan en brand brutit ut i en godisfabrik väster om den indonesiska huvudstaden Jakarta.",
+   "url": "https://www.svt.se/nyheter/utrikes/nara-40-saknas-efter-fabriksbrand-i-jakarta",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Drönarattack mot fraktfartyg i Finska viken",
-   "sum": "En brand bröt ut på ett rysk lastfartyg efter en drönarattack i Finska viken på lördagsförmiddagen. Fartyget har drivit in på finskt vatten och besättningen har evakuerats till Ryssland. Brandbekämpning pågår ute till havs. Enligt finska försvaret rör det sig sannolikt om en ukrainsk attack.",
-   "url": "https://www.svt.se/nyheter/utrikes/dronarattack-mot-fraktfartyg-i-finska-viken",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Professorn: ”Allting pekar på ukrainska drönare”",
-   "sum": "Det ryska lastfartyget Sparta II träffades av drönare i Finska viken – och började brinna. Fartyget har evakuerats. Enligt Hans Liwång, professor vid Försvarshögskolan, pekar mycket på att Ukraina ligger bakom attacken. – Allting pekar på att det är ukrainska drönare som har riktat in sig mot den här, säger han till SVT Nyheter.",
-   "url": "https://www.svt.se/nyheter/utrikes/professorn-allting-pekar-pa-ukrainska-dronare",
+   "t": "Ex-generalens kritik: Europa inte redo för Rysslands luftkrig",
+   "sum": "Natos och Sveriges luftförsvar är oförberett inför det ryska luftkriget som väntas vid en väpnad konflikt. Det säger tidigare chefen för USA:s armé i Europa – i en minidokumentär på SVT Play: – De kommer att använda missiler, drönare och glidbomber för att förstöra vår infrastruktur och jag tror inte vi är redo för det, säger Ben Hodges.",
+   "url": "https://www.svt.se/nyheter/inrikes/ex-generalens-kritik-europa-inte-redo-for-rysslands-luftkrig",
    "src": "SVT Nyheter"
   },
   {
@@ -745,7 +731,13 @@
    "sum": "Planeten blir varmare – extremhetta och skyfall har plågat människor under året. Följ SVT:s rapportering om förhandlingarna om de fossila utsläppen och pengarna till drabbade länder.",
    "url": "https://www.svt.se/nyheter/utrikes/cop31-antalya-2026-folj-senaste-nytt-om-fns-klimattoppmote-i-turkiet",
    "src": "SVT Nyheter"
+  },
+  {
+   "t": "Lista: Så förutspås klimatkatastrofer – med nya data",
+   "sum": "Försäkringsbolagen ser klimatförändringar som det dominerande hotet på lång sikt. Försäkringsjätten Zurich varnar för att extremväder och naturkatastrofer har blivit svårare att förutse – samtidigt som allt fler områden att bli omöjliga att försäkra. – Försäkringsbolag är som en kanariefågel i gruvan. Innan något blir obeboeligt blir det ofta oförsäkringsbart, säger Mattias Fritz på ett av världens största försäkringsbolag, Zurich.",
+   "url": "https://www.svt.se/nyheter/utrikes/lista-sa-forutspas-klimatkatastrofer-med-nya-data",
+   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-21T22:55+01:00"
+ "topUpdated": "2026-11-22T07:10+01:00"
 }
