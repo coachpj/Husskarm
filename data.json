@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:54:29+01:00",
+ "updated": "2026-11-22T22:56:51+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -30,8 +30,8 @@
    "lg": "OHL",
    "dr": "2026 R5 #155",
    "s": "18 GP · 6 M · 21 A · 27 P · +9",
-   "l5": "2+3=5",
-   "l5p": 5,
+   "l5": "2+2=4",
+   "l5p": 4,
    "note": "Ny lagkapten i London. Energispelare som utvecklat sitt passningsspel. Har åtagit sig att spela för Ohio State längre fram."
   },
   {
@@ -52,8 +52,8 @@
    "lg": "WHL",
    "dr": "2026 R7 #219",
    "s": "21 GP · 3 M · 6 A · 9 P · +11",
-   "l5": "1+2=3",
-   "l5p": 3,
+   "l5": "0+2=2",
+   "l5p": 2,
    "note": "Rysk back, kom från NAHL (31 poäng på 56 matcher). Valdes av Kamloops i CHL:s importdraft."
   },
   {
@@ -677,6 +677,15 @@
    "home": false
   },
   {
+   "team": "prospect",
+   "who": "Sharkey",
+   "club": "Northeastern",
+   "t": "2026-11-29T19:00:00Z",
+   "opp": "Dartmouth",
+   "s": "Dartmouth",
+   "home": false
+  },
+  {
    "team": "texas",
    "t": "2026-11-29T21:00:00Z",
    "opp": "Chicago Wolves",
@@ -728,35 +737,35 @@
  ],
  "top": [
   {
-   "t": "Andersson (S) erbjuder ”startpaket” till V – får nobben",
-   "sum": "S, MP och C erbjuder nu Vänsterpartiet ett ”startpaket” på Expressen debatt. V erbjuds plats i ett inre kabinett med partiledarna – men inga ministerposter. V-toppen Ida Gabrielsson (V) skriver på X: ”Tack men nej tack”.",
-   "url": "https://www.svt.se/nyheter/inrikes/andersson-s-erbjuder-startpaket-till-v-far-nobben",
-   "src": "SVT Nyheter"
-  },
-  {
    "t": "Senaste nytt om valet 2026",
    "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
    "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Vem är Ida Gabrielsson?",
-   "sum": "Ida Gabrielsson har i media beskrivits både som ”hjärnan bakom Nooshi” och Vänsterpartiets ”attackhund”. Nu står hon återigen i rampljuset – som en av få toppolitiker som dyker upp när medier bjuder in dem.",
-   "url": "https://www.svt.se/nyheter/inrikes/vem-ar-ida-gabrielsson",
+   "t": "Analys: ”Andersson söker ett sista halmstrå”",
+   "sum": "S-ledaren Magdalena Anderssons utspel på söndagskvällen är ett sista försök att sätta press på Vänsterpartiet. Men det framstår som alltmer utsiktslöst. Vänsterpartiet håller benhårt fast vid sina krav på ministerposter.",
+   "url": "https://www.svt.se/nyheter/inrikes/andersson-soker-ett-sista-halmstra",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Analys: ”Klimatmötet COP31 totalkraschade – kan öppna för ny väg framåt”",
-   "sum": "Orden fossila bränslen suddades bort ur sluttexten på FN:s klimattoppmöte COP31 – det fick EU att gå i taket och vägra skriva under. Mötet avslutades i oenighet. Det har bara hänt en gång tidigare för 26 år sedan. – Mötet i Antalya blev ett pinsamt praktfiasko för Turkiet, säger SVT:s klimatreporter Calle Elfström.",
-   "url": "https://www.svt.se/nyheter/utrikes/klimatmotet-cop31-totalkraschade-kan-oppna-for-ny-vag-framat",
+   "t": "Andersson (S) erbjuder ”startpaket” till V – får nobben",
+   "sum": "S, MP och C erbjuder nu Vänsterpartiet ett ”startpaket” på Expressen debatt. V erbjuds plats i ett inre kabinett med partiledarna – men inga ministerposter. ”Tack men nej tack”, skriver V-toppen Ida Gabrielsson (V) på X.",
+   "url": "https://www.svt.se/nyheter/inrikes/andersson-s-erbjuder-startpaket-till-v-far-nobben",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Klimatförhandlingarna kollapsar – EU skriver inte under",
-   "sum": "Klimatförhandlingarna på COP31 i Turkiet har brutit samman. ”Vi kommer inte att acceptera en COP som gröntvättar fossila bränslen”, säger EU:s representant, Irlands miljöminister Darragh O'Brien. Sveriges klimatminister Romina Pourmokhtari (L) och chefsförhandlare Mattias de Frumerie har lämnat mötet.",
-   "url": "https://www.svt.se/nyheter/utrikes/klimatforhandlingarna-kollapsar-eu-skriver-inte-under",
+   "t": "Tillbakablick: Därför backar inte Vänsterpartiet från kravet på att sitta i regering",
+   "sum": "Vänsterpartiet kräver att få sitta i en rödgrön regering – men pressen att de ska backa ökar. \nVarför är det så viktigt för V med ministerposter? Och finns det något som talar för att de kommer vika ner sig? \n– Det är nu eller aldrig för Vänsterpartiet, säger SVT:s inrikespolitiska kommentator Elisabeth Marmorstein.",
+   "url": "https://www.svt.se/nyheter/video/6cefe224ab980b4a-varfor-ar-ministerposterna-viktiga",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Analys: ”Upptrappade läget på Östersjön kan skapa nytt Hormuz”",
+   "sum": "Finland fick plötsligt en brinnande rysk vapenfraktare på halsen. Myndigheterna här i Finland både säger och visar att de har läget under kontroll. Men fortsätter utvecklingen så riskerar Östersjön att förvandlas till ett nytt Svarta havet – eller Hormuzsundet.",
+   "url": "https://www.svt.se/nyheter/inrikes/upptrappade-laget-pa-ostersjon-kan-skapa-nytt-hormuz",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-22T18:54+01:00"
+ "topUpdated": "2026-11-22T22:56+01:00"
 }
