@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:56:51+01:00",
+ "updated": "2026-11-23T07:22:36+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -29,7 +29,7 @@
    "team": "London Knights",
    "lg": "OHL",
    "dr": "2026 R5 #155",
-   "s": "18 GP · 6 M · 21 A · 27 P · +9",
+   "s": "19 GP · 6 M · 21 A · 27 P · +8",
    "l5": "2+2=4",
    "l5p": 4,
    "note": "Ny lagkapten i London. Energispelare som utvecklat sitt passningsspel. Har åtagit sig att spela för Ohio State längre fram."
@@ -51,9 +51,9 @@
    "team": "Kamloops Blazers",
    "lg": "WHL",
    "dr": "2026 R7 #219",
-   "s": "21 GP · 3 M · 6 A · 9 P · +11",
-   "l5": "0+2=2",
-   "l5p": 2,
+   "s": "22 GP · 3 M · 8 A · 11 P · +10",
+   "l5": "0+4=4",
+   "l5p": 4,
    "note": "Rysk back, kom från NAHL (31 poäng på 56 matcher). Valdes av Kamloops i CHL:s importdraft."
   },
   {
@@ -150,6 +150,16 @@
  ],
  "games": [
   {
+   "team": "dallas",
+   "d": "2026-11-22",
+   "title": "Dallas Stars 1–0 Pittsburgh Penguins",
+   "res": "W",
+   "sc": [
+    "Joel Kiviranta"
+   ],
+   "note": "J. Oettinger 33 räddningar"
+  },
+  {
    "team": "texas",
    "d": "2026-11-21",
    "title": "Texas Stars 2–1 San Jose Barracuda",
@@ -181,22 +191,29 @@
     "Thomas Harley"
    ],
    "note": "J. Oettinger 27 räddningar"
-  },
-  {
-   "team": "dallas",
-   "d": "2026-11-17",
-   "title": "Dallas Stars 4–3 Vegas Golden Knights",
-   "res": "OTW",
-   "sc": [
-    "Nils Lundkvist",
-    "Wyatt Johnston",
-    "Mikko Rantanen",
-    "Miro Heiskanen (OT)"
-   ],
-   "note": "J. Oettinger 24 räddningar"
   }
  ],
  "news": [
+  {
+   "id": "2026-11-22-Cherepanov-1023335",
+   "d": "2026-11-22",
+   "who": "Mikhail Cherepanov",
+   "kind": "hl",
+   "title": "Cherepanov 0+2 när Kamloops föll 4–5 efter förlängning mot Vancouver",
+   "game": "Vancouver Giants 5–4 Kamloops Blazers",
+   "sum": "−1 i plus/minus, 0 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-22-Brown-29230",
+   "d": "2026-11-22",
+   "who": "Ryan Brown",
+   "kind": "news",
+   "title": "Brown poänglös när London föll 0–5 mot Peterborough",
+   "game": "London Knights 0–5 Peterborough Petes",
+   "sum": "−1 i plus/minus, 1 skott.",
+   "auto": true
+  },
   {
    "id": "2026-11-21-Schmidt-1023331",
    "d": "2026-11-21",
@@ -396,64 +413,9 @@
    "game": "UMass 2–4 Providence",
    "sum": "−3 i plus/minus, 0 skott.",
    "auto": true
-  },
-  {
-   "id": "2026-11-18-Schmidt-1023313",
-   "d": "2026-11-18",
-   "who": "Cameron Schmidt",
-   "kind": "out",
-   "title": "Schmidt inte med när Victoria föll 3–4 efter förlängning mot Kamloops",
-   "game": "Victoria Royals 3–4 Kamloops Blazers",
-   "sum": "Fanns inte i matchprotokollet. Orsaken framgår inte av ligans data – se Prospekt-radarn.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-18-Wilde Larsen-VstersIK",
-   "d": "2026-11-18",
-   "who": "Anton Emil Wilde Larsen",
-   "kind": "hl",
-   "title": "Wilde Larsen stod när Linköping föll 2–3 efter förlängning mot Västerås",
-   "game": "Linköping HC 2–3 Västerås IK",
-   "sum": "26 räddningar, 2 insläppta mål.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-18-Cherepanov-1023313",
-   "d": "2026-11-18",
-   "who": "Mikhail Cherepanov",
-   "kind": "hl",
-   "title": "Cherepanov 0+1 när Kamloops vann 4–3 efter förlängning mot Victoria",
-   "game": "Victoria Royals 3–4 Kamloops Blazers",
-   "sum": "+1 i plus/minus, 3 skott.",
-   "auto": true
   }
  ],
  "next": [
-  {
-   "team": "prospect",
-   "who": "Brown",
-   "club": "London Knights",
-   "t": "2026-11-22T23:00:00Z",
-   "opp": "Peterborough Petes",
-   "s": "Peterborough",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Cherepanov",
-   "club": "Kamloops Blazers",
-   "t": "2026-11-23T00:00:00Z",
-   "opp": "Vancouver Giants",
-   "s": "Vancouver",
-   "home": false
-  },
-  {
-   "team": "dallas",
-   "t": "2026-11-23T00:00:00Z",
-   "opp": "Pittsburgh Penguins",
-   "s": "Pittsburgh",
-   "home": true
-  },
   {
    "team": "prospect",
    "who": "Sharkey",
@@ -693,6 +655,24 @@
    "home": false
   },
   {
+   "team": "prospect",
+   "who": "Schmidt",
+   "club": "Victoria Royals",
+   "t": "2026-11-30T00:05:00Z",
+   "opp": "Seattle Thunderbirds",
+   "s": "Seattle",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Vaněček",
+   "club": "Tri-City Americans",
+   "t": "2026-11-30T00:05:00Z",
+   "opp": "Portland Winterhawks",
+   "s": "Portland",
+   "home": true
+  },
+  {
    "team": "texas",
    "t": "2026-12-02T01:00:00Z",
    "opp": "Milwaukee Admirals",
@@ -737,9 +717,15 @@
  ],
  "top": [
   {
-   "t": "Senaste nytt om valet 2026",
-   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
-   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "t": "Senaste nytt om kriget i Ukraina",
+   "sum": "Rysslands invasion av Ukraina har pågått sedan den 24 februari 2022. Följ SVT:s liverapport med senaste nytt om kriget.",
+   "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "23 november: Nattens nyheter",
+   "sum": "",
+   "url": "https://www.svt.se/nyheter/utrikes/23-november-nattens-nyheter-iii70m",
    "src": "SVT Nyheter"
   },
   {
@@ -749,23 +735,17 @@
    "src": "SVT Nyheter"
   },
   {
+   "t": "C-toppen om splittringen: ”Väldigt laddat och känslosamt”",
+   "sum": "Centerpartiet står inför ett vägval i regeringsfrågan. Emma Ytterell (C) gick på lördagen ut med att partiet i stället bör gå vidare med allianspartierna. Nu har allt fler C-distrikt öppnat dörren högerut. – Vi har en gräns och vi har också alternativ, säger Ytterell i SVT:s Agenda på söndagskvällen.",
+   "url": "https://www.svt.se/nyheter/inrikes/c-toppen-om-splittringen-valdigt-laddat-och-kanslosamt",
+   "src": "SVT Nyheter"
+  },
+  {
    "t": "Andersson (S) erbjuder ”startpaket” till V – får nobben",
    "sum": "S, MP och C erbjuder nu Vänsterpartiet ett ”startpaket” på Expressen debatt. V erbjuds plats i ett inre kabinett med partiledarna – men inga ministerposter. ”Tack men nej tack”, skriver V-toppen Ida Gabrielsson (V) på X.",
    "url": "https://www.svt.se/nyheter/inrikes/andersson-s-erbjuder-startpaket-till-v-far-nobben",
    "src": "SVT Nyheter"
-  },
-  {
-   "t": "Tillbakablick: Därför backar inte Vänsterpartiet från kravet på att sitta i regering",
-   "sum": "Vänsterpartiet kräver att få sitta i en rödgrön regering – men pressen att de ska backa ökar. \nVarför är det så viktigt för V med ministerposter? Och finns det något som talar för att de kommer vika ner sig? \n– Det är nu eller aldrig för Vänsterpartiet, säger SVT:s inrikespolitiska kommentator Elisabeth Marmorstein.",
-   "url": "https://www.svt.se/nyheter/video/6cefe224ab980b4a-varfor-ar-ministerposterna-viktiga",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Analys: ”Upptrappade läget på Östersjön kan skapa nytt Hormuz”",
-   "sum": "Finland fick plötsligt en brinnande rysk vapenfraktare på halsen. Myndigheterna här i Finland både säger och visar att de har läget under kontroll. Men fortsätter utvecklingen så riskerar Östersjön att förvandlas till ett nytt Svarta havet – eller Hormuzsundet.",
-   "url": "https://www.svt.se/nyheter/inrikes/upptrappade-laget-pa-ostersjon-kan-skapa-nytt-hormuz",
-   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-22T22:56+01:00"
+ "topUpdated": "2026-11-23T07:22+01:00"
 }
