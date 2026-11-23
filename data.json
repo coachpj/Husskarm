@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T10:39:30+01:00",
+ "updated": "2026-11-23T14:38:11+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -717,15 +717,27 @@
  ],
  "top": [
   {
-   "t": "Senaste nytt om valet 2026",
-   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
-   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "t": "Efterlyst svensk greps vid ryska gränsen",
+   "sum": "Den polska polisen har gripit en internationellt efterlyst 28-årig svensk medborgare vid gränsövergången mellan Kaliningrad och Polen, skriver TV4.",
+   "url": "https://www.svt.se/nyheter/utrikes/efterlyst-svensk-greps-vid-ryska-gransen",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Chatt: Vem blir statsminister – och när är det klart?",
-   "sum": "Över 70 dagar utan regering. Förhandlingar inför öppen ridå. Andersson vs. Kristersson. Hur ska regeringsbildningen sluta? Och när? Ställ dina frågor till SVT:s politikreporter Kristeroffer Törnmalm – som svarar i chatt och livesändning.",
-   "url": "https://www.svt.se/nyheter/inrikes/chatt-vem-blir-statsminister-och-nar-ar-det-klart",
+   "t": "Greta Thunberg döms för aktioner i Köpenhamn",
+   "sum": "Den svenska aktivisten Greta Thunberg döms till böter för två fall av olaga intrång i Danmark.",
+   "url": "https://www.svt.se/nyheter/utrikes/greta-thunberg-doms-for-aktioner-i-kopenhamn",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Missvisande video sprider oro kring nya kreditlagen: ”Hejdå Klarna!”",
+   "sum": "I en video som fått två miljoner visningar hävdas att en ny ”EU-lag” gör att AI får tillgång till upp till två års banktransaktioner när man handlar på avbetalning. Men det påståendet är missvisande. En ny svensk lag skärper kraven på kreditprövningar men kräver varken AI eller automatisk genomgång av kunders konton.",
+   "url": "https://www.svt.se/nyheter/inrikes/missvisande-video-sprider-oro-kring-nya-kreditlagen-hejda-klarna",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Senaste nytt om valet 2026",
+   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
    "src": "SVT Nyheter"
   },
   {
@@ -733,19 +745,7 @@
    "sum": "Centerpartiet står inför ett vägval i regeringsfrågan. Emma Ytterell (C) gick på lördagen ut med att partiet i stället bör gå vidare med allianspartierna. Nu har allt fler C-distrikt öppnat dörren högerut. – Vi har en gräns och vi har också alternativ, säger Ytterell i SVT:s Agenda på söndagskvällen.",
    "url": "https://www.svt.se/nyheter/inrikes/c-toppen-om-splittringen-valdigt-laddat-och-kanslosamt",
    "src": "SVT Nyheter"
-  },
-  {
-   "t": "Andersson (S) erbjuder ”startpaket” till V – får nobben",
-   "sum": "S, MP och C erbjuder nu Vänsterpartiet ett ”startpaket” på Expressen debatt. V erbjuds plats i ett inre kabinett med partiledarna – men inga ministerposter. ”Tack men nej tack”, skriver V-toppen Ida Gabrielsson (V) på X.",
-   "url": "https://www.svt.se/nyheter/inrikes/andersson-s-erbjuder-startpaket-till-v-far-nobben",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Analys: ”Andersson söker ett sista halmstrå”",
-   "sum": "S-ledaren Magdalena Anderssons utspel på söndagskvällen är ett sista försök att sätta press på Vänsterpartiet. Men det framstår som alltmer utsiktslöst. Vänsterpartiet håller benhårt fast vid sina krav på ministerposter.",
-   "url": "https://www.svt.se/nyheter/inrikes/andersson-soker-ett-sista-halmstra",
-   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-23T10:39+01:00"
+ "topUpdated": "2026-11-23T14:38+01:00"
 }
