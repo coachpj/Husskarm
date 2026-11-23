@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:12:23+01:00",
+ "updated": "2026-11-23T23:05:32+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -717,9 +717,15 @@
  ],
  "top": [
   {
-   "t": "Mats Knutson: Tre skäl till att V nobbar S-budet",
-   "sum": "Vänsterpartiet nobbar det nya budet från S, MP och C. Men varför räcker inte erbjudandet? SVT:s inrikespolitiske kommentator Mats Knutson pekar på tre viktiga skäl. – Symboliken att få ministerposter är avgörande, säger han.",
-   "url": "https://www.svt.se/nyheter/inrikes/mats-knutson-tre-skal-till-att-v-nobbar-s-budet",
+   "t": "Nvidias vd tillbaka – Wall Street rusade vilt",
+   "sum": "Nasdaqs tekniktunga index rusade 6,5 procent på börsen i New York på måndagen efter beskedet om att Jensen Huang återinsätts som halvledarbjässen Nvidias vd. Nvidia steg hela 31,5 procent.",
+   "url": "https://www.svt.se/nyheter/ekonomi/nvidias-vd-tillbaka-wall-street-rusade-vilt",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Tidigare C-ledaren: ”Syna Kristersson”",
+   "sum": "Den tidigare C-ledaren Maud Olofsson anser att samtalen mellan de rödgröna partierna har ”nått vägs ände”. Nu vill hon att Centerpartiet vänder sig högerut. – Syna nu vad Ulf Kristersson menar. Vad är de [forna allianspartierna] beredda att ge Centerpartiet? säger hon.",
+   "url": "https://www.svt.se/nyheter/inrikes/tidigare-c-ledaren-syna-kristersson",
    "src": "SVT Nyheter"
   },
   {
@@ -729,23 +735,17 @@
    "src": "SVT Nyheter"
   },
   {
-   "t": "Helgens stora händelser i politiken – på 60 sekunder",
-   "sum": "Helg bjöd på nya, dramatiska turer: Tunga C-profiler förespråkar att Centerpartiet går till höger, ett nytt bud till Vänsterpartiet lades fram i en debattartikel – och V nobbade det direkt.",
-   "url": "https://www.svt.se/nyheter/video/36e35c80f6257caf-helgens-stora-handelser-i-politiken-pa-60-sekunder",
+   "t": "S-toppens svar till V: ”Släpp prestigen”",
+   "sum": "V-toppen Ida Gabrielsson tycker inte att Magdalena Anderssons ”startpaket” är tillräckligt bra – för att partiet ska ge upp sitt ministerkrav. Nu svarar S-toppen Ardalan Shekarabi att V behöver ”släppa prestigen”. Enligt honom har V vägrat förhandling ända sedan valet.",
+   "url": "https://www.svt.se/nyheter/inrikes/s-toppens-svar-till-v-slapp-prestigen",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Chatt: Vem blir statsminister – och när är det klart?",
-   "sum": "Över 70 dagar utan regering. Förhandlingar inför öppen ridå. Andersson vs. Kristersson. Hur ska regeringsbildningen sluta? Och när? Ställ dina frågor till SVT:s politikreporter Kristoffer Törnmalm – som svarar i chatt och livesändning.",
-   "url": "https://www.svt.se/nyheter/inrikes/chatt-vem-blir-statsminister-och-nar-ar-det-klart",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Analys: ”Trump fick som han ville – men nya akter väntar i Nvidia-dramat”",
-   "sum": "Jensen Huang har gjort comeback. Donald Trump ser ut att ha klivit in och ändrat förutsättningarna för det här dramats nästa akt – eller ska vi säga fars?",
-   "url": "https://www.svt.se/nyheter/utrikes/trump-fick-som-han-ville-men-nya-akter-vantar-i-nvidia-dramat",
+   "t": "Mats Knutson: Tre skäl till att V nobbar S-budet",
+   "sum": "Vänsterpartiet nobbar det nya budet från S, MP och C. Men varför räcker inte erbjudandet? SVT:s inrikespolitiske kommentator Mats Knutson pekar på tre viktiga skäl. – Symboliken att få ministerposter är avgörande, säger han.",
+   "url": "https://www.svt.se/nyheter/inrikes/mats-knutson-tre-skal-till-att-v-nobbar-s-budet",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-23T19:12+01:00"
+ "topUpdated": "2026-11-23T23:05+01:00"
 }
