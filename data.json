@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:38:11+01:00",
+ "updated": "2026-11-23T19:12:23+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -95,9 +95,9 @@
    "team": "Cornell",
    "lg": "NCAA",
    "dr": "",
-   "s": "8 GP · 0 M · 4 A · 4 P · +2",
-   "l5": "0+3=3",
-   "l5p": 3,
+   "s": "8 GP · 0 M · 5 A · 5 P · +2",
+   "l5": "0+4=4",
+   "l5p": 4,
    "note": "Seniorår och given ankare i Cornells backlinje. Ännu ej kontrakterad av Dallas."
   },
   {
@@ -355,6 +355,16 @@
    "auto": true
   },
   {
+   "id": "2026-11-20-Fegaras-Clarkson",
+   "d": "2026-11-20",
+   "who": "George Fegaras",
+   "kind": "hl",
+   "title": "Fegaras 0+1 när Cornell föll 2–4 mot Clarkson",
+   "game": "Cornell 2–4 Clarkson",
+   "sum": "+1 i plus/minus, 3 skott.",
+   "auto": true
+  },
+  {
    "id": "2026-11-20-Sharkey-Stonehill",
    "d": "2026-11-20",
    "who": "Dawson Sharkey",
@@ -372,16 +382,6 @@
    "title": "Samuelsson poänglös när Lake Superior State spelade 4–4 mot Bemidji State",
    "game": "Lake Superior State 4–4 Bemidji State",
    "sum": "+1 i plus/minus, 2 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-20-Fegaras-Clarkson",
-   "d": "2026-11-20",
-   "who": "George Fegaras",
-   "kind": "news",
-   "title": "Fegaras poänglös när Cornell föll 2–4 mot Clarkson",
-   "game": "Cornell 2–4 Clarkson",
-   "sum": "+1 i plus/minus, 3 skott.",
    "auto": true
   },
   {
@@ -717,21 +717,9 @@
  ],
  "top": [
   {
-   "t": "Efterlyst svensk greps vid ryska gränsen",
-   "sum": "Den polska polisen har gripit en internationellt efterlyst 28-årig svensk medborgare vid gränsövergången mellan Kaliningrad och Polen, skriver TV4.",
-   "url": "https://www.svt.se/nyheter/utrikes/efterlyst-svensk-greps-vid-ryska-gransen",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Greta Thunberg döms för aktioner i Köpenhamn",
-   "sum": "Den svenska aktivisten Greta Thunberg döms till böter för två fall av olaga intrång i Danmark.",
-   "url": "https://www.svt.se/nyheter/utrikes/greta-thunberg-doms-for-aktioner-i-kopenhamn",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Missvisande video sprider oro kring nya kreditlagen: ”Hejdå Klarna!”",
-   "sum": "I en video som fått två miljoner visningar hävdas att en ny ”EU-lag” gör att AI får tillgång till upp till två års banktransaktioner när man handlar på avbetalning. Men det påståendet är missvisande. En ny svensk lag skärper kraven på kreditprövningar men kräver varken AI eller automatisk genomgång av kunders konton.",
-   "url": "https://www.svt.se/nyheter/inrikes/missvisande-video-sprider-oro-kring-nya-kreditlagen-hejda-klarna",
+   "t": "Mats Knutson: Tre skäl till att V nobbar S-budet",
+   "sum": "Vänsterpartiet nobbar det nya budet från S, MP och C. Men varför räcker inte erbjudandet? SVT:s inrikespolitiske kommentator Mats Knutson pekar på tre viktiga skäl. – Symboliken att få ministerposter är avgörande, säger han.",
+   "url": "https://www.svt.se/nyheter/inrikes/mats-knutson-tre-skal-till-att-v-nobbar-s-budet",
    "src": "SVT Nyheter"
   },
   {
@@ -741,11 +729,23 @@
    "src": "SVT Nyheter"
   },
   {
-   "t": "C-toppen om splittringen: ”Väldigt laddat och känslosamt”",
-   "sum": "Centerpartiet står inför ett vägval i regeringsfrågan. Emma Ytterell (C) gick på lördagen ut med att partiet i stället bör gå vidare med allianspartierna. Nu har allt fler C-distrikt öppnat dörren högerut. – Vi har en gräns och vi har också alternativ, säger Ytterell i SVT:s Agenda på söndagskvällen.",
-   "url": "https://www.svt.se/nyheter/inrikes/c-toppen-om-splittringen-valdigt-laddat-och-kanslosamt",
+   "t": "Helgens stora händelser i politiken – på 60 sekunder",
+   "sum": "Helg bjöd på nya, dramatiska turer: Tunga C-profiler förespråkar att Centerpartiet går till höger, ett nytt bud till Vänsterpartiet lades fram i en debattartikel – och V nobbade det direkt.",
+   "url": "https://www.svt.se/nyheter/video/36e35c80f6257caf-helgens-stora-handelser-i-politiken-pa-60-sekunder",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Chatt: Vem blir statsminister – och när är det klart?",
+   "sum": "Över 70 dagar utan regering. Förhandlingar inför öppen ridå. Andersson vs. Kristersson. Hur ska regeringsbildningen sluta? Och när? Ställ dina frågor till SVT:s politikreporter Kristoffer Törnmalm – som svarar i chatt och livesändning.",
+   "url": "https://www.svt.se/nyheter/inrikes/chatt-vem-blir-statsminister-och-nar-ar-det-klart",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Analys: ”Trump fick som han ville – men nya akter väntar i Nvidia-dramat”",
+   "sum": "Jensen Huang har gjort comeback. Donald Trump ser ut att ha klivit in och ändrat förutsättningarna för det här dramats nästa akt – eller ska vi säga fars?",
+   "url": "https://www.svt.se/nyheter/utrikes/trump-fick-som-han-ville-men-nya-akter-vantar-i-nvidia-dramat",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-23T14:38+01:00"
+ "topUpdated": "2026-11-23T19:12+01:00"
 }
