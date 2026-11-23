@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T07:22:36+01:00",
+ "updated": "2026-11-23T10:39:30+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -717,21 +717,15 @@
  ],
  "top": [
   {
-   "t": "Senaste nytt om kriget i Ukraina",
-   "sum": "Rysslands invasion av Ukraina har pågått sedan den 24 februari 2022. Följ SVT:s liverapport med senaste nytt om kriget.",
-   "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage",
+   "t": "Senaste nytt om valet 2026",
+   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
    "src": "SVT Nyheter"
   },
   {
-   "t": "23 november: Nattens nyheter",
-   "sum": "",
-   "url": "https://www.svt.se/nyheter/utrikes/23-november-nattens-nyheter-iii70m",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Analys: ”Andersson söker ett sista halmstrå”",
-   "sum": "S-ledaren Magdalena Anderssons utspel på söndagskvällen är ett sista försök att sätta press på Vänsterpartiet. Men det framstår som alltmer utsiktslöst. Vänsterpartiet håller benhårt fast vid sina krav på ministerposter.",
-   "url": "https://www.svt.se/nyheter/inrikes/andersson-soker-ett-sista-halmstra",
+   "t": "Chatt: Vem blir statsminister – och när är det klart?",
+   "sum": "Över 70 dagar utan regering. Förhandlingar inför öppen ridå. Andersson vs. Kristersson. Hur ska regeringsbildningen sluta? Och när? Ställ dina frågor till SVT:s politikreporter Kristeroffer Törnmalm – som svarar i chatt och livesändning.",
+   "url": "https://www.svt.se/nyheter/inrikes/chatt-vem-blir-statsminister-och-nar-ar-det-klart",
    "src": "SVT Nyheter"
   },
   {
@@ -745,7 +739,13 @@
    "sum": "S, MP och C erbjuder nu Vänsterpartiet ett ”startpaket” på Expressen debatt. V erbjuds plats i ett inre kabinett med partiledarna – men inga ministerposter. ”Tack men nej tack”, skriver V-toppen Ida Gabrielsson (V) på X.",
    "url": "https://www.svt.se/nyheter/inrikes/andersson-s-erbjuder-startpaket-till-v-far-nobben",
    "src": "SVT Nyheter"
+  },
+  {
+   "t": "Analys: ”Andersson söker ett sista halmstrå”",
+   "sum": "S-ledaren Magdalena Anderssons utspel på söndagskvällen är ett sista försök att sätta press på Vänsterpartiet. Men det framstår som alltmer utsiktslöst. Vänsterpartiet håller benhårt fast vid sina krav på ministerposter.",
+   "url": "https://www.svt.se/nyheter/inrikes/andersson-soker-ett-sista-halmstra",
+   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-23T07:22+01:00"
+ "topUpdated": "2026-11-23T10:39+01:00"
 }
