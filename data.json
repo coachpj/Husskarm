@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T23:05:32+01:00",
+ "updated": "2026-11-24T07:11:27+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -393,26 +393,6 @@
    "game": "JYP 2–3 HIFK",
    "sum": "0:00 istid, 0 i plus/minus.",
    "auto": true
-  },
-  {
-   "id": "2026-11-19-Sharkey-Stonehill",
-   "d": "2026-11-19",
-   "who": "Dawson Sharkey",
-   "kind": "hl",
-   "title": "Sharkey 1+0 när Northeastern vann 8–2 mot Stonehill",
-   "game": "Stonehill 2–8 Northeastern",
-   "sum": "0 i plus/minus, 4 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-19-Kuhta-Providence",
-   "d": "2026-11-19",
-   "who": "Jasper Kuhta",
-   "kind": "news",
-   "title": "Kuhta poänglös när UMass föll 2–4 mot Providence",
-   "game": "UMass 2–4 Providence",
-   "sum": "−3 i plus/minus, 0 skott.",
-   "auto": true
   }
  ],
  "next": [
@@ -717,35 +697,35 @@
  ],
  "top": [
   {
-   "t": "Nvidias vd tillbaka – Wall Street rusade vilt",
-   "sum": "Nasdaqs tekniktunga index rusade 6,5 procent på börsen i New York på måndagen efter beskedet om att Jensen Huang återinsätts som halvledarbjässen Nvidias vd. Nvidia steg hela 31,5 procent.",
-   "url": "https://www.svt.se/nyheter/ekonomi/nvidias-vd-tillbaka-wall-street-rusade-vilt",
+   "t": "Senaste nytt om kriget i Ukraina",
+   "sum": "Rysslands invasion av Ukraina har pågått sedan den 24 februari 2022. Följ SVT:s liverapport med senaste nytt om kriget.",
+   "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Tidigare C-ledaren: ”Syna Kristersson”",
-   "sum": "Den tidigare C-ledaren Maud Olofsson anser att samtalen mellan de rödgröna partierna har ”nått vägs ände”. Nu vill hon att Centerpartiet vänder sig högerut. – Syna nu vad Ulf Kristersson menar. Vad är de [forna allianspartierna] beredda att ge Centerpartiet? säger hon.",
-   "url": "https://www.svt.se/nyheter/inrikes/tidigare-c-ledaren-syna-kristersson",
+   "t": "Senaste nytt om kriget i Gaza",
+   "sum": "Kriget i Gaza, som inleddes efter Hamas attack mot Israel den 7 oktober 2023, har lett till tiotusentals civila dödsoffer och svårt humanitärt lidande. Sedan krigets utbrott har också våldsamheterna på Västbanken eskalerat. Följ det senaste om utvecklingen i SVT:s liverapport.",
+   "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Senaste nytt om valet 2026",
-   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
-   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "t": "24 november: Nattens nyheter",
+   "sum": "",
+   "url": "https://www.svt.se/nyheter/utrikes/24-november-nattens-nyheter-wt2jdi",
    "src": "SVT Nyheter"
   },
   {
-   "t": "S-toppens svar till V: ”Släpp prestigen”",
-   "sum": "V-toppen Ida Gabrielsson tycker inte att Magdalena Anderssons ”startpaket” är tillräckligt bra – för att partiet ska ge upp sitt ministerkrav. Nu svarar S-toppen Ardalan Shekarabi att V behöver ”släppa prestigen”. Enligt honom har V vägrat förhandling ända sedan valet.",
-   "url": "https://www.svt.se/nyheter/inrikes/s-toppens-svar-till-v-slapp-prestigen",
+   "t": "Senaste nytt i Morgonstudion – följ sändningen här",
+   "sum": "Dagens viktigaste nyheter och analyser med ständiga uppdateringar.",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-i-morgonstudion-folj-sandningen-har-uisf4r",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Mats Knutson: Tre skäl till att V nobbar S-budet",
-   "sum": "Vänsterpartiet nobbar det nya budet från S, MP och C. Men varför räcker inte erbjudandet? SVT:s inrikespolitiske kommentator Mats Knutson pekar på tre viktiga skäl. – Symboliken att få ministerposter är avgörande, säger han.",
-   "url": "https://www.svt.se/nyheter/inrikes/mats-knutson-tre-skal-till-att-v-nobbar-s-budet",
+   "t": "Thand Ringqvist: Tillbaka till samtal med M, L och KD",
+   "sum": "Centerpartiet kommer återuppta samtalen om en ny regering med högersidan, det skriver Elisabeth Thand Ringqvist på sociala medier. ”Vi tänker inte låta regeringsbildningen fastna”, skriver Thand Ringqvist på X.",
+   "url": "https://www.svt.se/nyheter/inrikes/thand-ringqvist-tillbaka-till-samtal-med-m-l-och-kd",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-23T23:05+01:00"
+ "topUpdated": "2026-11-24T07:11+01:00"
 }
