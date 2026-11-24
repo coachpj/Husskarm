@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:11:27+01:00",
+ "updated": "2026-11-24T10:24:58+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -697,27 +697,21 @@
  ],
  "top": [
   {
-   "t": "Senaste nytt om kriget i Ukraina",
-   "sum": "Rysslands invasion av Ukraina har pågått sedan den 24 februari 2022. Följ SVT:s liverapport med senaste nytt om kriget.",
-   "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Senaste nytt om kriget i Gaza",
-   "sum": "Kriget i Gaza, som inleddes efter Hamas attack mot Israel den 7 oktober 2023, har lett till tiotusentals civila dödsoffer och svårt humanitärt lidande. Sedan krigets utbrott har också våldsamheterna på Västbanken eskalerat. Följ det senaste om utvecklingen i SVT:s liverapport.",
-   "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "24 november: Nattens nyheter",
-   "sum": "",
-   "url": "https://www.svt.se/nyheter/utrikes/24-november-nattens-nyheter-wt2jdi",
-   "src": "SVT Nyheter"
-  },
-  {
    "t": "Senaste nytt i Morgonstudion – följ sändningen här",
    "sum": "Dagens viktigaste nyheter och analyser med ständiga uppdateringar.",
    "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-i-morgonstudion-folj-sandningen-har-uisf4r",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Senaste nytt om valet 2026",
+   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Gabrielsson (V): ”Det har aldrig handlat om bara ministerposterna”",
+   "sum": "Vänsterpartiets vice partiledare Ida Gabrielsson blev inte förvånad över beskedet att Centerpartiet valt att återuppta samtalen med Ulf Kristerssons sida. – Man var inte beredda att kompromissa vare sig om inflytande eller stora politiska eftergifter, säger hon i SVT:s Morgonstudion.",
+   "url": "https://www.svt.se/nyheter/inrikes/v-borde-synat-centerpartiets-roda-linjer",
    "src": "SVT Nyheter"
   },
   {
@@ -725,7 +719,13 @@
    "sum": "Centerpartiet kommer återuppta samtalen om en ny regering med högersidan, det skriver Elisabeth Thand Ringqvist på sociala medier. ”Vi tänker inte låta regeringsbildningen fastna”, skriver Thand Ringqvist på X.",
    "url": "https://www.svt.se/nyheter/inrikes/thand-ringqvist-tillbaka-till-samtal-med-m-l-och-kd",
    "src": "SVT Nyheter"
+  },
+  {
+   "t": "Regeringsbildningen – vad händer nu?",
+   "sum": "Regeringsbildningen går mot en tredje statsministeromröstning, men vilken partiledare det ska röstas om är ännu oklart. Talmannen ska under tisdagen tala med alla partiledare för att skapa sig en bild av regeringsmöjligheterna.",
+   "url": "https://www.svt.se/nyheter/inrikes/regeringsbildningen-vad-hander-nu",
+   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-24T07:11+01:00"
+ "topUpdated": "2026-11-24T10:24+01:00"
 }
