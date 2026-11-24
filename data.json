@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:04:44+01:00",
+ "updated": "2026-11-24T23:12:03+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -697,6 +697,12 @@
  ],
  "top": [
   {
+   "t": "Senaste nytt om valet 2026",
+   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "src": "SVT Nyheter"
+  },
+  {
    "t": "Här är M:s totalpaket till C: ”Hade högre förväntningar”",
    "sum": "Centerpartiet går nu in i nya regeringssamtal med Moderaterna. SVT har tagit del av M:s totalpaket som ligger till grund för samtalen. – Jag hade ärligt talat högre förväntningar, säger en C-källa.",
    "url": "https://www.svt.se/nyheter/inrikes/har-ar-ms-totalpaket-till-c-hade-hogre-forvantningar",
@@ -715,17 +721,11 @@
    "src": "SVT Nyheter"
   },
   {
-   "t": "Senaste nytt om valet 2026",
-   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
-   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
-   "src": "SVT Nyheter"
-  },
-  {
    "t": "Utesluter inte SD-samarbete i intervju: ”Vet jag inte ännu”",
    "sum": "I en SVT-intervju utesluter C-ledaren Elisabeth Thand Ringqvist inte ett samarbete med SD. – Det vet jag inte ännu. Vi fattar beslut inom partiet, säger hon. Kort efter intervjun hör C-ledaren av sig på nytt.",
    "url": "https://www.svt.se/nyheter/inrikes/utesluter-inte-sd-samarbete-i-intervju-vet-jag-inte-annu",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-24T19:04+01:00"
+ "topUpdated": "2026-11-24T23:12+01:00"
 }
