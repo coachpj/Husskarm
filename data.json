@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T14:33:04+01:00",
+ "updated": "2026-11-24T19:04:44+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -18,7 +18,7 @@
    "team": "Tri-City Americans",
    "lg": "WHL",
    "dr": "2026 R2 #59",
-   "s": "21 GP · 3 M · 11 A · 14 P · −6",
+   "s": "21 GP · 3 M · 11 A · 14 P · −5",
    "l5": "0+6=6",
    "l5p": 6,
    "note": "Dallas högsta val 2026. Klar för Western Michigan (NCAA) från 2027-28."
@@ -697,9 +697,21 @@
  ],
  "top": [
   {
-   "t": "Inbrott i Kate och Williams semesterhem",
-   "sum": "Det brittiska kronprinsparet William och Kate hade inbrott i sitt semesterhem i Norfolk på måndagskvällen, rapporterar The Sun.",
-   "url": "https://www.svt.se/nyheter/utrikes/inbrott-i-kate-och-williams-semesterhem",
+   "t": "Här är M:s totalpaket till C: ”Hade högre förväntningar”",
+   "sum": "Centerpartiet går nu in i nya regeringssamtal med Moderaterna. SVT har tagit del av M:s totalpaket som ligger till grund för samtalen. – Jag hade ärligt talat högre förväntningar, säger en C-källa.",
+   "url": "https://www.svt.se/nyheter/inrikes/har-ar-ms-totalpaket-till-c-hade-hogre-forvantningar",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Analys: ”Centerpartiet behöver välja vilken svekdebatt som är värst”",
+   "sum": "Nu ligger allt fokus på Centerpartiet och i slutändan måste de välja vilken svekdebatt som skadar dem minst.",
+   "url": "https://www.svt.se/nyheter/inrikes/centerpartiet-behover-valja-vilken-svekdebatt-som-ar-varst",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Regeringsbildningen – vad händer nu?",
+   "sum": "Regeringsbildningen går mot en tredje statsministeromröstning. På måndag ska Ulf Kristersson (M) prövas av riksdagen, men ännu är det oklart om han har tillräckligt stöd. Nu riktas blickarna mot Centerpartiet, som fortsatt håller dörrarna öppna både vänster- och högerut.",
+   "url": "https://www.svt.se/nyheter/inrikes/regeringsbildningen-vad-hander-nu",
    "src": "SVT Nyheter"
   },
   {
@@ -709,23 +721,11 @@
    "src": "SVT Nyheter"
   },
   {
-   "t": "Kristersson (M): Beredd att prövas som statsminister",
-   "sum": "Ulf Kristersson (M), som har haft sonderingsuppdraget de senaste veckorna, är beredd att prövas som statsminister för en borgerlig regering med M, KD, L och C – när talmannen anser att tiden är rätt. – Jag hade inte prövat det om jag inte trott att det fanns förutsättningar, säger han under en pressträff på tisdagen.",
-   "url": "https://www.svt.se/nyheter/inrikes/kristersson-m-beredd-att-provas-som-statsminister",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Andersson (S): Finns inga förutsättningar att bilda regering",
-   "sum": "Socialdemokraternas partiledare Magdalena Andersson har i dag meddelat talmannen att hon inte har några förutsättningar för att klara en statsministeromröstning. – Vi haft bra samtal och kommit en bit på väg men eftersom Vänsterpartiet valt att inte förhandla finns nu inga förutsättningar för mig att bilda regering som tolereras av riksdagen, säger hon på en pressträff.",
-   "url": "https://www.svt.se/nyheter/inrikes/andersson-s-finns-inga-forutsattningar-att-bilda-regering",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Regeringsbildningen – vad händer nu?",
-   "sum": "Regeringsbildningen går mot en tredje statsministeromröstning, men vilken partiledare det ska röstas om är ännu oklart. Talmannen ska under tisdagen tala med alla partiledare för att skapa sig en bild av regeringsmöjligheterna.",
-   "url": "https://www.svt.se/nyheter/inrikes/regeringsbildningen-vad-hander-nu",
+   "t": "Utesluter inte SD-samarbete i intervju: ”Vet jag inte ännu”",
+   "sum": "I en SVT-intervju utesluter C-ledaren Elisabeth Thand Ringqvist inte ett samarbete med SD. – Det vet jag inte ännu. Vi fattar beslut inom partiet, säger hon. Kort efter intervjun hör C-ledaren av sig på nytt.",
+   "url": "https://www.svt.se/nyheter/inrikes/utesluter-inte-sd-samarbete-i-intervju-vet-jag-inte-annu",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-24T14:33+01:00"
+ "topUpdated": "2026-11-24T19:04+01:00"
 }
