@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:12:03+01:00",
+ "updated": "2026-11-25T07:13:02+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -73,9 +73,9 @@
    "team": "Northeastern",
    "lg": "NCAA",
    "dr": "",
-   "s": "10 GP · 6 M · 0 A · 6 P · −1",
-   "l5": "5+0=5",
-   "l5p": 5,
+   "s": "11 GP · 6 M · 1 A · 7 P · 0",
+   "l5": "3+1=4",
+   "l5p": 4,
    "note": "Freshman. Första collegemålet kom mot UMass; två mål (varav det matchavgörande) mot Holy Cross 7 nov."
   },
   {
@@ -150,6 +150,18 @@
  ],
  "games": [
   {
+   "team": "texas",
+   "d": "2026-11-24",
+   "title": "Texas Stars 4–3 Tucson Roadrunners",
+   "res": "OTW",
+   "sc": [
+    "Emil Hemming (PP)",
+    "Matthew Seminoff",
+    "Ben Gleason 2"
+   ],
+   "note": ""
+  },
+  {
    "team": "dallas",
    "d": "2026-11-22",
    "title": "Dallas Stars 1–0 Pittsburgh Penguins",
@@ -179,21 +191,19 @@
     "Dylan Hryckowian 2"
    ],
    "note": ""
-  },
-  {
-   "team": "dallas",
-   "d": "2026-11-19",
-   "title": "Dallas Stars 4–3 Vegas Golden Knights",
-   "res": "SOW",
-   "sc": [
-    "Miro Heiskanen",
-    "Wyatt Johnston",
-    "Thomas Harley"
-   ],
-   "note": "J. Oettinger 27 räddningar"
   }
  ],
  "news": [
+  {
+   "id": "2026-11-24-Sharkey-Brown",
+   "d": "2026-11-24",
+   "who": "Dawson Sharkey",
+   "kind": "hl",
+   "title": "Sharkey 0+1 när Northeastern vann 5–3 mot Brown",
+   "game": "Brown 3–5 Northeastern",
+   "sum": "+1 i plus/minus, 0 skott.",
+   "auto": true
+  },
   {
    "id": "2026-11-22-Cherepanov-1023335",
    "d": "2026-11-22",
@@ -293,125 +303,9 @@
    "game": "KalPa 2–3 HIFK",
    "sum": "0:00 istid, 0 i plus/minus.",
    "auto": true
-  },
-  {
-   "id": "2026-11-20-Schmidt-1023323",
-   "d": "2026-11-20",
-   "who": "Cameron Schmidt",
-   "kind": "out",
-   "title": "Schmidt inte med när Victoria vann 6–2 mot Spokane",
-   "game": "Spokane Chiefs 2–6 Victoria Royals",
-   "sum": "Fanns inte i matchprotokollet. Orsaken framgår inte av ligans data – se Prospekt-radarn.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-20-Goos-VstersIK",
-   "d": "2026-11-20",
-   "who": "Måns Goos",
-   "kind": "hl",
-   "title": "Goos stod när Karlskoga vann 5–2 mot Västerås",
-   "game": "Västerås IK 2–5 BIK Karlskoga",
-   "sum": "26 räddningar, 2 insläppta mål.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-20-Vaněček-1023322",
-   "d": "2026-11-20",
-   "who": "Jakub Vaněček",
-   "kind": "hl",
-   "title": "Vaněček 0+1 när Tri-City föll 1–2 mot Seattle",
-   "game": "Seattle Thunderbirds 2–1 Tri-City Americans",
-   "sum": "−1 i plus/minus, 4 skott, 2 utvisningsminuter.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-20-Brown-29219",
-   "d": "2026-11-20",
-   "who": "Ryan Brown",
-   "kind": "hl",
-   "title": "Brown 0+1 när London vann 4–3 mot Sault Ste. Marie",
-   "game": "London Knights 4–3 Soo Greyhounds",
-   "sum": "0 i plus/minus, 10 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-20-Gorzynski-1023319",
-   "d": "2026-11-20",
-   "who": "Brandon Gorzynski",
-   "kind": "hl",
-   "title": "Gorzynski 0+2 när Prince Albert vann 4–1 mot Portland",
-   "game": "Prince Albert Raiders 4–1 Portland Winterhawks",
-   "sum": "+1 i plus/minus, 3 skott, 2 utvisningsminuter.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-20-Cherepanov-1023316",
-   "d": "2026-11-20",
-   "who": "Mikhail Cherepanov",
-   "kind": "hl",
-   "title": "Cherepanov 0+1 när Kamloops föll 1–2 mot Everett",
-   "game": "Everett Silvertips 2–1 Kamloops Blazers",
-   "sum": "0 i plus/minus, 3 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-20-Fegaras-Clarkson",
-   "d": "2026-11-20",
-   "who": "George Fegaras",
-   "kind": "hl",
-   "title": "Fegaras 0+1 när Cornell föll 2–4 mot Clarkson",
-   "game": "Cornell 2–4 Clarkson",
-   "sum": "+1 i plus/minus, 3 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-20-Sharkey-Stonehill",
-   "d": "2026-11-20",
-   "who": "Dawson Sharkey",
-   "kind": "news",
-   "title": "Sharkey poänglös när Northeastern föll 0–4 mot Stonehill",
-   "game": "Stonehill 4–0 Northeastern",
-   "sum": "0 i plus/minus, 4 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-20-Samuelsson-BemidjiState",
-   "d": "2026-11-20",
-   "who": "William Samuelsson",
-   "kind": "news",
-   "title": "Samuelsson poänglös när Lake Superior State spelade 4–4 mot Bemidji State",
-   "game": "Lake Superior State 4–4 Bemidji State",
-   "sum": "+1 i plus/minus, 2 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-20-Joki-2701466",
-   "d": "2026-11-20",
-   "who": "Atte Joki",
-   "kind": "news",
-   "title": "Joki poänglös när HIFK vann 3–2 mot JYP",
-   "game": "JYP 2–3 HIFK",
-   "sum": "0:00 istid, 0 i plus/minus.",
-   "auto": true
   }
  ],
  "next": [
-  {
-   "team": "prospect",
-   "who": "Sharkey",
-   "club": "Northeastern",
-   "t": "2026-11-25T00:00:00Z",
-   "opp": "Brown",
-   "s": "Brown",
-   "home": false
-  },
-  {
-   "team": "texas",
-   "t": "2026-11-25T01:00:00Z",
-   "opp": "Tucson Roadrunners",
-   "s": "Tucson",
-   "home": true
-  },
   {
    "team": "prospect",
    "who": "Joki",
@@ -697,35 +591,35 @@
  ],
  "top": [
   {
+   "t": "25 november: Nattens nyheter",
+   "sum": "",
+   "url": "https://www.svt.se/nyheter/utrikes/25-november-nattens-nyheter-1anrup",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Senaste nytt i Morgonstudion – följ sändningen här",
+   "sum": "Dagens viktigaste nyheter och analyser med ständiga uppdateringar.",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-i-morgonstudion-folj-sandningen-har-uisf4r",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Analys: ”Anderssons sista strid”",
+   "sum": "Under hela valrörelsen undvek Magdalena Andersson att berätta hur hon tänkte bilda regering. Nu får hon betala priset – och det priset kan bli högt om regeringsmakten glider henne ur händerna. Det som nu utspelar sig kan bli Anderssons sista strid.",
+   "url": "https://www.svt.se/nyheter/inrikes/anderssons-sista-strid",
+   "src": "SVT Nyheter"
+  },
+  {
    "t": "Senaste nytt om valet 2026",
    "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
    "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Här är M:s totalpaket till C: ”Hade högre förväntningar”",
-   "sum": "Centerpartiet går nu in i nya regeringssamtal med Moderaterna. SVT har tagit del av M:s totalpaket som ligger till grund för samtalen. – Jag hade ärligt talat högre förväntningar, säger en C-källa.",
-   "url": "https://www.svt.se/nyheter/inrikes/har-ar-ms-totalpaket-till-c-hade-hogre-forvantningar",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Analys: ”Centerpartiet behöver välja vilken svekdebatt som är värst”",
-   "sum": "Nu ligger allt fokus på Centerpartiet och i slutändan måste de välja vilken svekdebatt som skadar dem minst.",
-   "url": "https://www.svt.se/nyheter/inrikes/centerpartiet-behover-valja-vilken-svekdebatt-som-ar-varst",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Regeringsbildningen – vad händer nu?",
-   "sum": "Regeringsbildningen går mot en tredje statsministeromröstning. På måndag ska Ulf Kristersson (M) prövas av riksdagen, men ännu är det oklart om han har tillräckligt stöd. Nu riktas blickarna mot Centerpartiet, som fortsatt håller dörrarna öppna både vänster- och högerut.",
-   "url": "https://www.svt.se/nyheter/inrikes/regeringsbildningen-vad-hander-nu",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Utesluter inte SD-samarbete i intervju: ”Vet jag inte ännu”",
-   "sum": "I en SVT-intervju utesluter C-ledaren Elisabeth Thand Ringqvist inte ett samarbete med SD. – Det vet jag inte ännu. Vi fattar beslut inom partiet, säger hon. Kort efter intervjun hör C-ledaren av sig på nytt.",
-   "url": "https://www.svt.se/nyheter/inrikes/utesluter-inte-sd-samarbete-i-intervju-vet-jag-inte-annu",
+   "t": "Uppgifter: C-ledaren pekar ut två möjliga lösningar – på internt möte",
+   "sum": "Centerpartiet samlades under tisdagskvällen för ett extrainsatt möte. Där ska C-ledaren, enligt vad SVT erfar, målat upp två alternativ. Antingen väljer man Ulf Kristersson – eller så går man till extraval – vilket Elisabeth Thand Ringqvist varnar för.",
+   "url": "https://www.svt.se/nyheter/inrikes/uppgifter-c-ledaren-pekar-ut-tva-mojliga-losningar-pa-internt-mote",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-24T23:12+01:00"
+ "topUpdated": "2026-11-25T07:13+01:00"
 }
