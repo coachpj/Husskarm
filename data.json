@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:59:25+01:00",
+ "updated": "2026-11-25T23:12:27+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -30,8 +30,8 @@
    "lg": "OHL",
    "dr": "2026 R5 #155",
    "s": "19 GP · 6 M · 21 A · 27 P · +8",
-   "l5": "2+2=4",
-   "l5p": 4,
+   "l5": "1+2=3",
+   "l5p": 3,
    "note": "Ny lagkapten i London. Energispelare som utvecklat sitt passningsspel. Har åtagit sig att spela för Ohio State längre fram."
   },
   {
@@ -106,7 +106,7 @@
    "team": "HIFK",
    "lg": "Liiga",
    "dr": "",
-   "s": "21 GP · 0 M · 0 A · 0 P · −3 · 9:13 istid/match",
+   "s": "21 GP · 0 M · 0 A · 0 P · −3 · 9:23 istid/match",
    "l5": "0+0=0",
    "l5p": 0,
    "note": "Bra närkampssiffror men svag i tekningar. Boxplayroll är nästa steg att följa."
@@ -194,6 +194,16 @@
   }
  ],
  "news": [
+  {
+   "id": "2026-11-25-Joki-2701480",
+   "d": "2026-11-25",
+   "who": "Atte Joki",
+   "kind": "news",
+   "title": "Joki poänglös när HIFK vann 3–1 mot TPS",
+   "game": "HIFK 3–1 TPS",
+   "sum": "7:19 istid, 0 i plus/minus.",
+   "auto": true
+  },
   {
    "id": "2026-11-24-Sharkey-Brown",
    "d": "2026-11-24",
@@ -306,24 +316,6 @@
   }
  ],
  "next": [
-  {
-   "team": "prospect",
-   "who": "Joki",
-   "club": "HIFK",
-   "t": "2026-11-25T16:30:00Z",
-   "opp": "TPS",
-   "s": "TPS",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Goos",
-   "club": "BIK Karlskoga",
-   "t": "2026-11-25T18:00:00Z",
-   "opp": "Vimmerby HC",
-   "s": "Vimmerby",
-   "home": false
-  },
   {
    "team": "prospect",
    "who": "Brown",
@@ -561,6 +553,15 @@
    "home": false
   },
   {
+   "team": "prospect",
+   "who": "Goos",
+   "club": "BIK Karlskoga",
+   "t": "2026-12-02T18:00:00Z",
+   "opp": "Kalmar HC",
+   "s": "Kalmar",
+   "home": false
+  },
+  {
    "team": "dallas",
    "t": "2026-12-04T03:00:00Z",
    "opp": "Seattle Kraken",
@@ -591,9 +592,15 @@
  ],
  "top": [
   {
-   "t": "S-profilerna varnar: Djup kris om Andersson misslyckas",
-   "sum": "Om Magdalena Andersson misslyckas med att bilda regering riskerar Socialdemokraterna att kastas in i en djup kris. Det menar S-profilerna Daniel Suhonen och Lars Stjernkvist. – Att vinna ett val och sen tappa det. Det är ju nästan häpnadsväckande, säger Suhonen.",
-   "url": "https://www.svt.se/nyheter/inrikes/s-profilerna-varnar-djup-kris-om-andersson-misslyckas",
+   "t": "Senaste nytt om valet 2026",
+   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Spricka mellan C-topparna inför vägvalet: ”Slöseri”",
+   "sum": "Inom C pågår interna strider om vägvalet i regeringsfrågan. Motståndare till en Kristersson-lösning mobiliserar för ett annat alternativ – och källor varnar för en framtid med partisplittring och avhopp.",
+   "url": "https://www.svt.se/nyheter/inrikes/spricka-mellan-c-topparna-infor-vagvalet-sloseri",
    "src": "SVT Nyheter"
   },
   {
@@ -603,23 +610,17 @@
    "src": "SVT Nyheter"
   },
   {
-   "t": "Senaste nytt om valet 2026",
-   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
-   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "t": "Starlink kan vara mål för ryskt kärnvapen i rymden",
+   "sum": "Ryssland har kärnvapen i rymden sedan flera år tillbaka, enligt tyska medier. En kärnvapenexplosion i rymden kan slå ut satelliter – exempelvis Starlink. Tysklands regering tar uppgifterna på allvar, medan Kreml avfärdar dem.",
+   "url": "https://www.svt.se/nyheter/utrikes/starlink-kan-vara-mal-for-ryskt-karnvapen-i-rymden",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Analys: ”Anderssons sista strid”",
-   "sum": "Under hela valrörelsen undvek Magdalena Andersson att berätta hur hon tänkte bilda regering. Nu får hon betala priset – och det priset kan bli högt om regeringsmakten glider henne ur händerna. Det som nu utspelar sig kan bli Anderssons sista strid.",
-   "url": "https://www.svt.se/nyheter/inrikes/anderssons-sista-strid",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Frederiksen får hård kritik efter uttalande om ”folkutbyte”",
-   "sum": "Danmarks statsminister Mette Frederiksen är i blåsväder. I en intervju har hon sagt att hon ”inte är en anhängare av ett stort folkutbyte”. Nu riskerar hennes regering att falla då ett av stödpartierna hotar med att dra tillbaka sitt stöd.",
-   "url": "https://www.svt.se/nyheter/utrikes/frederiksen-far-hard-kritik-efter-uttalande-om-folkutbyte",
+   "t": "Elon Musk får grönt ljus för datacenter i rymden",
+   "sum": "Rymdbolaget SpaceX har kommit ett steg närmare att skjuta upp datacenter i rymden, rapporterar flera medier. Projektet har fått grönt ljus från USA:s kommunikationsmyndighet, FCC.",
+   "url": "https://www.svt.se/nyheter/utrikes/elon-musk-far-gront-ljus-for-datacenter-i-rymden",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-25T18:59+01:00"
+ "topUpdated": "2026-11-25T23:12+01:00"
 }
