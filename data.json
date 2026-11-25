@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T14:40:09+01:00",
+ "updated": "2026-11-25T18:59:25+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -8,8 +8,8 @@
    "lg": "WHL",
    "dr": "2025 R3",
    "s": "17 GP · 13 M · 13 A · 26 P · −6",
-   "l5": "5+3=8",
-   "l5p": 8,
+   "l5": "2+3=5",
+   "l5p": 5,
    "note": "Ledde WHL med 51 mål förra säsongen. Assisterande lagkapten i Victoria efter trejden i maj. NHL.com rankar honom som Dallas näst bästa prospect."
   },
   {
@@ -19,8 +19,8 @@
    "lg": "WHL",
    "dr": "2026 R2 #59",
    "s": "21 GP · 3 M · 11 A · 14 P · −5",
-   "l5": "0+6=6",
-   "l5p": 6,
+   "l5": "0+5=5",
+   "l5p": 5,
    "note": "Dallas högsta val 2026. Klar för Western Michigan (NCAA) från 2027-28."
   },
   {
@@ -106,7 +106,7 @@
    "team": "HIFK",
    "lg": "Liiga",
    "dr": "",
-   "s": "20 GP · 0 M · 0 A · 0 P · −3 · 9:31 istid/match",
+   "s": "21 GP · 0 M · 0 A · 0 P · −3 · 9:13 istid/match",
    "l5": "0+0=0",
    "l5p": 0,
    "note": "Bra närkampssiffror men svag i tekningar. Boxplayroll är nästa steg att följa."
@@ -591,15 +591,15 @@
  ],
  "top": [
   {
-   "t": "Nya tullar från USA väntas – upp till 40 procent mot Kina",
-   "sum": "USA väntas införa nya tullar på upp till 20 procent mot EU och 40 procent mot Kina, enligt Bloomberg. Ett officiellt besked väntas under onsdagen.",
-   "url": "https://www.svt.se/nyheter/ekonomi/nya-tullar-fran-usa-vantas-upp-till-40-procent-mot-kina",
+   "t": "S-profilerna varnar: Djup kris om Andersson misslyckas",
+   "sum": "Om Magdalena Andersson misslyckas med att bilda regering riskerar Socialdemokraterna att kastas in i en djup kris. Det menar S-profilerna Daniel Suhonen och Lars Stjernkvist. – Att vinna ett val och sen tappa det. Det är ju nästan häpnadsväckande, säger Suhonen.",
+   "url": "https://www.svt.se/nyheter/inrikes/s-profilerna-varnar-djup-kris-om-andersson-misslyckas",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Separatistledaren Carles Puigdemont återvänder till Katalonien",
-   "sum": "Den katalanske separatistledaren Carles Puigdemont meddelar att han kommer att återvända till Katalonien den 12 december. En spansk domare hävde i oktober en arresteringsorder mot honom.",
-   "url": "https://www.svt.se/nyheter/utrikes/puigdemont-atervander-till-katalonien",
+   "t": "Väljarna: C har skött regeringsbildningen sämst",
+   "sum": "En ny undersökning från Verian visar att väljarna anser att Centerpartiet är det parti som har agerat sämst under regeringsbildningen. – Det är ingen som hade önskat att det skulle vara så här svårt, säger Martin Ådahl, Centerpartiets ekonomiskpolitiska talesperson, till Politikbyrån.",
+   "url": "https://www.svt.se/nyheter/inrikes/valjarna-c-har-skott-regeringsbildningen-samst",
    "src": "SVT Nyheter"
   },
   {
@@ -615,11 +615,11 @@
    "src": "SVT Nyheter"
   },
   {
-   "t": "Ställ dina frågor – vilka ska styra Sverige?",
-   "sum": "På måndagen ska riksdagen på måndag rösta om Ulf Kristersson som statsminister i en M, KD, L och C-regering. Men Centerpartiet har ännu inte valt sida. Vad undrar du om regeringsbildningen? Klockan 13 kan du chatta med SVT:s inrikespolitiske kommentator Mats Knutson.",
-   "url": "https://www.svt.se/nyheter/inrikes/stall-dina-fragor-vilka-ska-styra-sverige",
+   "t": "Frederiksen får hård kritik efter uttalande om ”folkutbyte”",
+   "sum": "Danmarks statsminister Mette Frederiksen är i blåsväder. I en intervju har hon sagt att hon ”inte är en anhängare av ett stort folkutbyte”. Nu riskerar hennes regering att falla då ett av stödpartierna hotar med att dra tillbaka sitt stöd.",
+   "url": "https://www.svt.se/nyheter/utrikes/frederiksen-far-hard-kritik-efter-uttalande-om-folkutbyte",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-25T14:40+01:00"
+ "topUpdated": "2026-11-25T18:59+01:00"
 }
