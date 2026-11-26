@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:38:17+01:00",
+ "updated": "2026-11-26T19:04:07+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -507,9 +507,15 @@
  ],
  "top": [
   {
-   "t": "Norska flygbolaget ställer in samtliga flyg",
-   "sum": "Det krisande norska flygbolaget Norse ställer in samtliga flyg under torsdagen. Bolaget flyger bland annat Stockholm–Bangkok. Det kan bli svårt för svenska konsumenter att få ersättning.",
-   "url": "https://www.svt.se/nyheter/utrikes/norska-flygbolaget-staller-in-samtliga-flyg",
+   "t": "C-ledningen säger ja till Ulf Kristersson",
+   "sum": "Centerpartiets ledning vill rösta ja till Ulf Kristersson (M) på måndag och ingå i en minoritetsregering. Det meddelar partiledaren Elisabeth Thand Ringqvist under en pressträff. – Det här är en ny kurs för Sverige, inte en förlängning av de fyra gångna åren, säger hon.",
+   "url": "https://www.svt.se/nyheter/inrikes/c-ledningen-sager-ja-till-ulf-kristersson",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Analys: ”Att rucka på SD-linjen blev det minst dåliga alternativet”",
+   "sum": "På rekordfart gör nu Centerpartiet en helomvändning om SD som få trodde var möjlig före valet. Partiet är djupt splittrat och riskerar både avhopp och väljartapp. Ändå kan det visa sig mindre smärtsamt att dra av plåstret snabbt. Men det förutsätter en rejäl dos centerpolitik och ett så litet beroende av SD som möjligt.",
+   "url": "https://www.svt.se/nyheter/inrikes/att-rucka-pa-sd-linjen-blev-det-minst-daliga-alternativet",
    "src": "SVT Nyheter"
   },
   {
@@ -525,17 +531,11 @@
    "src": "SVT Nyheter"
   },
   {
-   "t": "Allianspartierna har slutit ny överenskommelse – fokus på tillväxt och välfärd",
-   "sum": "Sent igår nådde de fyra borgerliga partierna den överenskommelse som Centerpartiet nu har att ta ställning till. Inriktningen blir en helt annan än under de gångna fyra åren, enligt vad SVT erfar, och inom Moderaterna räknar man med att Thand Ringqvist vinner striden i sitt parti.",
-   "url": "https://www.svt.se/nyheter/inrikes/allianspartierna-har-slutit-ny-overenskommelse-fokus-pa-tillvaxt-och-valfard",
-   "src": "SVT Nyheter"
-  },
-  {
    "t": "Analys: ”Hoten från Iran riktas allt mer mot Europa”",
    "sum": "Från flygbaser till frysar. Säkerhetstjänster runt om i Europa uppger att risken för iranska hybridattacker mot europeiska mål växer.",
    "url": "https://www.svt.se/nyheter/utrikes/hoten-fran-iran-riktas-allt-mer-mot-europa",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-26T14:38+01:00"
+ "topUpdated": "2026-11-26T19:04+01:00"
 }
