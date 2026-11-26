@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T10:26:47+01:00",
+ "updated": "2026-11-26T14:38:17+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -507,27 +507,9 @@
  ],
  "top": [
   {
-   "t": "Stor explosion på oljeanläggning i Bangkok",
-   "sum": "En stor explosion har inträffat på en oljeanläggning i Bangkok, Thailand, rapporterar AP. Det finns ännu inga uppgifter om skadade.",
-   "url": "https://www.svt.se/nyheter/utrikes/stor-explosion-pa-oljeanlaggning-i-bangkok",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "C-toppar möts i dag – i blixtinkallat möte",
-   "sum": "Centerpartiet har kallat till ett extrainsatt möte med partistyrelsen och riksdagsgruppen under dagen. Syftet är, enligt SVT:s uppgifter, att undersöka om det finns ett stöd för att rösta grönt till Ulf Kristersson på måndag.",
-   "url": "https://www.svt.se/nyheter/inrikes/c-toppar-mots-i-dag-i-blixtinkallat-mote",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Regeringskrisen kan sluta i extra val om Centerpartiet inte enas",
-   "sum": "Centerpartiet splittras inför omröstningen om Moderaternas partiledare Ulf Kristersson som statsminister. Ett förtroenderåd kan samlas i helgen.",
-   "url": "https://www.svt.se/nyheter/inrikes/marmorstein-jag-har-aldrig-varit-med-om-en-san-har-infekterad-interndebatt",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Ebba Busch (KD): Inte gamla Alliansen",
-   "sum": "På måndag kan Ulf Kristersson (M) få grönt ljus att leda Sveriges regering i fyra år till – förutsatt att han får med sig Centerpartiet. Centern har under veckan fört samtal med M, L och KD. – Det går bra, säger KD-ledaren Ebba Busch om kontakterna.",
-   "url": "https://www.svt.se/nyheter/inrikes/ebba-busch-kd-inte-gamla-alliansen",
+   "t": "Norska flygbolaget ställer in samtliga flyg",
+   "sum": "Det krisande norska flygbolaget Norse ställer in samtliga flyg under torsdagen. Bolaget flyger bland annat Stockholm–Bangkok. Det kan bli svårt för svenska konsumenter att få ersättning.",
+   "url": "https://www.svt.se/nyheter/utrikes/norska-flygbolaget-staller-in-samtliga-flyg",
    "src": "SVT Nyheter"
   },
   {
@@ -535,7 +517,25 @@
    "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
    "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
    "src": "SVT Nyheter"
+  },
+  {
+   "t": "”Håll gränsen” – historien bakom C-topparnas slagord",
+   "sum": "På måndag röstar riksdagen om Ulf Kristersson (M) som statsminister. Inom Centerpartiet ställs då två linjer mot varandra. Bland C-topparna finns enligt SVT:s uppgifter de som vill säga ja, med en ny regering och stort politiskt inflytande i sikte. Andra har istället dammat av ett gammalt slagord: ”håll gränsen”.",
+   "url": "https://www.svt.se/nyheter/inrikes/hall-gransen-historien-bakom-c-topparnas-slagord",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Allianspartierna har slutit ny överenskommelse – fokus på tillväxt och välfärd",
+   "sum": "Sent igår nådde de fyra borgerliga partierna den överenskommelse som Centerpartiet nu har att ta ställning till. Inriktningen blir en helt annan än under de gångna fyra åren, enligt vad SVT erfar, och inom Moderaterna räknar man med att Thand Ringqvist vinner striden i sitt parti.",
+   "url": "https://www.svt.se/nyheter/inrikes/allianspartierna-har-slutit-ny-overenskommelse-fokus-pa-tillvaxt-och-valfard",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Analys: ”Hoten från Iran riktas allt mer mot Europa”",
+   "sum": "Från flygbaser till frysar. Säkerhetstjänster runt om i Europa uppger att risken för iranska hybridattacker mot europeiska mål växer.",
+   "url": "https://www.svt.se/nyheter/utrikes/hoten-fran-iran-riktas-allt-mer-mot-europa",
+   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-26T10:26+01:00"
+ "topUpdated": "2026-11-26T14:38+01:00"
 }
