@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T07:12:34+01:00",
+ "updated": "2026-11-26T10:26:47+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -507,21 +507,27 @@
  ],
  "top": [
   {
-   "t": "Senaste nytt om kriget i Ukraina",
-   "sum": "Rysslands invasion av Ukraina har pågått sedan den 24 februari 2022. Följ SVT:s liverapport med senaste nytt om kriget.",
-   "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage",
+   "t": "Stor explosion på oljeanläggning i Bangkok",
+   "sum": "En stor explosion har inträffat på en oljeanläggning i Bangkok, Thailand, rapporterar AP. Det finns ännu inga uppgifter om skadade.",
+   "url": "https://www.svt.se/nyheter/utrikes/stor-explosion-pa-oljeanlaggning-i-bangkok",
    "src": "SVT Nyheter"
   },
   {
-   "t": "26 november: Nattens nyheter",
-   "sum": "",
-   "url": "https://www.svt.se/nyheter/utrikes/26-november-nattens-nyheter-zp0it1",
+   "t": "C-toppar möts i dag – i blixtinkallat möte",
+   "sum": "Centerpartiet har kallat till ett extrainsatt möte med partistyrelsen och riksdagsgruppen under dagen. Syftet är, enligt SVT:s uppgifter, att undersöka om det finns ett stöd för att rösta grönt till Ulf Kristersson på måndag.",
+   "url": "https://www.svt.se/nyheter/inrikes/c-toppar-mots-i-dag-i-blixtinkallat-mote",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Senaste nytt i Morgonstudion – följ sändningen här",
-   "sum": "Dagens viktigaste nyheter och analyser med ständiga uppdateringar.",
-   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-i-morgonstudion-folj-sandningen-har-uisf4r",
+   "t": "Regeringskrisen kan sluta i extra val om Centerpartiet inte enas",
+   "sum": "Centerpartiet splittras inför omröstningen om Moderaternas partiledare Ulf Kristersson som statsminister. Ett förtroenderåd kan samlas i helgen.",
+   "url": "https://www.svt.se/nyheter/inrikes/marmorstein-jag-har-aldrig-varit-med-om-en-san-har-infekterad-interndebatt",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Ebba Busch (KD): Inte gamla Alliansen",
+   "sum": "På måndag kan Ulf Kristersson (M) få grönt ljus att leda Sveriges regering i fyra år till – förutsatt att han får med sig Centerpartiet. Centern har under veckan fört samtal med M, L och KD. – Det går bra, säger KD-ledaren Ebba Busch om kontakterna.",
+   "url": "https://www.svt.se/nyheter/inrikes/ebba-busch-kd-inte-gamla-alliansen",
    "src": "SVT Nyheter"
   },
   {
@@ -529,13 +535,7 @@
    "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
    "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
    "src": "SVT Nyheter"
-  },
-  {
-   "t": "Spricka mellan C-topparna inför vägvalet: ”Slöseri”",
-   "sum": "Inom C pågår interna strider om vägvalet i regeringsfrågan. Motståndare till en Kristersson-lösning mobiliserar för ett annat alternativ – och källor varnar för en framtid med partisplittring och avhopp.",
-   "url": "https://www.svt.se/nyheter/inrikes/spricka-mellan-c-topparna-infor-vagvalet-sloseri",
-   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-26T07:12+01:00"
+ "topUpdated": "2026-11-26T10:26+01:00"
 }
