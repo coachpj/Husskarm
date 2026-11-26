@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T23:12:27+01:00",
+ "updated": "2026-11-26T07:12:34+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -7,9 +7,9 @@
    "team": "Victoria Royals",
    "lg": "WHL",
    "dr": "2025 R3",
-   "s": "17 GP · 13 M · 13 A · 26 P · −6",
-   "l5": "2+3=5",
-   "l5p": 5,
+   "s": "18 GP · 14 M · 13 A · 27 P · −6",
+   "l5": "3+3=6",
+   "l5p": 6,
    "note": "Ledde WHL med 51 mål förra säsongen. Assisterande lagkapten i Victoria efter trejden i maj. NHL.com rankar honom som Dallas näst bästa prospect."
   },
   {
@@ -18,9 +18,9 @@
    "team": "Tri-City Americans",
    "lg": "WHL",
    "dr": "2026 R2 #59",
-   "s": "21 GP · 3 M · 11 A · 14 P · −5",
-   "l5": "0+5=5",
-   "l5p": 5,
+   "s": "22 GP · 3 M · 12 A · 15 P · −5",
+   "l5": "0+6=6",
+   "l5p": 6,
    "note": "Dallas högsta val 2026. Klar för Western Michigan (NCAA) från 2027-28."
   },
   {
@@ -29,7 +29,7 @@
    "team": "London Knights",
    "lg": "OHL",
    "dr": "2026 R5 #155",
-   "s": "19 GP · 6 M · 21 A · 27 P · +8",
+   "s": "20 GP · 6 M · 21 A · 27 P · +8",
    "l5": "1+2=3",
    "l5p": 3,
    "note": "Ny lagkapten i London. Energispelare som utvecklat sitt passningsspel. Har åtagit sig att spela för Ohio State längre fram."
@@ -150,6 +150,26 @@
  ],
  "games": [
   {
+   "team": "dallas",
+   "d": "2026-11-25",
+   "title": "Dallas Stars 1–3 Nashville Predators",
+   "res": "L",
+   "sc": [
+    "Wyatt Johnston"
+   ],
+   "note": "J. Oettinger 24 räddningar"
+  },
+  {
+   "team": "texas",
+   "d": "2026-11-25",
+   "title": "Texas Stars 1–3 Tucson Roadrunners",
+   "res": "L",
+   "sc": [
+    "Matthew Seminoff"
+   ],
+   "note": ""
+  },
+  {
    "team": "texas",
    "d": "2026-11-24",
    "title": "Texas Stars 4–3 Tucson Roadrunners",
@@ -170,30 +190,39 @@
     "Joel Kiviranta"
    ],
    "note": "J. Oettinger 33 räddningar"
-  },
-  {
-   "team": "texas",
-   "d": "2026-11-21",
-   "title": "Texas Stars 2–1 San Jose Barracuda",
-   "res": "W",
-   "sc": [
-    "Connor Punnett",
-    "Curtis McKenzie"
-   ],
-   "note": ""
-  },
-  {
-   "team": "texas",
-   "d": "2026-11-20",
-   "title": "Texas Stars 2–4 San Jose Barracuda",
-   "res": "L",
-   "sc": [
-    "Dylan Hryckowian 2"
-   ],
-   "note": ""
   }
  ],
  "news": [
+  {
+   "id": "2026-11-25-Schmidt-1023344",
+   "d": "2026-11-25",
+   "who": "Cameron Schmidt",
+   "kind": "hl",
+   "title": "Schmidt 1+0 när Victoria föll 4–6 mot Regina",
+   "game": "Victoria Royals 4–6 Regina Pats",
+   "sum": "0 i plus/minus, 2 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-25-Vaněček-1023342",
+   "d": "2026-11-25",
+   "who": "Jakub Vaněček",
+   "kind": "hl",
+   "title": "Vaněček 0+1 när Tri-City föll 3–5 mot Seattle",
+   "game": "Seattle Thunderbirds 5–3 Tri-City Americans",
+   "sum": "0 i plus/minus, 2 skott, 2 utvisningsminuter.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-25-Brown-29236",
+   "d": "2026-11-25",
+   "who": "Ryan Brown",
+   "kind": "news",
+   "title": "Brown poänglös när London vann 2–0 mot Erie",
+   "game": "Erie Otters 0–2 London Knights",
+   "sum": "0 i plus/minus, 0 skott.",
+   "auto": true
+  },
   {
    "id": "2026-11-25-Joki-2701480",
    "d": "2026-11-25",
@@ -233,130 +262,9 @@
    "game": "London Knights 0–5 Peterborough Petes",
    "sum": "−1 i plus/minus, 1 skott.",
    "auto": true
-  },
-  {
-   "id": "2026-11-21-Schmidt-1023331",
-   "d": "2026-11-21",
-   "who": "Cameron Schmidt",
-   "kind": "out",
-   "title": "Schmidt inte med när Victoria vann 4–3 efter förlängning mot Tri-City",
-   "game": "Tri-City Americans 3–4 Victoria Royals",
-   "sum": "Fanns inte i matchprotokollet. Orsaken framgår inte av ligans data – se Prospekt-radarn.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-21-Vaněček-1023331",
-   "d": "2026-11-21",
-   "who": "Jakub Vaněček",
-   "kind": "hl",
-   "title": "Vaněček 0+2 när Tri-City föll 3–4 efter förlängning mot Victoria",
-   "game": "Tri-City Americans 3–4 Victoria Royals",
-   "sum": "−2 i plus/minus, 2 skott, 2 utvisningsminuter.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-21-Brown-29226",
-   "d": "2026-11-21",
-   "who": "Ryan Brown",
-   "kind": "hl",
-   "title": "Brown 1+0 när London föll 2–4 mot Guelph",
-   "game": "Guelph Storm 4–2 London Knights",
-   "sum": "0 i plus/minus, 3 skott, 4 utvisningsminuter.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-21-Gorzynski-1023328",
-   "d": "2026-11-21",
-   "who": "Brandon Gorzynski",
-   "kind": "hl",
-   "title": "Gorzynski 0+1 när Prince Albert föll 1–5 mot Medicine Hat",
-   "game": "Prince Albert Raiders 1–5 Medicine Hat Tigers",
-   "sum": "−2 i plus/minus, 1 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-21-Kuhta-Providence",
-   "d": "2026-11-21",
-   "who": "Jasper Kuhta",
-   "kind": "hl",
-   "title": "Kuhta 1+0 när UMass föll 3–9 mot Providence",
-   "game": "Providence 9–3 UMass",
-   "sum": "0 i plus/minus, 1 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-21-Fegaras-StLawrence",
-   "d": "2026-11-21",
-   "who": "George Fegaras",
-   "kind": "hl",
-   "title": "Fegaras 0+2 när Cornell vann 5–2 mot St. Lawrence",
-   "game": "Cornell 5–2 St. Lawrence",
-   "sum": "+2 i plus/minus, 3 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-21-Samuelsson-BemidjiState",
-   "d": "2026-11-21",
-   "who": "William Samuelsson",
-   "kind": "news",
-   "title": "Samuelsson poänglös när Lake Superior State vann 4–1 mot Bemidji State",
-   "game": "Lake Superior State 4–1 Bemidji State",
-   "sum": "0 i plus/minus, 0 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-21-Joki-2701471",
-   "d": "2026-11-21",
-   "who": "Atte Joki",
-   "kind": "news",
-   "title": "Joki poänglös när HIFK vann 3–2 mot KalPa",
-   "game": "KalPa 2–3 HIFK",
-   "sum": "0:00 istid, 0 i plus/minus.",
-   "auto": true
   }
  ],
  "next": [
-  {
-   "team": "prospect",
-   "who": "Brown",
-   "club": "London Knights",
-   "t": "2026-11-26T00:00:00Z",
-   "opp": "Erie Otters",
-   "s": "Erie",
-   "home": false
-  },
-  {
-   "team": "dallas",
-   "t": "2026-11-26T01:00:00Z",
-   "opp": "Nashville Predators",
-   "s": "Nashville",
-   "home": true
-  },
-  {
-   "team": "texas",
-   "t": "2026-11-26T01:00:00Z",
-   "opp": "Tucson Roadrunners",
-   "s": "Tucson",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Schmidt",
-   "club": "Victoria Royals",
-   "t": "2026-11-26T03:05:00Z",
-   "opp": "Regina Pats",
-   "s": "Regina",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Vaněček",
-   "club": "Tri-City Americans",
-   "t": "2026-11-26T03:05:00Z",
-   "opp": "Seattle Thunderbirds",
-   "s": "Seattle",
-   "home": false
-  },
   {
    "team": "prospect",
    "who": "Joki",
@@ -588,9 +496,34 @@
    "opp": "Vancouver Canucks",
    "s": "Vancouver",
    "home": false
+  },
+  {
+   "team": "dallas",
+   "t": "2026-12-10T00:30:00Z",
+   "opp": "Toronto Maple Leafs",
+   "s": "Toronto",
+   "home": true
   }
  ],
  "top": [
+  {
+   "t": "Senaste nytt om kriget i Ukraina",
+   "sum": "Rysslands invasion av Ukraina har pågått sedan den 24 februari 2022. Följ SVT:s liverapport med senaste nytt om kriget.",
+   "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "26 november: Nattens nyheter",
+   "sum": "",
+   "url": "https://www.svt.se/nyheter/utrikes/26-november-nattens-nyheter-zp0it1",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Senaste nytt i Morgonstudion – följ sändningen här",
+   "sum": "Dagens viktigaste nyheter och analyser med ständiga uppdateringar.",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-i-morgonstudion-folj-sandningen-har-uisf4r",
+   "src": "SVT Nyheter"
+  },
   {
    "t": "Senaste nytt om valet 2026",
    "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
@@ -602,25 +535,7 @@
    "sum": "Inom C pågår interna strider om vägvalet i regeringsfrågan. Motståndare till en Kristersson-lösning mobiliserar för ett annat alternativ – och källor varnar för en framtid med partisplittring och avhopp.",
    "url": "https://www.svt.se/nyheter/inrikes/spricka-mellan-c-topparna-infor-vagvalet-sloseri",
    "src": "SVT Nyheter"
-  },
-  {
-   "t": "Väljarna: C har skött regeringsbildningen sämst",
-   "sum": "En ny undersökning från Verian visar att väljarna anser att Centerpartiet är det parti som har agerat sämst under regeringsbildningen. – Det är ingen som hade önskat att det skulle vara så här svårt, säger Martin Ådahl, Centerpartiets ekonomiskpolitiska talesperson, till Politikbyrån.",
-   "url": "https://www.svt.se/nyheter/inrikes/valjarna-c-har-skott-regeringsbildningen-samst",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Starlink kan vara mål för ryskt kärnvapen i rymden",
-   "sum": "Ryssland har kärnvapen i rymden sedan flera år tillbaka, enligt tyska medier. En kärnvapenexplosion i rymden kan slå ut satelliter – exempelvis Starlink. Tysklands regering tar uppgifterna på allvar, medan Kreml avfärdar dem.",
-   "url": "https://www.svt.se/nyheter/utrikes/starlink-kan-vara-mal-for-ryskt-karnvapen-i-rymden",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Elon Musk får grönt ljus för datacenter i rymden",
-   "sum": "Rymdbolaget SpaceX har kommit ett steg närmare att skjuta upp datacenter i rymden, rapporterar flera medier. Projektet har fått grönt ljus från USA:s kommunikationsmyndighet, FCC.",
-   "url": "https://www.svt.se/nyheter/utrikes/elon-musk-far-gront-ljus-for-datacenter-i-rymden",
-   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-25T23:12+01:00"
+ "topUpdated": "2026-11-26T07:12+01:00"
 }
