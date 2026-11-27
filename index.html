@@ -1369,10 +1369,10 @@
   }, false);
 
   // ---------- Lägen: Hem / Kök ----------
-  var TVMODE = location.hash === "#tv";
+  var TVMODE = (/^#tv/i.test(location.hash) || /[?&]tv/.test(location.search));
   function route() {
     var kok = location.hash === "#kok";
-    TVMODE = location.hash === "#tv";
+    TVMODE = (/^#tv/i.test(location.hash) || /[?&]tv/.test(location.search));
     document.body.className = TVMODE ? "tv" : ""; document.documentElement.className = TVMODE ? "tv" : ""; if (!TVMODE) { document.body.style.zoom = ""; var wr0 = document.querySelector(".wrap"); wr0.style.position = wr0.style.transform = wr0.style.webkitTransform = wr0.style.left = wr0.style.top = ""; }
     el("viewTv").style.display = TVMODE ? "block" : "none";
     if (TVMODE) { el("viewHem").style.display = "none"; el("viewKok").style.display = "none"; fitTv(); renderGames(); renderNext(); syncTv(); return; }
