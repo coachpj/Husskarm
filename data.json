@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:10:52+01:00",
+ "updated": "2026-11-27T07:17:11+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -241,26 +241,6 @@
    "title": "Sharkey 0+1 när Northeastern vann 5–3 mot Brown",
    "game": "Brown 3–5 Northeastern",
    "sum": "+1 i plus/minus, 0 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-22-Cherepanov-1023335",
-   "d": "2026-11-22",
-   "who": "Mikhail Cherepanov",
-   "kind": "hl",
-   "title": "Cherepanov 0+2 när Kamloops föll 4–5 efter förlängning mot Vancouver",
-   "game": "Vancouver Giants 5–4 Kamloops Blazers",
-   "sum": "−1 i plus/minus, 0 skott.",
-   "auto": true
-  },
-  {
-   "id": "2026-11-22-Brown-29230",
-   "d": "2026-11-22",
-   "who": "Ryan Brown",
-   "kind": "news",
-   "title": "Brown poänglös när London föll 0–5 mot Peterborough",
-   "game": "London Knights 0–5 Peterborough Petes",
-   "sum": "−1 i plus/minus, 1 skott.",
    "auto": true
   }
  ],
@@ -507,35 +487,35 @@
  ],
  "top": [
   {
-   "t": "Analys: ”Att rucka på SD-linjen blev det minst dåliga alternativet”",
-   "sum": "På rekordfart gör nu Centerpartiet en helomvändning om SD som få trodde var möjlig före valet. Partiet är djupt splittrat och riskerar både avhopp och väljartapp. Ändå kan det visa sig mindre smärtsamt att dra av plåstret snabbt. Men det förutsätter en rejäl dos centerpolitik och ett så litet beroende av SD som möjligt.",
-   "url": "https://www.svt.se/nyheter/inrikes/att-rucka-pa-sd-linjen-blev-det-minst-daliga-alternativet",
-   "src": "SVT Nyheter"
-  },
-  {
    "t": "Senaste nytt om valet 2026",
    "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
    "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
    "src": "SVT Nyheter"
   },
   {
-   "t": "C-ledningen säger ja till Ulf Kristersson",
-   "sum": "Centerpartiets ledning vill rösta ja till Ulf Kristersson (M) på måndag och ingå i en minoritetsregering. Det meddelar partiledaren Elisabeth Thand Ringqvist under en pressträff. – Vi kommer att ta oss igenom detta tillsammans, säger hon.",
-   "url": "https://www.svt.se/nyheter/inrikes/c-ledningen-sager-ja-till-ulf-kristersson",
+   "t": "Senaste nytt om kriget i Ukraina",
+   "sum": "Rysslands invasion av Ukraina har pågått sedan den 24 februari 2022. Följ SVT:s liverapport med senaste nytt om kriget.",
+   "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage",
    "src": "SVT Nyheter"
   },
   {
-   "t": "C-ledamot ska rösta nej till Kristersson: ”Oerhört upprörd”",
-   "sum": "C-ledamoten Anna Lasses går emot sin partiledare. Hon kommer att rösta nej till en Kristersson-ledd regering – och säger att fler partikollegor kan göra samma sak. – Det kanske rör sig om en tredjedel, säger hon i Aktuellt.",
-   "url": "https://www.svt.se/nyheter/inrikes/c-toppen-ska-rosta-nej-till-kristersson-oerhort-upprord",
+   "t": "Senaste nytt i Morgonstudion – följ sändningen här",
+   "sum": "Dagens viktigaste nyheter och analyser med ständiga uppdateringar.",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-i-morgonstudion-folj-sandningen-har-uisf4r",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Därför är elen så dyr just nu",
-   "sum": "Elpriserna har skenat – i norra Sverige är dygnsmedelpriserna bland de högsta sedan december 2022. Bakom priserna finns tre orsaker: kärnkraften, vädret och kriser i världen.",
-   "url": "https://www.svt.se/nyheter/inrikes/darfor-ar-elen-sa-dyr-just-nu",
+   "t": "Analys: ”Att rucka på SD-linjen blev det minst dåliga alternativet”",
+   "sum": "På rekordfart gör nu Centerpartiet en helomvändning om SD som få trodde var möjlig före valet. Partiet är djupt splittrat och riskerar både avhopp och väljartapp. Ändå kan det visa sig mindre smärtsamt att dra av plåstret snabbt. Men det förutsätter en rejäl dos centerpolitik och ett så litet beroende av SD som möjligt.",
+   "url": "https://www.svt.se/nyheter/inrikes/att-rucka-pa-sd-linjen-blev-det-minst-daliga-alternativet",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Efter C:s ”ödesmöte” – det här händer nu",
+   "sum": "Efter ett extrainsatt möte har Centerpartiets ledning beslutat att man vill rösta igenom Ulf Kristersson (M) till statsminister. Nu återstår de här stegen C måste ta om Sverige ska få en regering på måndag.",
+   "url": "https://www.svt.se/nyheter/inrikes/efter-cs-odesmote-det-har-hander-nu",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-26T23:10+01:00"
+ "topUpdated": "2026-11-27T07:17+01:00"
 }
