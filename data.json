@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:04:05+01:00",
+ "updated": "2026-11-27T23:11:22+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -30,8 +30,8 @@
    "lg": "OHL",
    "dr": "2026 R5 #155",
    "s": "20 GP · 6 M · 21 A · 27 P · +8",
-   "l5": "1+2=3",
-   "l5p": 3,
+   "l5": "1+1=2",
+   "l5p": 2,
    "note": "Ny lagkapten i London. Energispelare som utvecklat sitt passningsspel. Har åtagit sig att spela för Ohio State längre fram."
   },
   {
@@ -41,8 +41,8 @@
    "lg": "WHL",
    "dr": "2025 R4 #126",
    "s": "21 GP · 9 M · 8 A · 17 P · 0",
-   "l5": "0+4=4",
-   "l5p": 4,
+   "l5": "0+3=3",
+   "l5p": 3,
    "note": "Valde bort NCAA för en ny säsong i Prince Albert. Vände den tunga starten med mål i sex raka matcher; poängsviten bröts i 0–2-förlusten i Red Deer 7 nov."
   },
   {
@@ -151,6 +151,17 @@
  "games": [
   {
    "team": "dallas",
+   "d": "2026-11-27",
+   "title": "Dallas Stars 3–5 St. Louis Blues",
+   "res": "L",
+   "sc": [
+    "Roope Hintz (PP)",
+    "Jason Robertson 2 (PP)"
+   ],
+   "note": "C. DeSmith 15 räddningar"
+  },
+  {
+   "team": "dallas",
    "d": "2026-11-25",
    "title": "Dallas Stars 1–3 Nashville Predators",
    "res": "L",
@@ -180,19 +191,19 @@
     "Ben Gleason 2"
    ],
    "note": ""
-  },
-  {
-   "team": "dallas",
-   "d": "2026-11-22",
-   "title": "Dallas Stars 1–0 Pittsburgh Penguins",
-   "res": "W",
-   "sc": [
-    "Joel Kiviranta"
-   ],
-   "note": "J. Oettinger 33 räddningar"
   }
  ],
  "news": [
+  {
+   "id": "2026-11-27-Joki-2701487",
+   "d": "2026-11-27",
+   "who": "Atte Joki",
+   "kind": "out",
+   "title": "Joki inte med när HIFK vann 4–3 mot SaiPa",
+   "game": "HIFK 4–3 SaiPa",
+   "sum": "Fanns inte i matchens spelarstatistik. Orsaken framgår inte – se Prospekt-radarn.",
+   "auto": true
+  },
   {
    "id": "2026-11-25-Schmidt-1023344",
    "d": "2026-11-25",
@@ -245,31 +256,6 @@
   }
  ],
  "next": [
-  {
-   "team": "prospect",
-   "who": "Joki",
-   "club": "HIFK",
-   "t": "2026-11-27T17:30:00Z",
-   "opp": "SaiPa",
-   "s": "SaiPa",
-   "home": true
-  },
-  {
-   "team": "dallas",
-   "t": "2026-11-27T19:00:00Z",
-   "opp": "St. Louis Blues",
-   "s": "St. Louis",
-   "home": false
-  },
-  {
-   "team": "prospect",
-   "who": "Goos",
-   "club": "BIK Karlskoga",
-   "t": "2026-11-27T19:30:00Z",
-   "opp": "Södertälje SK",
-   "s": "Södertälje",
-   "home": true
-  },
   {
    "team": "prospect",
    "who": "Brown",
@@ -511,21 +497,9 @@
    "src": "SVT Nyheter"
   },
   {
-   "t": "M, L och KD presenterar gemensam budget",
-   "sum": "Moderaterna, Liberalerna och Kristdemokraterna har presenterat en gemensamt budgetmotion på Expressen Debatt.",
-   "url": "https://www.svt.se/nyheter/inrikes/m-l-och-kd-presenterar-gemensam-budget",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Åtal om Rönningemord nästa vecka",
-   "sum": "På tisdag nästa vecka lämnas åtalet in mot den 26-årige man som misstänks för det uppmärksammade mordet på en ung kvinna i Rönninge i december 2025.",
-   "url": "https://www.svt.se/nyheter/inrikes/atal-om-ronningemord-nasta-vecka",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "C-toppen: Kommer bli ett ganska nära SD-samarbete",
-   "sum": "C-toppen Martin Ådahl hoppas att partiet säger nej till att släppa fram en Kristersson-ledd regering. Han menar att en sådan i praktiken kommer att behöva ha ett ”ganska nära samarbete” med SD. – Om vi har lovat väljarna att hålla gränsen mot SD så ska vi göra det, säger han.",
-   "url": "https://www.svt.se/nyheter/inrikes/c-toppen-kommer-bli-ett-ganska-nara-sd-samarbete",
+   "t": "Senaste nytt om valet 2026",
+   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
    "src": "SVT Nyheter"
   },
   {
@@ -533,7 +507,19 @@
    "sum": "De borgerliga partierna har vässat överenskommelsen som är tänkt att ligga till grund för en kommande regering med Centerpartiet. Större fokus läggs på klimatpolitiken – SVT har tagit del av det nya dokumentet.",
    "url": "https://www.svt.se/nyheter/inrikes/mer-klimatfokus-i-borgerlig-overenskommelse-svt-har-tagit-del-av-dokumentet",
    "src": "SVT Nyheter"
+  },
+  {
+   "t": "Så har det låtit i regeringsfrågan från Elisabeth Thand Ringqvist",
+   "sum": "Så har det låtit i regeringsfrågan från Elisabeth Thand Ringqvist.",
+   "url": "https://www.svt.se/nyheter/video/94276156c1570a13-hor-elisabeth-thand-ringqvists-uttalanden",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Uppgifter: Vice partiledaren gick emot Thand Ringqvist",
+   "sum": "C-ledaren Elisabeth Thand Ringqvist vill att Centerpartiet röstar ja till Ulf Kristersson på måndag. Men partiet är splittrat på högsta nivå – och hon hade en majoritet emot sig i det verkställande utskottet, enligt SVT:s uppgifter. Vice partiledaren Rickard Nordin röstade nej till den lösningen under torsdagens ödesmöte.",
+   "url": "https://www.svt.se/nyheter/inrikes/uppgifter-vice-partiledaren-gick-emot-thand-ringqvist",
+   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-27T19:04+01:00"
+ "topUpdated": "2026-11-27T23:11+01:00"
 }
