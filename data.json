@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:33:43+01:00",
+ "updated": "2026-11-27T19:04:05+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -19,8 +19,8 @@
    "lg": "WHL",
    "dr": "2026 R2 #59",
    "s": "22 GP · 3 M · 12 A · 15 P · −5",
-   "l5": "0+6=6",
-   "l5p": 6,
+   "l5": "0+5=5",
+   "l5p": 5,
    "note": "Dallas högsta val 2026. Klar för Western Michigan (NCAA) från 2027-28."
   },
   {
@@ -457,6 +457,24 @@
    "home": false
   },
   {
+   "team": "prospect",
+   "who": "Joki",
+   "club": "HIFK",
+   "t": "2026-12-04T17:30:00Z",
+   "opp": "KooKoo",
+   "s": "KooKoo",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Goos",
+   "club": "BIK Karlskoga",
+   "t": "2026-12-04T18:00:00Z",
+   "opp": "MoDo Hockey",
+   "s": "MoDo",
+   "home": true
+  },
+  {
    "team": "texas",
    "t": "2026-12-05T03:00:00Z",
    "opp": "San Jose Barracuda",
@@ -487,35 +505,35 @@
  ],
  "top": [
   {
-   "t": "Historisk försvarsaffär i hamn – jätteorder på stridsfordon 90",
-   "sum": "Fem nationer, däribland Sverige, undertecknade på fredagen en beställning på 400 stridsfordon 90 från tillverkaren BAE Systems Hägglunds. Det är Sveriges största försvarsexportaffär hittills, värd drygt 61 miljarder kronor.",
-   "url": "https://www.svt.se/nyheter/ekonomi/historisk-forsvarsaffar-i-hamn-jatteorder-pa-stridsfordon-90",
+   "t": "Migranter hittade döda nära Kanarieöarna",
+   "sum": "Tio migranter har hittats döda på en båt längs kusten nära kanarieön El Hierro, bekräftar regionala myndigheter. Den glesbefolkade ön har utlyst nödläge sedan man tagit emot tusentals migrerande människor på kort tid.",
+   "url": "https://www.svt.se/nyheter/utrikes/migranter-hittade-doda-nara-kanarieoarna",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Norskt flygbolag i konkurs",
-   "sum": "Norse Atlantic, det norska flygbolaget för långsdistansflygningar, skickade på fredagen in sin konkursansökan, rapporterar Reuters. Alla flygningar ställs in med omedelbar verkan.",
-   "url": "https://www.svt.se/nyheter/ekonomi/norskt-flygbolag-i-konkurs",
+   "t": "M, L och KD presenterar gemensam budget",
+   "sum": "Moderaterna, Liberalerna och Kristdemokraterna har presenterat en gemensamt budgetmotion på Expressen Debatt.",
+   "url": "https://www.svt.se/nyheter/inrikes/m-l-och-kd-presenterar-gemensam-budget",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Uppgifter: USA:s flygvapen utsatt för hackerattack",
-   "sum": "Hackare har tagit sig in i det amerikanska flygvapnets datasystem, uppger flera källor för Reuters. Enligt nyhetsbyrån kan intrånget ha äventyrat ”stora mängder känslig data” som rör bland annat taktik, logistik och personal.",
-   "url": "https://www.svt.se/nyheter/utrikes/uppgifter-usas-flygvapen-utsatt-for-hackerattack",
+   "t": "Åtal om Rönningemord nästa vecka",
+   "sum": "På tisdag nästa vecka lämnas åtalet in mot den 26-årige man som misstänks för det uppmärksammade mordet på en ung kvinna i Rönninge i december 2025.",
+   "url": "https://www.svt.se/nyheter/inrikes/atal-om-ronningemord-nasta-vecka",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Uppgifter: Vice partiledaren gick emot Thand Ringqvist",
-   "sum": "C-ledaren Elisabeth Thand Ringqvist vill att Centerpartiet röstar ja till Ulf Kristersson på måndag. Men partiet är splittrat på högsta nivå – och hon hade en majoritet emot sig i det verkställande utskottet, enligt SVT:s uppgifter. Vice partiledaren Rickard Nordin röstade nej till den lösningen under torsdagens ödesmöte.",
-   "url": "https://www.svt.se/nyheter/inrikes/uppgifter-vice-partiledaren-gick-emot-thand-ringqvist",
+   "t": "C-toppen: Kommer bli ett ganska nära SD-samarbete",
+   "sum": "C-toppen Martin Ådahl hoppas att partiet säger nej till att släppa fram en Kristersson-ledd regering. Han menar att en sådan i praktiken kommer att behöva ha ett ”ganska nära samarbete” med SD. – Om vi har lovat väljarna att hålla gränsen mot SD så ska vi göra det, säger han.",
+   "url": "https://www.svt.se/nyheter/inrikes/c-toppen-kommer-bli-ett-ganska-nara-sd-samarbete",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Elisabeth Thand Ringqvist om Kristersson: ”Vårt tredjehandsval”",
-   "sum": "Ulf Kristersson (M) är Elisabeth Thand Ringqvists tredjehandsval. Det berättar C-ledaren i SVT:s Morgonstudion. – Det vi gör nu är inte vårt förstahandsval. Inte heller vårt andrahandsval. Vårt förstahandsval var en mittenregering. Det andra var en MP-, S-, C-regering, säger hon.",
-   "url": "https://www.svt.se/nyheter/inrikes/elisabeth-thand-ringqvist-vi-var-tvungna-att-ta-ett-steg-tillbaka",
+   "t": "Mer klimatfokus i borgerlig överenskommelse – SVT har tagit del av dokumentet",
+   "sum": "De borgerliga partierna har vässat överenskommelsen som är tänkt att ligga till grund för en kommande regering med Centerpartiet. Större fokus läggs på klimatpolitiken – SVT har tagit del av det nya dokumentet.",
+   "url": "https://www.svt.se/nyheter/inrikes/mer-klimatfokus-i-borgerlig-overenskommelse-svt-har-tagit-del-av-dokumentet",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-27T14:33+01:00"
+ "topUpdated": "2026-11-27T19:04+01:00"
 }
