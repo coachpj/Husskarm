@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T10:27:32+01:00",
+ "updated": "2026-11-27T14:33:43+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -487,21 +487,27 @@
  ],
  "top": [
   {
-   "t": "Officer misstänks för brott mot Sveriges säkerhet",
-   "sum": "En officer vid Försvarsmakten misstänks för grov obehörig befattning med hemlig uppgift, rapporterar Dagens Nyheter. Enligt tidningen ska brottet ska ha begåtts förra året.",
-   "url": "https://www.svt.se/nyheter/inrikes/officer-misstanks-for-brott-mot-sveriges-sakerhet",
+   "t": "Historisk försvarsaffär i hamn – jätteorder på stridsfordon 90",
+   "sum": "Fem nationer, däribland Sverige, undertecknade på fredagen en beställning på 400 stridsfordon 90 från tillverkaren BAE Systems Hägglunds. Det är Sveriges största försvarsexportaffär hittills, värd drygt 61 miljarder kronor.",
+   "url": "https://www.svt.se/nyheter/ekonomi/historisk-forsvarsaffar-i-hamn-jatteorder-pa-stridsfordon-90",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Senaste nytt om valet 2026",
-   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
-   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "t": "Norskt flygbolag i konkurs",
+   "sum": "Norse Atlantic, det norska flygbolaget för långsdistansflygningar, skickade på fredagen in sin konkursansökan, rapporterar Reuters. Alla flygningar ställs in med omedelbar verkan.",
+   "url": "https://www.svt.se/nyheter/ekonomi/norskt-flygbolag-i-konkurs",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Irak utlämnar två efterlysta till Sverige",
-   "sum": "Irakisk domstol har beslutat att utlämna två internationellt efterlysta personer till Sverige. Enligt Åklagarmyndigheten är de misstänkta för mycket allvarlig brottslighet i Sverige.",
-   "url": "https://www.svt.se/nyheter/inrikes/irak-utlamnar-efterlysta-till-sverige",
+   "t": "Uppgifter: USA:s flygvapen utsatt för hackerattack",
+   "sum": "Hackare har tagit sig in i det amerikanska flygvapnets datasystem, uppger flera källor för Reuters. Enligt nyhetsbyrån kan intrånget ha äventyrat ”stora mängder känslig data” som rör bland annat taktik, logistik och personal.",
+   "url": "https://www.svt.se/nyheter/utrikes/uppgifter-usas-flygvapen-utsatt-for-hackerattack",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Uppgifter: Vice partiledaren gick emot Thand Ringqvist",
+   "sum": "C-ledaren Elisabeth Thand Ringqvist vill att Centerpartiet röstar ja till Ulf Kristersson på måndag. Men partiet är splittrat på högsta nivå – och hon hade en majoritet emot sig i det verkställande utskottet, enligt SVT:s uppgifter. Vice partiledaren Rickard Nordin röstade nej till den lösningen under torsdagens ödesmöte.",
+   "url": "https://www.svt.se/nyheter/inrikes/uppgifter-vice-partiledaren-gick-emot-thand-ringqvist",
    "src": "SVT Nyheter"
   },
   {
@@ -509,13 +515,7 @@
    "sum": "Ulf Kristersson (M) är Elisabeth Thand Ringqvists tredjehandsval. Det berättar C-ledaren i SVT:s Morgonstudion. – Det vi gör nu är inte vårt förstahandsval. Inte heller vårt andrahandsval. Vårt förstahandsval var en mittenregering. Det andra var en MP-, S-, C-regering, säger hon.",
    "url": "https://www.svt.se/nyheter/inrikes/elisabeth-thand-ringqvist-vi-var-tvungna-att-ta-ett-steg-tillbaka",
    "src": "SVT Nyheter"
-  },
-  {
-   "t": "Analys: ”Att rucka på SD-linjen blev det minst dåliga alternativet”",
-   "sum": "På rekordfart gör nu Centerpartiet en helomvändning om SD som få trodde var möjlig före valet. Partiet är djupt splittrat och riskerar både avhopp och väljartapp. Ändå kan det visa sig mindre smärtsamt att dra av plåstret snabbt. Men det förutsätter en rejäl dos centerpolitik och ett så litet beroende av SD som möjligt.",
-   "url": "https://www.svt.se/nyheter/inrikes/att-rucka-pa-sd-linjen-blev-det-minst-daliga-alternativet",
-   "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-27T10:27+01:00"
+ "topUpdated": "2026-11-27T14:33+01:00"
 }
