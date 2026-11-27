@@ -51,7 +51,7 @@
   .daylight { font-size: 14px; color: #a9b0bb; margin-top: 10px; border-top: 1px solid #2a3039; padding-top: 8px; }
   .focus-edit { width: 100%; box-sizing: border-box; min-height: 140px; font: inherit; font-size: 19px; background: #14171c; color: #eef0f3; border: 1px solid #2a3039; border-radius: 12px; padding: 12px; }
   /* TV-läge: ritas för 1280x720 och skalas med zoom */
-  body.tv { overflow: hidden; }
+  html.tv, body.tv { overflow: hidden; height: 100%; margin: 0; }
   body.tv .wrap { width: 1280px; max-width: none; height: 720px; box-sizing: border-box; padding: 14px 24px 8px; overflow: hidden; }
   body.tv .tabbar, body.tv .more { display: none; }
   body.tv .tile { cursor: default; }
@@ -1373,7 +1373,7 @@
   function route() {
     var kok = location.hash === "#kok";
     TVMODE = location.hash === "#tv";
-    document.body.className = TVMODE ? "tv" : ""; if (!TVMODE) document.body.style.zoom = "";
+    document.body.className = TVMODE ? "tv" : ""; document.documentElement.className = TVMODE ? "tv" : ""; if (!TVMODE) { document.body.style.zoom = ""; var wr0 = document.querySelector(".wrap"); wr0.style.position = wr0.style.transform = wr0.style.webkitTransform = wr0.style.left = wr0.style.top = ""; }
     el("viewTv").style.display = TVMODE ? "block" : "none";
     if (TVMODE) { el("viewHem").style.display = "none"; el("viewKok").style.display = "none"; fitTv(); renderGames(); renderNext(); syncTv(); return; }
     el("viewHem").style.display = kok ? "none" : "block"; if (!kok) setTimeout(fitHem, 0);
@@ -1533,7 +1533,21 @@
 
 
   // ---------- TV-läge ----------
-  function fitTv() { if (!TVMODE) return; var z = Math.min(window.innerWidth / 1280, window.innerHeight / 720); document.body.style.zoom = z; }
+  var TVSIZE = "";
+  function fitTv() {
+    if (!TVMODE) return;
+    var de = document.documentElement, vv = window.visualViewport;
+    var w = Math.min(de.clientWidth || 9999, window.innerWidth || 9999, vv ? vv.width : 9999);
+    var h = Math.min(de.clientHeight || 9999, window.innerHeight || 9999, vv ? vv.height : 9999);
+    var z = Math.min(w / 1280, h / 720), wr = document.querySelector(".wrap");
+    document.body.style.zoom = "";
+    wr.style.position = "fixed"; wr.style.top = "0"; wr.style.left = Math.max(0, (w - 1280 * z) / 2) + "px";
+    wr.style.transformOrigin = "0 0"; wr.style.webkitTransformOrigin = "0 0";
+    wr.style.transform = "scale(" + z + ")"; wr.style.webkitTransform = "scale(" + z + ")";
+    window.scrollTo(0, 0);
+    TVSIZE = Math.round(w) + "×" + Math.round(h);
+  }
+  setInterval(fitTv, 10000);
   window.addEventListener("resize", fitTv, false);
   function renderTvPros() {
     var a = hotPros(), s = "";
@@ -1550,7 +1564,7 @@
     var m = [["wxNow","tvWxNow"],["wxHours","tvWxHours"],["weekShort","tvWeek"],["gamesShort","tvGames"],["dayLight","tvDay"],["itShort","tvIt"],["prosDate","tvDate"]];
     for (var i = 0; i < m.length; i++) el(m[i][1]).innerHTML = el(m[i][0]).innerHTML;
     renderTvPros();
-    el("tvFoot").innerHTML = el("foot").innerHTML;
+    el("tvFoot").innerHTML = el("foot").innerHTML + " · " + TVSIZE;
     // flytta innehållet några pixlar då och då så att inget bränns in
     var t = Math.floor(RD.now() / 300000) % 4, dx = [0, 2, 2, 0][t], dy = [0, 0, 2, 2][t];
     el("viewTv").style.transform = "translate(" + dx + "px," + dy + "px)";
