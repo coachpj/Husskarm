@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:11:22+01:00",
+ "updated": "2026-11-28T07:14:05+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -18,7 +18,7 @@
    "team": "Tri-City Americans",
    "lg": "WHL",
    "dr": "2026 R2 #59",
-   "s": "22 GP · 3 M · 12 A · 15 P · −5",
+   "s": "23 GP · 3 M · 12 A · 15 P · −5",
    "l5": "0+5=5",
    "l5p": 5,
    "note": "Dallas högsta val 2026. Klar för Western Michigan (NCAA) från 2027-28."
@@ -29,9 +29,9 @@
    "team": "London Knights",
    "lg": "OHL",
    "dr": "2026 R5 #155",
-   "s": "20 GP · 6 M · 21 A · 27 P · +8",
-   "l5": "1+1=2",
-   "l5p": 2,
+   "s": "21 GP · 7 M · 21 A · 28 P · +8",
+   "l5": "2+1=3",
+   "l5p": 3,
    "note": "Ny lagkapten i London. Energispelare som utvecklat sitt passningsspel. Har åtagit sig att spela för Ohio State längre fram."
   },
   {
@@ -40,9 +40,9 @@
    "team": "Prince Albert Raiders",
    "lg": "WHL",
    "dr": "2025 R4 #126",
-   "s": "21 GP · 9 M · 8 A · 17 P · 0",
-   "l5": "0+3=3",
-   "l5p": 3,
+   "s": "22 GP · 9 M · 9 A · 18 P · 0",
+   "l5": "0+4=4",
+   "l5p": 4,
    "note": "Valde bort NCAA för en ny säsong i Prince Albert. Vände den tunga starten med mål i sex raka matcher; poängsviten bröts i 0–2-förlusten i Red Deer 7 nov."
   },
   {
@@ -51,7 +51,7 @@
    "team": "Kamloops Blazers",
    "lg": "WHL",
    "dr": "2026 R7 #219",
-   "s": "22 GP · 3 M · 8 A · 11 P · +10",
+   "s": "23 GP · 3 M · 8 A · 11 P · +9",
    "l5": "0+4=4",
    "l5p": 4,
    "note": "Rysk back, kom från NAHL (31 poäng på 56 matcher). Valdes av Kamloops i CHL:s importdraft."
@@ -161,6 +161,19 @@
    "note": "C. DeSmith 15 räddningar"
   },
   {
+   "team": "texas",
+   "d": "2026-11-27",
+   "title": "Texas Stars 6–3 Rockford IceHogs",
+   "res": "W",
+   "sc": [
+    "Dylan Hryckowian",
+    "Matthew Seminoff 3 (PP)",
+    "Charlie Paquette",
+    "Jack Anderson"
+   ],
+   "note": ""
+  },
+  {
    "team": "dallas",
    "d": "2026-11-25",
    "title": "Dallas Stars 1–3 Nashville Predators",
@@ -179,18 +192,6 @@
     "Matthew Seminoff"
    ],
    "note": ""
-  },
-  {
-   "team": "texas",
-   "d": "2026-11-24",
-   "title": "Texas Stars 4–3 Tucson Roadrunners",
-   "res": "OTW",
-   "sc": [
-    "Emil Hemming (PP)",
-    "Matthew Seminoff",
-    "Ben Gleason 2"
-   ],
-   "note": ""
   }
  ],
  "news": [
@@ -202,6 +203,46 @@
    "title": "Joki inte med när HIFK vann 4–3 mot SaiPa",
    "game": "HIFK 4–3 SaiPa",
    "sum": "Fanns inte i matchens spelarstatistik. Orsaken framgår inte – se Prospekt-radarn.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-27-Brown-29246",
+   "d": "2026-11-27",
+   "who": "Ryan Brown",
+   "kind": "hl",
+   "title": "Brown 1+0, matchvinnare när London vann 4–3 efter förlängning mot Niagara",
+   "game": "London Knights 4–3 Niagara IceDogs",
+   "sum": "0 i plus/minus, 2 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-27-Gorzynski-1023349",
+   "d": "2026-11-27",
+   "who": "Brandon Gorzynski",
+   "kind": "hl",
+   "title": "Gorzynski 0+1 när Prince Albert vann 3–0 mot Swift Current",
+   "game": "Prince Albert Raiders 3–0 Swift Current Broncos",
+   "sum": "0 i plus/minus, 2 skott, 2 utvisningsminuter.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-27-Vaněček-1023351",
+   "d": "2026-11-27",
+   "who": "Jakub Vaněček",
+   "kind": "news",
+   "title": "Vaněček poänglös när Tri-City föll 1–4 mot Penticton",
+   "game": "Tri-City Americans 1–4 Penticton Vees",
+   "sum": "0 i plus/minus, 2 skott.",
+   "auto": true
+  },
+  {
+   "id": "2026-11-27-Cherepanov-1023350",
+   "d": "2026-11-27",
+   "who": "Mikhail Cherepanov",
+   "kind": "news",
+   "title": "Cherepanov poänglös när Kamloops vann 2–1 efter förlängning mot Prince George",
+   "game": "Prince George Cougars 1–2 Kamloops Blazers",
+   "sum": "−1 i plus/minus, 1 skott, 2 utvisningsminuter.",
    "auto": true
   },
   {
@@ -256,58 +297,6 @@
   }
  ],
  "next": [
-  {
-   "team": "prospect",
-   "who": "Brown",
-   "club": "London Knights",
-   "t": "2026-11-28T00:00:00Z",
-   "opp": "Niagara IceDogs",
-   "s": "Niagara",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Gorzynski",
-   "club": "Prince Albert Raiders",
-   "t": "2026-11-28T01:00:00Z",
-   "opp": "Swift Current Broncos",
-   "s": "Swift Current",
-   "home": true
-  },
-  {
-   "team": "texas",
-   "t": "2026-11-28T01:00:00Z",
-   "opp": "Rockford IceHogs",
-   "s": "Rockford",
-   "home": false
-  },
-  {
-   "team": "prospect",
-   "who": "Cherepanov",
-   "club": "Kamloops Blazers",
-   "t": "2026-11-28T03:00:00Z",
-   "opp": "Prince George Cougars",
-   "s": "Prince George",
-   "home": false
-  },
-  {
-   "team": "prospect",
-   "who": "Schmidt",
-   "club": "Victoria Royals",
-   "t": "2026-11-28T03:05:00Z",
-   "opp": "Seattle Thunderbirds",
-   "s": "Seattle",
-   "home": true
-  },
-  {
-   "team": "prospect",
-   "who": "Vaněček",
-   "club": "Tri-City Americans",
-   "t": "2026-11-28T03:05:00Z",
-   "opp": "Penticton Vees",
-   "s": "Penticton",
-   "home": true
-  },
   {
    "team": "prospect",
    "who": "Wilde Larsen",
@@ -461,11 +450,92 @@
    "home": true
   },
   {
+   "team": "prospect",
+   "who": "Brown",
+   "club": "London Knights",
+   "t": "2026-12-05T00:00:00Z",
+   "opp": "Sarnia Sting",
+   "s": "Sarnia",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Kuhta",
+   "club": "UMass",
+   "t": "2026-12-05T00:00:00Z",
+   "opp": "(13/15) Northeastern",
+   "s": "(13/15) Northeastern",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Sharkey",
+   "club": "Northeastern",
+   "t": "2026-12-05T00:00:00Z",
+   "opp": "UMass",
+   "s": "UMass",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Fegaras",
+   "club": "Cornell",
+   "t": "2026-12-05T00:00:00Z",
+   "opp": "Boston University",
+   "s": "Boston",
+   "home": true
+  },
+  {
+   "team": "prospect",
+   "who": "Samuelsson",
+   "club": "Lake Superior State",
+   "t": "2026-12-05T00:07:00Z",
+   "opp": "Ferris State University",
+   "s": "Ferris State",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Gorzynski",
+   "club": "Prince Albert Raiders",
+   "t": "2026-12-05T02:00:00Z",
+   "opp": "Calgary Hitmen",
+   "s": "Calgary",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Schmidt",
+   "club": "Victoria Royals",
+   "t": "2026-12-05T03:00:00Z",
+   "opp": "Portland Winterhawks",
+   "s": "Portland",
+   "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Cherepanov",
+   "club": "Kamloops Blazers",
+   "t": "2026-12-05T03:00:00Z",
+   "opp": "Penticton Vees",
+   "s": "Penticton",
+   "home": true
+  },
+  {
    "team": "texas",
    "t": "2026-12-05T03:00:00Z",
    "opp": "San Jose Barracuda",
    "s": "San Jose",
    "home": false
+  },
+  {
+   "team": "prospect",
+   "who": "Vaněček",
+   "club": "Tri-City Americans",
+   "t": "2026-12-05T03:05:00Z",
+   "opp": "Wenatchee Wild",
+   "s": "Wenatchee",
+   "home": true
   },
   {
    "team": "texas",
@@ -487,39 +557,46 @@
    "opp": "Toronto Maple Leafs",
    "s": "Toronto",
    "home": true
+  },
+  {
+   "team": "texas",
+   "t": "2026-12-12T01:00:00Z",
+   "opp": "Grand Rapids Griffins",
+   "s": "Grand Rapids",
+   "home": true
   }
  ],
  "top": [
   {
-   "t": "Migranter hittade döda nära Kanarieöarna",
-   "sum": "Tio migranter har hittats döda på en båt längs kusten nära kanarieön El Hierro, bekräftar regionala myndigheter. Den glesbefolkade ön har utlyst nödläge sedan man tagit emot tusentals migrerande människor på kort tid.",
-   "url": "https://www.svt.se/nyheter/utrikes/migranter-hittade-doda-nara-kanarieoarna",
+   "t": "Uppgifter: Misstänkta terrorplaner mot Malmö",
+   "sum": "Två personer har gripits i Tyskland misstänkta för att ha planerat ett sprängdåd mot en synagoga i Malmö, enligt uppgifter till tyska Der Spiegel.",
+   "url": "https://www.svt.se/nyheter/inrikes/uppgifter-misstankta-terrorplaner-mot-malmo",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Senaste nytt om valet 2026",
-   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
-   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+   "t": "28 november: Nattens nyheter",
+   "sum": "",
+   "url": "https://www.svt.se/nyheter/inrikes/28-november-nattens-nyheter-x5u2nx",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Mer klimatfokus i borgerlig överenskommelse – SVT har tagit del av dokumentet",
-   "sum": "De borgerliga partierna har vässat överenskommelsen som är tänkt att ligga till grund för en kommande regering med Centerpartiet. Större fokus läggs på klimatpolitiken – SVT har tagit del av det nya dokumentet.",
-   "url": "https://www.svt.se/nyheter/inrikes/mer-klimatfokus-i-borgerlig-overenskommelse-svt-har-tagit-del-av-dokumentet",
+   "t": "Åtta döda i helikopterkrasch i Peru",
+   "sum": "Åtta personer har omkommit och en skadats sedan en militärhelikopter kraschat över en kokaplantage i Peru, uppger landets försvarsdepartement.",
+   "url": "https://www.svt.se/nyheter/utrikes/atta-doda-i-helikopterkrasch-i-peru",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Så har det låtit i regeringsfrågan från Elisabeth Thand Ringqvist",
-   "sum": "Så har det låtit i regeringsfrågan från Elisabeth Thand Ringqvist.",
-   "url": "https://www.svt.se/nyheter/video/94276156c1570a13-hor-elisabeth-thand-ringqvists-uttalanden",
+   "t": "Sjukvårdsteamet i Ukraina arbetar under jord nära fronten",
+   "sum": "Flera meter under marken nära fronten vårdar ett ukrainskt sjukvårdsteam sårade soldater. Ovanför bunkern finns ständigt hotet från drönare.",
+   "url": "https://www.svt.se/nyheter/utrikes/under-fronten-i-ukraina-har-vardas-sarade-soldater",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Uppgifter: Vice partiledaren gick emot Thand Ringqvist",
-   "sum": "C-ledaren Elisabeth Thand Ringqvist vill att Centerpartiet röstar ja till Ulf Kristersson på måndag. Men partiet är splittrat på högsta nivå – och hon hade en majoritet emot sig i det verkställande utskottet, enligt SVT:s uppgifter. Vice partiledaren Rickard Nordin röstade nej till den lösningen under torsdagens ödesmöte.",
-   "url": "https://www.svt.se/nyheter/inrikes/uppgifter-vice-partiledaren-gick-emot-thand-ringqvist",
+   "t": "Ukraina försöker strypa Rysslands väg till Krim",
+   "sum": "Sedan Ukraina sprängde bilbron mellan Ryssland och ockuperade Krim-halvön har de ryska förbanden där allt svårare att få försörjning. Genom utökade drönarattacker längs den enda landförbindelsen försöker Ukraina nu strypa viktiga militära transporter dit och isolera Krim.",
+   "url": "https://www.svt.se/nyheter/utrikes/ukraina-forsoker-strypa-rysslands-vag-till-krym",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-27T23:11+01:00"
+ "topUpdated": "2026-11-28T07:14+01:00"
 }
