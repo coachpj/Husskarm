@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T07:14:05+01:00",
+ "updated": "2026-11-28T10:06:05+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -568,21 +568,21 @@
  ],
  "top": [
   {
-   "t": "Uppgifter: Misstänkta terrorplaner mot Malmö",
+   "t": "Explosion vid skola i Afghanistan – sex döda och 97 skadade",
+   "sum": "Ett hus bredvid en skola ska ha exploderat i Kunar-provinsen i östra Afghanistan, rapporterar Al Jazeera. Sex elever har dött och 97 personer totalt har skadats.",
+   "url": "https://www.svt.se/nyheter/utrikes/explosion-vid-skola-i-afghanistan-sex-doda-och-97-skadade",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Senaste nytt om kriget i Gaza",
+   "sum": "Kriget i Gaza, som inleddes efter Hamas attack mot Israel den 7 oktober 2023, har lett till tiotusentals civila dödsoffer och svårt humanitärt lidande. Sedan krigets utbrott har också våldsamheterna på Västbanken eskalerat. Följ det senaste om utvecklingen i SVT:s liverapport.",
+   "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern",
+   "src": "SVT Nyheter"
+  },
+  {
+   "t": "Uppgifter: Misstänkta terrorplaner i Malmö",
    "sum": "Två personer har gripits i Tyskland misstänkta för att ha planerat ett sprängdåd mot en synagoga i Malmö, enligt uppgifter till tyska Der Spiegel.",
    "url": "https://www.svt.se/nyheter/inrikes/uppgifter-misstankta-terrorplaner-mot-malmo",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "28 november: Nattens nyheter",
-   "sum": "",
-   "url": "https://www.svt.se/nyheter/inrikes/28-november-nattens-nyheter-x5u2nx",
-   "src": "SVT Nyheter"
-  },
-  {
-   "t": "Åtta döda i helikopterkrasch i Peru",
-   "sum": "Åtta personer har omkommit och en skadats sedan en militärhelikopter kraschat över en kokaplantage i Peru, uppger landets försvarsdepartement.",
-   "url": "https://www.svt.se/nyheter/utrikes/atta-doda-i-helikopterkrasch-i-peru",
    "src": "SVT Nyheter"
   },
   {
@@ -592,11 +592,11 @@
    "src": "SVT Nyheter"
   },
   {
-   "t": "Ukraina försöker strypa Rysslands väg till Krim",
-   "sum": "Sedan Ukraina sprängde bilbron mellan Ryssland och ockuperade Krim-halvön har de ryska förbanden där allt svårare att få försörjning. Genom utökade drönarattacker längs den enda landförbindelsen försöker Ukraina nu strypa viktiga militära transporter dit och isolera Krim.",
-   "url": "https://www.svt.se/nyheter/utrikes/ukraina-forsoker-strypa-rysslands-vag-till-krym",
+   "t": "Senaste nytt om kriget i Ukraina",
+   "sum": "Rysslands invasion av Ukraina har pågått sedan den 24 februari 2022. Följ SVT:s liverapport med senaste nytt om kriget.",
+   "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-28T07:14+01:00"
+ "topUpdated": "2026-11-28T10:06+01:00"
 }
