@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T10:06:05+01:00",
+ "updated": "2026-11-28T14:18:05+01:00",
  "prospects": [
   {
    "n": "Cameron Schmidt",
@@ -195,6 +195,16 @@
   }
  ],
  "news": [
+  {
+   "id": "2026-11-27-Schmidt-1023353",
+   "d": "2026-11-27",
+   "who": "Cameron Schmidt",
+   "kind": "out",
+   "title": "Schmidt inte med när Victoria vann 3–2 efter förlängning mot Seattle",
+   "game": "Victoria Royals 3–2 Seattle Thunderbirds",
+   "sum": "Fanns inte i matchprotokollet. Orsaken framgår inte av ligans data – se Prospekt-radarn.",
+   "auto": true
+  },
   {
    "id": "2026-11-27-Joki-2701487",
    "d": "2026-11-27",
@@ -568,35 +578,35 @@
  ],
  "top": [
   {
-   "t": "Explosion vid skola i Afghanistan – sex döda och 97 skadade",
-   "sum": "Ett hus bredvid en skola ska ha exploderat i Kunar-provinsen i östra Afghanistan, rapporterar Al Jazeera. Sex elever har dött och 97 personer totalt har skadats.",
-   "url": "https://www.svt.se/nyheter/utrikes/explosion-vid-skola-i-afghanistan-sex-doda-och-97-skadade",
+   "t": "Våldsamma protester i Albaniens huvudstad",
+   "sum": "Våldsamma protester slås under lördagen ned av polis i Albaniens huvudstad Tirana, enligt lokala medier. Sammandrabbningar har skett utanför premiärminister Edi Ramas kansli, och demonstranter ska ha kastat brandbomber enligt tidningen Shqiptarja.",
+   "url": "https://www.svt.se/nyheter/utrikes/valdsamma-protester-i-albaniens-huvudstad",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Senaste nytt om kriget i Gaza",
-   "sum": "Kriget i Gaza, som inleddes efter Hamas attack mot Israel den 7 oktober 2023, har lett till tiotusentals civila dödsoffer och svårt humanitärt lidande. Sedan krigets utbrott har också våldsamheterna på Västbanken eskalerat. Följ det senaste om utvecklingen i SVT:s liverapport.",
-   "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern",
+   "t": "Senaste nytt om valet 2026",
+   "sum": "Söndagen den 13 september 2026 är det val i Sverige och maktkampen är igång. Här kan du följa senaste nytt inom svensk politik",
+   "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Uppgifter: Misstänkta terrorplaner i Malmö",
-   "sum": "Två personer har gripits i Tyskland misstänkta för att ha planerat ett sprängdåd mot en synagoga i Malmö, enligt uppgifter till tyska Der Spiegel.",
-   "url": "https://www.svt.se/nyheter/inrikes/uppgifter-misstankta-terrorplaner-mot-malmo",
+   "t": "Efter C:s ”ödesmöte” – det här händer nu",
+   "sum": "Efter ett extrainsatt möte har Centerpartiets ledning beslutat att man vill rösta igenom Ulf Kristersson (M) till statsminister. Nu återstår de här stegen C måste ta om Sverige ska få en regering på måndag.",
+   "url": "https://www.svt.se/nyheter/inrikes/efter-cs-odesmote-det-har-hander-nu",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Sjukvårdsteamet i Ukraina arbetar under jord nära fronten",
-   "sum": "Flera meter under marken nära fronten vårdar ett ukrainskt sjukvårdsteam sårade soldater. Ovanför bunkern finns ständigt hotet från drönare.",
-   "url": "https://www.svt.se/nyheter/utrikes/under-fronten-i-ukraina-har-vardas-sarade-soldater",
+   "t": "Utgivaren: Frågan om politik som vi ställer till oss själva varje dag",
+   "sum": "Månaderna efter valet har dominerats av en lång och komplicerad regeringsbildning – och därmed en intensiv mediebevakning.\n\nHur kommer det sig att vissa partier synts mer än andra i rutan? Och varför hänvisar SVT så ofta till anonyma källor? Hör Christofer Brask, ställföreträdande ansvarig utgivare SVT Nyheter & Samhälle, om politikbevakningen.",
+   "url": "https://www.svt.se/nyheter/video/0de8d5cb53e18d94-utgivaren-fragan-om-politik-som-vi-staller-till-oss-sjalva-varje-dag",
    "src": "SVT Nyheter"
   },
   {
-   "t": "Senaste nytt om kriget i Ukraina",
-   "sum": "Rysslands invasion av Ukraina har pågått sedan den 24 februari 2022. Följ SVT:s liverapport med senaste nytt om kriget.",
-   "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage",
+   "t": "Ukraina försöker strypa Rysslands väg till Krim",
+   "sum": "Sedan Ukraina sprängde bilbron mellan Ryssland och ockuperade Krim-halvön har de ryska förbanden där allt svårare att få försörjning. Genom utökade drönarattacker längs den enda landförbindelsen försöker Ukraina nu strypa viktiga militära transporter dit och isolera Krim.",
+   "url": "https://www.svt.se/nyheter/utrikes/ukraina-forsoker-strypa-rysslands-vag-till-krym",
    "src": "SVT Nyheter"
   }
  ],
- "topUpdated": "2026-11-28T10:06+01:00"
+ "topUpdated": "2026-11-28T14:18+01:00"
 }
